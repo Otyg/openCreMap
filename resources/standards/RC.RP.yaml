@@ -1,0 +1,23 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.RP
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC
+    name: NIST Cyber Security Framework
+    section: RC RECOVER
+    sectionID: RC
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.RP-1
+    name: NIST Cyber Security Framework
+    section: Recovery plan is executed during or after a cybersecurity incident
+    sectionID: RC.RP-1
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: RC.RP Recovery Planning
+sectionID: RC.RP
+version: 1.1.0

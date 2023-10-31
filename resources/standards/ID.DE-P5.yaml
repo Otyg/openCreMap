@@ -1,0 +1,53 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P
+    name: NIST Privacy Framework
+    section: ID.DE-P Data Processing Ecosystem Risk Management
+    sectionID: ID.DE-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AU-6
+    name: NIST 800-53 v5
+    section: AU-6 Audit Record Review, Analysis, And Reporting
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-2
+    name: NIST 800-53 v5
+    section: CA-2 Control Assessments
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-7
+    name: NIST 800-53 v5
+    section: CA-7 Continuous Monitoring
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PS-7
+    name: NIST 800-53 v5
+    section: PS-7 External Personnel Security
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-9
+    name: NIST 800-53 v5
+    section: SA-9 External System Services
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-11
+    name: NIST 800-53 v5
+    section: SA-11 Developer Testing And Evaluation
+  ltype: Related
+name: NIST Privacy Framework
+section: Data processing ecosystem parties are routinely assessed using audits, test
+  results, or other forms of evaluations to confirm they are meeting their contractual,
+  interoperability framework, or other obligations.
+sectionID: ID.DE-P5
+version: 1.0.0

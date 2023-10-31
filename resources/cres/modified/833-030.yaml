@@ -1,0 +1,78 @@
+doctype: CRE
+id: 833-030
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-15
+    name: NIST 800-53 v5
+    section: PM-15 Security and Privacy Groups and Associations
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Contact with special interest groups
+    sectionID: '5.6'
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 571-271
+    name: Program management
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P2
+    name: NIST Privacy Framework
+    section: Mechanisms for obtaining feedback from individuals (e.g., surveys or
+      focus groups) about data processing and associated privacy risks are established
+      and in place.
+    sectionID: CM.AW-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P5
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures are established and in place to receive,
+      analyze, and respond to problematic data actions disclosed to the organization
+      from internal and external sources (e.g., internal discovery, privacy researchers,
+      professional events).
+    sectionID: GV.MT-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-1
+    name: NIST Cyber Security Framework
+    section: Asset vulnerabilities are identified and documented
+    sectionID: ID.RA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-2
+    name: NIST Cyber Security Framework
+    section: Cyber threat intelligence is received from information sharing forums
+      and sources
+    sectionID: ID.RA-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-5
+    name: NIST Cyber Security Framework
+    section: Processes are established to receive, analyze and respond to vulnerabilities
+      disclosed to the organization from internal and external sources (e.g. internal
+      testing, security bulletins, or security researchers)
+    sectionID: RS.AN-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-5
+    name: NIST Cyber Security Framework
+    section: Voluntary information sharing occurs with external stakeholders to achieve
+      broader cybersecurity situational awareness
+    sectionID: RS.CO-5
+    version: 1.1.0
+  ltype: Linked To
+name: Connect with the community

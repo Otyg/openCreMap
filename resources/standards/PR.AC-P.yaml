@@ -1,0 +1,67 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR-P
+    name: NIST Privacy Framework
+    section: PR-P PROTECT-P
+    sectionID: PR-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P2
+    name: NIST Privacy Framework
+    section: Physical access to data and devices is managed.
+    sectionID: PR.AC-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P3
+    name: NIST Privacy Framework
+    section: Remote access is managed.
+    sectionID: PR.AC-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P4
+    name: NIST Privacy Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties.
+    sectionID: PR.AC-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P5
+    name: NIST Privacy Framework
+    section: Network integrity is protected (e.g., network segregation, network segmentation).
+    sectionID: PR.AC-P5
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: PR.AC-P Identity Management, Authentication, and Access Control
+sectionID: PR.AC-P
+version: 1.0.0

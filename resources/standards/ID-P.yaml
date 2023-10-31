@@ -1,0 +1,39 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P
+    name: NIST Privacy Framework
+    section: ID.IM-P Inventory and Mapping
+    sectionID: ID.IM-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P
+    name: NIST Privacy Framework
+    section: ID.BE-P Business Environment
+    sectionID: ID.BE-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P
+    name: NIST Privacy Framework
+    section: ID.RA-P Risk Assessment
+    sectionID: ID.RA-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P
+    name: NIST Privacy Framework
+    section: ID.DE-P Data Processing Ecosystem Risk Management
+    sectionID: ID.DE-P
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: ID-P IDENTIFY-P
+sectionID: ID-P
+version: 1.0.0

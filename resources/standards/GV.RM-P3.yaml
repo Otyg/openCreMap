@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P3
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P
+    name: NIST Privacy Framework
+    section: GV.RM-P Risk Management Strategy
+    sectionID: GV.RM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-28
+    name: NIST 800-53 v5
+    section: PM-28 Risk Framing
+  ltype: Related
+name: NIST Privacy Framework
+section: "The organization\u2019s determination of risk tolerance is informed by its\
+  \ role(s) in the data processing ecosystem."
+sectionID: GV.RM-P3
+version: 1.0.0

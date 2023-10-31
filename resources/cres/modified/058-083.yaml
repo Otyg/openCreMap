@@ -1,0 +1,208 @@
+doctype: CRE
+id: 058-083
+links:
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Logging and Monitoring
+    sectionID: LOG
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Monitoring activities
+    sectionID: '8.16'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owaspsamm.org/model/operations/incident-management/stream-a
+    name: SAMM
+    section: Incident Detection
+    sectionID: O-IM-A
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SI-4
+    name: NIST 800-53 v5
+    section: SI-4 System Monitoring
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 887-750
+    name: Detect and respond
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 842-876
+    name: Logging and error handling
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 176-154
+    name: Monitor expectation of usage intensity (e.g. number of requests)
+    tags:
+    - Denial Of Service protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 418-853
+    name: Monitor unusual activities on system
+    tags:
+    - Denial Of Service protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-1
+    name: NIST Cyber Security Framework
+    section: A baseline of network operations and expected data flows for users and
+      systems is established and managed
+    sectionID: DE.AE-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-2
+    name: NIST Cyber Security Framework
+    section: Detected events are analyzed to understand attack targets and methods
+    sectionID: DE.AE-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-3
+    name: NIST Cyber Security Framework
+    section: Event data are collected and correlated from multiple sources and sensors
+    sectionID: DE.AE-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-4
+    name: NIST Cyber Security Framework
+    section: Impact of events is determined
+    sectionID: DE.AE-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-1
+    name: NIST Cyber Security Framework
+    section: The network is monitored to detect potential cybersecurity events
+    sectionID: DE.CM-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-4
+    name: NIST Cyber Security Framework
+    section: Malicious code is detected
+    sectionID: DE.CM-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-5
+    name: NIST Cyber Security Framework
+    section: Unauthorized mobile code is detected
+    sectionID: DE.CM-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-6
+    name: NIST Cyber Security Framework
+    section: External service provider activity is monitored to detect potential cybersecurity
+      events
+    sectionID: DE.CM-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-7
+    name: NIST Cyber Security Framework
+    section: Monitoring for unauthorized personnel, connections, devices, and software
+      is performed
+    sectionID: DE.CM-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-2
+    name: NIST Cyber Security Framework
+    section: Detection activities comply with all applicable requirements
+    sectionID: DE.DP-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-3
+    name: NIST Cyber Security Framework
+    section: Detection processes are tested
+    sectionID: DE.DP-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-4
+    name: NIST Cyber Security Framework
+    section: Event detection information is communicated
+    sectionID: DE.DP-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-5
+    name: NIST Cyber Security Framework
+    section: Detection processes are continuously improved
+    sectionID: DE.DP-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-1
+    name: NIST Cyber Security Framework
+    section: Asset vulnerabilities are identified and documented
+    sectionID: ID.RA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-5
+    name: NIST Cyber Security Framework
+    section: Protections against data leaks are implemented
+    sectionID: PR.DS-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P5
+    name: NIST Privacy Framework
+    section: Protections against data leaks are implemented.
+    sectionID: PR.DS-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-8
+    name: NIST Cyber Security Framework
+    section: Effectiveness of protection technologies is shared
+    sectionID: PR.IP-8
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P6
+    name: NIST Privacy Framework
+    section: Effectiveness of protection technologies is shared.
+    sectionID: PR.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-1
+    name: NIST Cyber Security Framework
+    section: Notifications from detection systems are investigated
+    sectionID: RS.AN-1
+    version: 1.1.0
+  ltype: Linked To
+name: Monitoring

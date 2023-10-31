@@ -1,0 +1,874 @@
+doctype: CRE
+id: 307-242
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-1
+    name: NIST 800-53 v5
+    section: RA-1 Policy and Procedures
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owaspsamm.org/model/design/threat-assessment/stream-a
+    name: SAMM
+    section: Application risk profile
+    sectionID: D-TA-A
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-2
+    name: NIST 800-53 v5
+    section: RA-2 Security Categorization
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-3
+    name: NIST 800-53 v5
+    section: RA-3 Risk Assessment
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-5
+    name: NIST 800-53 v5
+    section: RA-5 Vulnerability Monitoring and Scanning
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-6
+    name: NIST 800-53 v5
+    section: RA-6 Technical Surveillance Countermeasures Survey
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-7
+    name: NIST 800-53 v5
+    section: RA-7 Risk Response
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-8
+    name: NIST 800-53 v5
+    section: RA-8 Privacy Impact Assessments
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-9
+    name: NIST 800-53 v5
+    section: RA-9 Criticality Analysis
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-11
+    name: NIST 800-53 v5
+    section: PM-11 Mission and Business Process Definition
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-28
+    name: NIST 800-53 v5
+    section: PM-28 Risk Framing
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-8
+    name: NIST 800-53 v5
+    section: PM-8 Critical Infrastructure Plan
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-9
+    name: NIST 800-53 v5
+    section: PM-9 Risk Management Strategy
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 613-285
+    name: Supply chain management
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 888-770
+    name: Threat intelligence - stay up to date with new threats and consider them
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 068-102
+    name: Describe high-level system architecture and perform threat modeling on it
+      every critical change and regularly
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 766-162
+    name: Security Analysis and documentation
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 660-867
+    name: Implement business logic limits against identified business risks
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P1
+    name: NIST Privacy Framework
+    section: Transparency policies, processes, and procedures for communicating data
+      processing purposes, practices, and associated privacy risks are established
+      and in place.
+    sectionID: CM.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-2
+    name: NIST Cyber Security Framework
+    section: Detected events are analyzed to understand attack targets and methods
+    sectionID: DE.AE-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-4
+    name: NIST Cyber Security Framework
+    section: Impact of events is determined
+    sectionID: DE.AE-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-8
+    name: NIST Cyber Security Framework
+    section: Vulnerability scans are performed
+    sectionID: DE.CM-8
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-4
+    name: NIST Cyber Security Framework
+    section: Event detection information is communicated
+    sectionID: DE.DP-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-5
+    name: NIST Cyber Security Framework
+    section: Detection processes are continuously improved
+    sectionID: DE.DP-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P1
+    name: NIST Privacy Framework
+    section: "Privacy risk is re-evaluated on an ongoing basis and as key factors,\
+      \ including the organization\u2019s business environment (e.g., introduction\
+      \ of new technologies), governance (e.g., legal obligations, risk tolerance),\
+      \ data processing, and systems/products/services change."
+    sectionID: GV.MT-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P1
+    name: NIST Privacy Framework
+    section: "Privacy risk is re-evaluated on an ongoing basis and as key factors,\
+      \ including the organization\u2019s business environment (e.g., introduction\
+      \ of new technologies), governance (e.g., legal obligations, risk tolerance),\
+      \ data processing, and systems/products/services change."
+    sectionID: GV.MT-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P5
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures are established and in place to receive,
+      analyze, and respond to problematic data actions disclosed to the organization
+      from internal and external sources (e.g., internal discovery, privacy researchers,
+      professional events).
+    sectionID: GV.MT-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P5
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures are established and in place to receive,
+      analyze, and respond to problematic data actions disclosed to the organization
+      from internal and external sources (e.g., internal discovery, privacy researchers,
+      professional events).
+    sectionID: GV.MT-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P1
+    name: NIST Privacy Framework
+    section: Risk management processes are established, managed, and agreed to by
+      organizational stakeholders.
+    sectionID: GV.RM-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P1
+    name: NIST Privacy Framework
+    section: Risk management processes are established, managed, and agreed to by
+      organizational stakeholders.
+    sectionID: GV.RM-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P2
+    name: NIST Privacy Framework
+    section: Organizational risk tolerance is determined and clearly expressed.
+    sectionID: GV.RM-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P3
+    name: NIST Privacy Framework
+    section: "The organization\u2019s determination of risk tolerance is informed\
+      \ by its role(s) in the data processing ecosystem."
+    sectionID: GV.RM-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-5
+    name: NIST Cyber Security Framework
+    section: Resources (e.g., hardware, devices, data, time, personnel, and software)
+      are prioritized based on their classification, criticality, and business value
+    sectionID: ID.AM-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-5
+    name: NIST Cyber Security Framework
+    section: Resources (e.g., hardware, devices, data, time, personnel, and software)
+      are prioritized based on their classification, criticality, and business value
+    sectionID: ID.AM-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-2
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s place in critical infrastructure and its industry\
+      \ sector is identified and communicated"
+    sectionID: ID.BE-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-3
+    name: NIST Cyber Security Framework
+    section: Priorities for organizational mission, objectives, and activities are
+      established and communicated
+    sectionID: ID.BE-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-4
+    name: NIST Cyber Security Framework
+    section: Dependencies and critical functions for delivery of critical services
+      are established
+    sectionID: ID.BE-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-4
+    name: NIST Cyber Security Framework
+    section: Dependencies and critical functions for delivery of critical services
+      are established
+    sectionID: ID.BE-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-5
+    name: NIST Cyber Security Framework
+    section: Resilience requirements to support delivery of critical services are
+      established for all operating states (e.g. under duress/attack, during recovery,
+      normal operations)
+    sectionID: ID.BE-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P2
+    name: NIST Privacy Framework
+    section: Priorities for organizational mission, objectives, and activities are
+      established and communicated.
+    sectionID: ID.BE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P3
+    name: NIST Privacy Framework
+    section: Systems/products/services that support organizational priorities are
+      identified and key requirements communicated.
+    sectionID: ID.BE-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-4
+    name: NIST Cyber Security Framework
+    section: Governance and risk management processes address cybersecurity risks
+    sectionID: ID.GV-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-4
+    name: NIST Cyber Security Framework
+    section: Governance and risk management processes address cybersecurity risks
+    sectionID: ID.GV-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-4
+    name: NIST Cyber Security Framework
+    section: Governance and risk management processes address cybersecurity risks
+    sectionID: ID.GV-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-4
+    name: NIST Cyber Security Framework
+    section: Governance and risk management processes address cybersecurity risks
+    sectionID: ID.GV-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-4
+    name: NIST Cyber Security Framework
+    section: Governance and risk management processes address cybersecurity risks
+    sectionID: ID.GV-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-4
+    name: NIST Cyber Security Framework
+    section: Governance and risk management processes address cybersecurity risks
+    sectionID: ID.GV-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-1
+    name: NIST Cyber Security Framework
+    section: Asset vulnerabilities are identified and documented
+    sectionID: ID.RA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-1
+    name: NIST Cyber Security Framework
+    section: Asset vulnerabilities are identified and documented
+    sectionID: ID.RA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-3
+    name: NIST Cyber Security Framework
+    section: Threats, both internal and external, are identified and documented
+    sectionID: ID.RA-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-4
+    name: NIST Cyber Security Framework
+    section: Potential business impacts and likelihoods are identified
+    sectionID: ID.RA-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-4
+    name: NIST Cyber Security Framework
+    section: Potential business impacts and likelihoods are identified
+    sectionID: ID.RA-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-4
+    name: NIST Cyber Security Framework
+    section: Potential business impacts and likelihoods are identified
+    sectionID: ID.RA-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-4
+    name: NIST Cyber Security Framework
+    section: Potential business impacts and likelihoods are identified
+    sectionID: ID.RA-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-4
+    name: NIST Cyber Security Framework
+    section: Potential business impacts and likelihoods are identified
+    sectionID: ID.RA-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-5
+    name: NIST Cyber Security Framework
+    section: Threats, vulnerabilities, likelihoods, and impacts are used to determine
+      risk
+    sectionID: ID.RA-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-5
+    name: NIST Cyber Security Framework
+    section: Threats, vulnerabilities, likelihoods, and impacts are used to determine
+      risk
+    sectionID: ID.RA-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-5
+    name: NIST Cyber Security Framework
+    section: Threats, vulnerabilities, likelihoods, and impacts are used to determine
+      risk
+    sectionID: ID.RA-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-6
+    name: NIST Cyber Security Framework
+    section: Risk responses are identified and prioritized
+    sectionID: ID.RA-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-6
+    name: NIST Cyber Security Framework
+    section: Risk responses are identified and prioritized
+    sectionID: ID.RA-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-6
+    name: NIST Cyber Security Framework
+    section: Risk responses are identified and prioritized
+    sectionID: ID.RA-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P1
+    name: NIST Privacy Framework
+    section: "Contextual factors related to the systems/products/services and the\
+      \ data actions are identified (e.g., individuals\u2019 demographics and privacy\
+      \ interests or perceptions, data sensitivity and/or types, visibility of data\
+      \ processing to individuals and third parties)."
+    sectionID: ID.RA-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P1
+    name: NIST Privacy Framework
+    section: "Contextual factors related to the systems/products/services and the\
+      \ data actions are identified (e.g., individuals\u2019 demographics and privacy\
+      \ interests or perceptions, data sensitivity and/or types, visibility of data\
+      \ processing to individuals and third parties)."
+    sectionID: ID.RA-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P3
+    name: NIST Privacy Framework
+    section: Potential problematic data actions and associated problems are identified.
+    sectionID: ID.RA-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P3
+    name: NIST Privacy Framework
+    section: Potential problematic data actions and associated problems are identified.
+    sectionID: ID.RA-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P4
+    name: NIST Privacy Framework
+    section: Problematic data actions, likelihoods, and impacts are used to determine
+      and prioritize risk.
+    sectionID: ID.RA-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P4
+    name: NIST Privacy Framework
+    section: Problematic data actions, likelihoods, and impacts are used to determine
+      and prioritize risk.
+    sectionID: ID.RA-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P4
+    name: NIST Privacy Framework
+    section: Problematic data actions, likelihoods, and impacts are used to determine
+      and prioritize risk.
+    sectionID: ID.RA-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P4
+    name: NIST Privacy Framework
+    section: Problematic data actions, likelihoods, and impacts are used to determine
+      and prioritize risk.
+    sectionID: ID.RA-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P5
+    name: NIST Privacy Framework
+    section: Risk responses are identified, prioritized, and implemented.
+    sectionID: ID.RA-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P5
+    name: NIST Privacy Framework
+    section: Risk responses are identified, prioritized, and implemented.
+    sectionID: ID.RA-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P5
+    name: NIST Privacy Framework
+    section: Risk responses are identified, prioritized, and implemented.
+    sectionID: ID.RA-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P5
+    name: NIST Privacy Framework
+    section: Risk responses are identified, prioritized, and implemented.
+    sectionID: ID.RA-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RM-1
+    name: NIST Cyber Security Framework
+    section: Risk management processes are established, managed, and agreed to by
+      organizational stakeholders
+    sectionID: ID.RM-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RM-1
+    name: NIST Cyber Security Framework
+    section: Risk management processes are established, managed, and agreed to by
+      organizational stakeholders
+    sectionID: ID.RM-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RM-2
+    name: NIST Cyber Security Framework
+    section: Organizational risk tolerance is determined and clearly expressed
+    sectionID: ID.RM-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RM-3
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s determination of risk tolerance is informed\
+      \ by its role in critical infrastructure and sector specific risk analysis"
+    sectionID: ID.RM-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RM-3
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s determination of risk tolerance is informed\
+      \ by its role in critical infrastructure and sector specific risk analysis"
+    sectionID: ID.RM-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RM-3
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s determination of risk tolerance is informed\
+      \ by its role in critical infrastructure and sector specific risk analysis"
+    sectionID: ID.RM-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RM-3
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s determination of risk tolerance is informed\
+      \ by its role in critical infrastructure and sector specific risk analysis"
+    sectionID: ID.RM-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-2
+    name: NIST Cyber Security Framework
+    section: Suppliers and third party partners of information systems, components,
+      and services are identified, prioritized, and assessed using a cyber supply
+      chain risk assessment process
+    sectionID: ID.SC-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-2
+    name: NIST Cyber Security Framework
+    section: Suppliers and third party partners of information systems, components,
+      and services are identified, prioritized, and assessed using a cyber supply
+      chain risk assessment process
+    sectionID: ID.SC-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-12
+    name: NIST Cyber Security Framework
+    section: A vulnerability management plan is developed and implemented
+    sectionID: PR.IP-12
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-12
+    name: NIST Cyber Security Framework
+    section: A vulnerability management plan is developed and implemented
+    sectionID: PR.IP-12
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-12
+    name: NIST Cyber Security Framework
+    section: A vulnerability management plan is developed and implemented
+    sectionID: PR.IP-12
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P10
+    name: NIST Privacy Framework
+    section: A vulnerability management plan is developed and implemented.
+    sectionID: PR.PO-P10
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P10
+    name: NIST Privacy Framework
+    section: A vulnerability management plan is developed and implemented.
+    sectionID: PR.PO-P10
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P10
+    name: NIST Privacy Framework
+    section: A vulnerability management plan is developed and implemented.
+    sectionID: PR.PO-P10
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-1
+    name: NIST Cyber Security Framework
+    section: Notifications from detection systems are investigated
+    sectionID: RS.AN-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-2
+    name: NIST Cyber Security Framework
+    section: The impact of the incident is understood
+    sectionID: RS.AN-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-4
+    name: NIST Cyber Security Framework
+    section: Incidents are categorized consistent with response plans
+    sectionID: RS.AN-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-5
+    name: NIST Cyber Security Framework
+    section: Processes are established to receive, analyze and respond to vulnerabilities
+      disclosed to the organization from internal and external sources (e.g. internal
+      testing, security bulletins, or security researchers)
+    sectionID: RS.AN-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-5
+    name: NIST Cyber Security Framework
+    section: Processes are established to receive, analyze and respond to vulnerabilities
+      disclosed to the organization from internal and external sources (e.g. internal
+      testing, security bulletins, or security researchers)
+    sectionID: RS.AN-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.MI-3
+    name: NIST Cyber Security Framework
+    section: Newly identified vulnerabilities are mitigated or documented as accepted
+      risks
+    sectionID: RS.MI-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.MI-3
+    name: NIST Cyber Security Framework
+    section: Newly identified vulnerabilities are mitigated or documented as accepted
+      risks
+    sectionID: RS.MI-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.MI-3
+    name: NIST Cyber Security Framework
+    section: Newly identified vulnerabilities are mitigated or documented as accepted
+      risks
+    sectionID: RS.MI-3
+    version: 1.1.0
+  ltype: Linked To
+name: Security risk assessment

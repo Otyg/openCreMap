@@ -1,0 +1,40 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P
+    name: NIST Privacy Framework
+    section: GV.PO-P Governance Policies, Processes, and Procedures
+    sectionID: GV.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-3
+    name: NIST 800-53 v5
+    section: PM-3 Information Security And Privacy Resources
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-23
+    name: NIST 800-53 v5
+    section: PM-23 Data Governance Body
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-2
+    name: NIST 800-53 v5
+    section: SA-2 Allocation Of Resources
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-3
+    name: NIST 800-53 v5
+    section: SA-3 System Development Life Cycle
+  ltype: Related
+name: NIST Privacy Framework
+section: Processes to instill organizational privacy values within system/product/service
+  development and operations are established and in place.
+sectionID: GV.PO-P2
+version: 1.0.0

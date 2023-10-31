@@ -1,0 +1,64 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P
+    name: NIST Privacy Framework
+    section: PR.PT-P Protective Technology
+    sectionID: PR.PT-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-7
+    name: NIST 800-53 v5
+    section: CP-7 Alternate Processing Site
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-8
+    name: NIST 800-53 v5
+    section: CP-8 Telecommunications Services
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-11
+    name: NIST 800-53 v5
+    section: CP-11 Alternate Communications Protocols
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-12
+    name: NIST 800-53 v5
+    section: CP-12 Safe Mode
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-13
+    name: NIST 800-53 v5
+    section: CP-13 Alternative Security Mechanisms
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PE-11
+    name: NIST 800-53 v5
+    section: PE-11 Emergency Power
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PL-8
+    name: NIST 800-53 v5
+    section: PL-8 Security And Privacy Architectures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-6
+    name: NIST 800-53 v5
+    section: SC-6 Resource Availability
+  ltype: Related
+name: NIST Privacy Framework
+section: Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented to
+  achieve resilience requirements in normal and adverse situations.
+sectionID: PR.PT-P4
+version: 1.0.0

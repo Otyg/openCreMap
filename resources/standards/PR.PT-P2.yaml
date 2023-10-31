@@ -1,0 +1,28 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P
+    name: NIST Privacy Framework
+    section: PR.PT-P Protective Technology
+    sectionID: PR.PT-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-3
+    name: NIST 800-53 v5
+    section: AC-3 Access Enforcement
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-7
+    name: NIST 800-53 v5
+    section: CM-7 Least Functionality
+  ltype: Related
+name: NIST Privacy Framework
+section: The principle of least functionality is incorporated by configuring systems
+  to provide only essential capabilities.
+sectionID: PR.PT-P2
+version: 1.0.0

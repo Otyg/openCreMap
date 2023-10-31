@@ -1,0 +1,70 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P
+    name: NIST Privacy Framework
+    section: CT.PO-P Data Processing Policies, Processes, and Procedures
+    sectionID: CT.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PL-8
+    name: NIST 800-53 v5
+    section: PL-8 Security And Privacy Architectures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-3
+    name: NIST 800-53 v5
+    section: SA-3 System Development Life Cycle
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-4
+    name: NIST 800-53 v5
+    section: SA-4 Acquisition Process
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-8
+    name: NIST 800-53 v5
+    section: SA-8 Security And Privacy Engineering Principles
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-10
+    name: NIST 800-53 v5
+    section: SA-10 Developer Configuration Management
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-11
+    name: NIST 800-53 v5
+    section: SA-11 Developer Testing And Evaluation
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-15
+    name: NIST 800-53 v5
+    section: SA-15 Development Process, Standards, And Tools
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-17
+    name: NIST 800-53 v5
+    section: SA-17 Developer Security And Privacy Architecture And Design
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-12
+    name: NIST 800-53 v5
+    section: SI-12 Information Management And Retention
+  ltype: Related
+name: NIST Privacy Framework
+section: A data life cycle to manage data is aligned and implemented with the system
+  development life cycle to manage systems.
+sectionID: CT.PO-P4
+version: 1.0.0

@@ -1,0 +1,15 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P
+    name: NIST Privacy Framework
+    section: GV.MT-P Monitoring and Review
+    sectionID: GV.MT-P
+    version: 1.0.0
+  ltype: Is Part Of
+name: NIST Privacy Framework
+section: Privacy values, policies, and training are reviewed and any updates are communicated.
+sectionID: GV.MT-P2
+version: 1.0.0

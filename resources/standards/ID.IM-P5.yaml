@@ -1,0 +1,39 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P
+    name: NIST Privacy Framework
+    section: ID.IM-P Inventory and Mapping
+    sectionID: ID.IM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-13
+    name: NIST 800-53 v5
+    section: CM-13 Data Action Mapping
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-1
+    name: NIST 800-53 v5
+    section: PT-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-2
+    name: NIST 800-53 v5
+    section: PT-2 Authority To Process Personally Identifiable Information
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-3
+    name: NIST 800-53 v5
+    section: PT-3 Personally Identifiable Information Processing Purposes
+  ltype: Related
+name: NIST Privacy Framework
+section: The purposes for the data actions are inventoried.
+sectionID: ID.IM-P5
+version: 1.0.0

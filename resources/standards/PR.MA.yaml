@@ -1,0 +1,33 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR
+    name: NIST Cyber Security Framework
+    section: PR PROTECT
+    sectionID: PR
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-1
+    name: NIST Cyber Security Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools
+    sectionID: PR.MA-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-2
+    name: NIST Cyber Security Framework
+    section: Remote maintenance of organizational assets is approved, logged, and
+      performed in a manner that prevents unauthorized access
+    sectionID: PR.MA-2
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: PR.MA Maintenance
+sectionID: PR.MA
+version: 1.1.0

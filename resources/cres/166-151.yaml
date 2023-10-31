@@ -1,0 +1,281 @@
+doctype: CRE
+id: 166-151
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x12-V4-Access-Control.md
+    name: ASVS
+    section: Verify that access controls fail securely including when an exception
+      occurs.
+    sectionID: V4.1.5
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owasp-top-10-proactive-controls-2018.readthedocs.io/en/latest/c10-handle-errors-exceptions.html
+    name: OWASP Proactive Controls
+    section: C10
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://cwe.mitre.org/data/definitions/285.html
+    name: CWE
+    section: ''
+    sectionID: '285'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_for_Error_Code.html
+    name: OWASP Web Security Testing Guide (WSTG)
+    section: WSTG-ERRH-01
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html
+    name: OWASP Cheat Sheets
+    section: Access Control Cheat Sheet
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Testing_Automation_Cheat_Sheet.html
+    name: OWASP Cheat Sheets
+    section: Authorization Testing Automation Cheat Sheet
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/1.html
+    name: CAPEC
+    section: Accessing Functionality Not Properly Constrained by ACLs
+    sectionID: '1'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/104.html
+    name: CAPEC
+    section: Cross Zone Scripting
+    sectionID: '104'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/127.html
+    name: CAPEC
+    section: Directory Indexing
+    sectionID: '127'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/13.html
+    name: CAPEC
+    section: Subverting Environment Variable Values
+    sectionID: '13'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/17.html
+    name: CAPEC
+    section: Using Malicious Files
+    sectionID: '17'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/39.html
+    name: CAPEC
+    section: Manipulating Opaque Client-based Data Tokens
+    sectionID: '39'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/402.html
+    name: CAPEC
+    section: Bypassing ATA Password Security
+    sectionID: '402'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/45.html
+    name: CAPEC
+    section: Buffer Overflow via Symbolic Links
+    sectionID: '45'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/51.html
+    name: CAPEC
+    section: Poison Web Service Registry
+    sectionID: '51'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/59.html
+    name: CAPEC
+    section: Session Credential Falsification through Prediction
+    sectionID: '59'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/60.html
+    name: CAPEC
+    section: Reusing Session IDs (aka Session Replay)
+    sectionID: '60'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/647.html
+    name: CAPEC
+    section: Collect Data from Registries
+    sectionID: '647'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/668.html
+    name: CAPEC
+    section: Key Negotiation of Bluetooth Attack (KNOB)
+    sectionID: '668'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/76.html
+    name: CAPEC
+    section: Manipulating Web Input to File System Calls
+    sectionID: '76'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/77.html
+    name: CAPEC
+    section: Manipulating User-Controlled Variables
+    sectionID: '77'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/87.html
+    name: CAPEC
+    section: Forceful Browsing
+    sectionID: '87'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Admin%20Section
+    name: OWASP Juice Shop
+    section: Admin Section
+    sectionID: adminSectionChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Easter%20Egg
+    name: OWASP Juice Shop
+    section: Easter Egg
+    sectionID: easterEggLevelOneChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Five-Star%20Feedback
+    name: OWASP Juice Shop
+    section: Five-Star Feedback
+    sectionID: feedbackChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Forged%20Feedback
+    name: OWASP Juice Shop
+    section: Forged Feedback
+    sectionID: forgedFeedbackChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Forged%20Review
+    name: OWASP Juice Shop
+    section: Forged Review
+    sectionID: forgedReviewChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Manipulate%20Basket
+    name: OWASP Juice Shop
+    section: Manipulate Basket
+    sectionID: basketManipulateChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Product%20Tampering
+    name: OWASP Juice Shop
+    section: Product Tampering
+    sectionID: changeProductChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=SSRF
+    name: OWASP Juice Shop
+    section: SSRF
+    sectionID: ssrfChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=View%20Basket
+    name: OWASP Juice Shop
+    section: View Basket
+    sectionID: basketAccessChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=CSRF
+    name: OWASP Juice Shop
+    section: CSRF
+    sectionID: csrfChallenge
+    tags:
+    - Broken Access Control
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 128-128
+    name: Strong authorization checking
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 141-555
+    name: Fail securely
+  ltype: Related
+name: Ensure that secure fail-safe is in place for access control

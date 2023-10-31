@@ -1,0 +1,49 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID
+    name: NIST Cyber Security Framework
+    section: ID IDENTIFY
+    sectionID: ID
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-1
+    name: NIST Cyber Security Framework
+    section: Organizational cybersecurity policy is established and communicated
+    sectionID: ID.GV-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-2
+    name: NIST Cyber Security Framework
+    section: Cybersecurity roles and responsibilities are coordinated and aligned
+      with internal roles and external partners
+    sectionID: ID.GV-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-3
+    name: NIST Cyber Security Framework
+    section: Legal and regulatory requirements regarding cybersecurity, including
+      privacy and civil liberties obligations, are understood and managed
+    sectionID: ID.GV-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-4
+    name: NIST Cyber Security Framework
+    section: Governance and risk management processes address cybersecurity risks
+    sectionID: ID.GV-4
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: ID.GV Governance
+sectionID: ID.GV
+version: 1.1.0

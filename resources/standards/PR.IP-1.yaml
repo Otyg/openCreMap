@@ -1,0 +1,71 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP
+    name: NIST Cyber Security Framework
+    section: PR.IP Information Protection Processes and Procedures
+    sectionID: PR.IP
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-1
+    name: NIST 800-53 v5
+    section: CM-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-2
+    name: NIST 800-53 v5
+    section: CM-2 Baseline Configuration
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-3
+    name: NIST 800-53 v5
+    section: CM-3 Configuration Change Control
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-4
+    name: NIST 800-53 v5
+    section: CM-4 Impact Analyses
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-5
+    name: NIST 800-53 v5
+    section: CM-5 Access Restrictions For Change
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-6
+    name: NIST 800-53 v5
+    section: CM-6 Configuration Settings
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-7
+    name: NIST 800-53 v5
+    section: CM-7 Least Functionality
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-9
+    name: NIST 800-53 v5
+    section: CM-9 Configuration Management Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-10
+    name: NIST 800-53 v5
+    section: SA-10 Developer Configuration Management
+  ltype: Related
+name: NIST Cyber Security Framework
+section: A baseline configuration of information technology/industrial control systems
+  is created and maintained incorporating security principles (e.g. concept of least
+  functionality)
+sectionID: PR.IP-1
+version: 1.1.0

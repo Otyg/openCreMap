@@ -1,0 +1,34 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-3
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT
+    name: NIST Cyber Security Framework
+    section: PR.AT Awareness and Training
+    sectionID: PR.AT
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AT-3
+    name: NIST 800-53 v5
+    section: AT-3 Role-based Training
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PS-7
+    name: NIST 800-53 v5
+    section: PS-7 External Personnel Security
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-9
+    name: NIST 800-53 v5
+    section: SA-9 External System Services
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Third-party stakeholders (e.g., suppliers, customers, partners) understand
+  their roles and responsibilities
+sectionID: PR.AT-3
+version: 1.1.0

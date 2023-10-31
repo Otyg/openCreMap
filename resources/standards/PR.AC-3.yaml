@@ -1,0 +1,45 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-3
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC
+    name: NIST Cyber Security Framework
+    section: PR.AC Identity Management, Authentication and Access Control
+    sectionID: PR.AC
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-1
+    name: NIST 800-53 v5
+    section: AC-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-17
+    name: NIST 800-53 v5
+    section: AC-17 Remote Access
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-19
+    name: NIST 800-53 v5
+    section: AC-19 Access Control For Mobile Devices
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-20
+    name: NIST 800-53 v5
+    section: AC-20 Use Of External Systems
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-15
+    name: NIST 800-53 v5
+    section: SC-15 Collaborative Computing Devices And Applications
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Remote access is managed
+sectionID: PR.AC-3
+version: 1.1.0

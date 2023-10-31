@@ -1,0 +1,704 @@
+doctype: CRE
+id: 463-577
+links:
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Security Incident Management, E-Discovery, & Cloud Forensics
+    sectionID: SEF
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Assessment and decision on information security events
+    sectionID: '5.25'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-1
+    name: NIST 800-53 v5
+    section: IR-1 Policy and Procedures
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Information security incident management planning and preparation
+    sectionID: '5.24'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owaspsamm.org/model/operations/incident-management/stream-b
+    name: SAMM
+    section: Incident Response
+    sectionID: O-IM-B
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: Have a policy that addresses vulnerability disclosure and remediation,
+      and implement the roles, responsibilities, and processes needed to support that
+      policy.
+    sectionID: RV.1.3
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-2
+    name: NIST 800-53 v5
+    section: IR-2 Incident Response Training
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-3
+    name: NIST 800-53 v5
+    section: IR-3 Incident Response Testing
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-4
+    name: NIST 800-53 v5
+    section: IR-4 Incident Handling
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Learning from information security incidents
+    sectionID: '5.27'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-5
+    name: NIST 800-53 v5
+    section: IR-5 Incident Monitoring
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Collection of evidence
+    sectionID: '5.28'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-6
+    name: NIST 800-53 v5
+    section: IR-6 Incident Reporting
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Information security event reporting
+    sectionID: '6.8'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-7
+    name: NIST 800-53 v5
+    section: IR-7 Incident Response Assistance
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-8
+    name: NIST 800-53 v5
+    section: IR-8 Incident Response Plan
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Response to information security incidents
+    sectionID: '5.26'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IR-9
+    name: NIST 800-53 v5
+    section: IR-9 Information Spillage Response
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 732-148
+    name: Vulnerability management
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 887-750
+    name: Detect and respond
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P7
+    name: NIST Privacy Framework
+    section: Impacted individuals and organizations are notified about a privacy breach
+      or event.
+    sectionID: CM.AW-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P7
+    name: NIST Privacy Framework
+    section: Impacted individuals and organizations are notified about a privacy breach
+      or event.
+    sectionID: CM.AW-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P7
+    name: NIST Privacy Framework
+    section: Impacted individuals and organizations are notified about a privacy breach
+      or event.
+    sectionID: CM.AW-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P7
+    name: NIST Privacy Framework
+    section: Impacted individuals and organizations are notified about a privacy breach
+      or event.
+    sectionID: CM.AW-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P7
+    name: NIST Privacy Framework
+    section: Impacted individuals and organizations are notified about a privacy breach
+      or event.
+    sectionID: CM.AW-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P8
+    name: NIST Privacy Framework
+    section: Individuals are provided with mitigation mechanisms (e.g., credit monitoring,
+      consent withdrawal, data alteration or deletion) to address impacts of problematic
+      data actions.
+    sectionID: CM.AW-P8
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-2
+    name: NIST Cyber Security Framework
+    section: Detected events are analyzed to understand attack targets and methods
+    sectionID: DE.AE-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-3
+    name: NIST Cyber Security Framework
+    section: Event data are collected and correlated from multiple sources and sensors
+    sectionID: DE.AE-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-3
+    name: NIST Cyber Security Framework
+    section: Event data are collected and correlated from multiple sources and sensors
+    sectionID: DE.AE-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-3
+    name: NIST Cyber Security Framework
+    section: Event data are collected and correlated from multiple sources and sensors
+    sectionID: DE.AE-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-4
+    name: NIST Cyber Security Framework
+    section: Impact of events is determined
+    sectionID: DE.AE-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-5
+    name: NIST Cyber Security Framework
+    section: Incident alert thresholds are established
+    sectionID: DE.AE-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-5
+    name: NIST Cyber Security Framework
+    section: Incident alert thresholds are established
+    sectionID: DE.AE-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-5
+    name: NIST Cyber Security Framework
+    section: Incident alert thresholds are established
+    sectionID: DE.AE-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P3
+    name: NIST Privacy Framework
+    section: Privacy personnel understand their roles and responsibilities.
+    sectionID: GV.AT-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P6
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures incorporate lessons learned from
+      problematic data actions.
+    sectionID: GV.MT-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-5
+    name: NIST Cyber Security Framework
+    section: Response and recovery planning and testing are conducted with suppliers
+      and third-party providers
+    sectionID: ID.SC-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-5
+    name: NIST Cyber Security Framework
+    section: Response and recovery planning and testing are conducted with suppliers
+      and third-party providers
+    sectionID: ID.SC-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-5
+    name: NIST Cyber Security Framework
+    section: Response and recovery planning and testing are conducted with suppliers
+      and third-party providers
+    sectionID: ID.SC-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-5
+    name: NIST Cyber Security Framework
+    section: Response and recovery planning and testing are conducted with suppliers
+      and third-party providers
+    sectionID: ID.SC-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-5
+    name: NIST Cyber Security Framework
+    section: Physical and cybersecurity personnel understand their roles and responsibilities
+    sectionID: PR.AT-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-10
+    name: NIST Cyber Security Framework
+    section: Response and recovery plans are tested
+    sectionID: PR.IP-10
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-7
+    name: NIST Cyber Security Framework
+    section: Protection processes are improved
+    sectionID: PR.IP-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-7
+    name: NIST Cyber Security Framework
+    section: Protection processes are improved
+    sectionID: PR.IP-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-8
+    name: NIST Cyber Security Framework
+    section: Effectiveness of protection technologies is shared
+    sectionID: PR.IP-8
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-9
+    name: NIST Cyber Security Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are in place and managed
+    sectionID: PR.IP-9
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-9
+    name: NIST Cyber Security Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are in place and managed
+    sectionID: PR.IP-9
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-9
+    name: NIST Cyber Security Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are in place and managed
+    sectionID: PR.IP-9
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-9
+    name: NIST Cyber Security Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are in place and managed
+    sectionID: PR.IP-9
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P5
+    name: NIST Privacy Framework
+    section: Protection processes are improved.
+    sectionID: PR.PO-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P5
+    name: NIST Privacy Framework
+    section: Protection processes are improved.
+    sectionID: PR.PO-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P6
+    name: NIST Privacy Framework
+    section: Effectiveness of protection technologies is shared.
+    sectionID: PR.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P7
+    name: NIST Privacy Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are established, in place, and
+      managed.
+    sectionID: PR.PO-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P7
+    name: NIST Privacy Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are established, in place, and
+      managed.
+    sectionID: PR.PO-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P7
+    name: NIST Privacy Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are established, in place, and
+      managed.
+    sectionID: PR.PO-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P7
+    name: NIST Privacy Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are established, in place, and
+      managed.
+    sectionID: PR.PO-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P8
+    name: NIST Privacy Framework
+    section: Response and recovery plans are tested.
+    sectionID: PR.PO-P8
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.CO-1
+    name: NIST Cyber Security Framework
+    section: Public relations are managed
+    sectionID: RC.CO-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.CO-2
+    name: NIST Cyber Security Framework
+    section: Reputation is repaired after an incident
+    sectionID: RC.CO-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.CO-3
+    name: NIST Cyber Security Framework
+    section: Recovery activities are communicated to internal and external stakeholders
+      as well as executive and management teams
+    sectionID: RC.CO-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.IM-1
+    name: NIST Cyber Security Framework
+    section: Recovery plans incorporate lessons learned
+    sectionID: RC.IM-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.IM-1
+    name: NIST Cyber Security Framework
+    section: Recovery plans incorporate lessons learned
+    sectionID: RC.IM-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.IM-2
+    name: NIST Cyber Security Framework
+    section: Recovery strategies are updated
+    sectionID: RC.IM-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.IM-2
+    name: NIST Cyber Security Framework
+    section: Recovery strategies are updated
+    sectionID: RC.IM-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.RP-1
+    name: NIST Cyber Security Framework
+    section: Recovery plan is executed during or after a cybersecurity incident
+    sectionID: RC.RP-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.RP-1
+    name: NIST Cyber Security Framework
+    section: Recovery plan is executed during or after a cybersecurity incident
+    sectionID: RC.RP-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-1
+    name: NIST Cyber Security Framework
+    section: Notifications from detection systems are investigated
+    sectionID: RS.AN-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-1
+    name: NIST Cyber Security Framework
+    section: Notifications from detection systems are investigated
+    sectionID: RS.AN-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-2
+    name: NIST Cyber Security Framework
+    section: The impact of the incident is understood
+    sectionID: RS.AN-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-3
+    name: NIST Cyber Security Framework
+    section: Forensics are performed
+    sectionID: RS.AN-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-4
+    name: NIST Cyber Security Framework
+    section: Incidents are categorized consistent with response plans
+    sectionID: RS.AN-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-4
+    name: NIST Cyber Security Framework
+    section: Incidents are categorized consistent with response plans
+    sectionID: RS.AN-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-4
+    name: NIST Cyber Security Framework
+    section: Incidents are categorized consistent with response plans
+    sectionID: RS.AN-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-1
+    name: NIST Cyber Security Framework
+    section: Personnel know their roles and order of operations when a response is
+      needed
+    sectionID: RS.CO-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-1
+    name: NIST Cyber Security Framework
+    section: Personnel know their roles and order of operations when a response is
+      needed
+    sectionID: RS.CO-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-2
+    name: NIST Cyber Security Framework
+    section: Incidents are reported consistent with established criteria
+    sectionID: RS.CO-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-2
+    name: NIST Cyber Security Framework
+    section: Incidents are reported consistent with established criteria
+    sectionID: RS.CO-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-3
+    name: NIST Cyber Security Framework
+    section: Information is shared consistent with response plans
+    sectionID: RS.CO-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-3
+    name: NIST Cyber Security Framework
+    section: Information is shared consistent with response plans
+    sectionID: RS.CO-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-4
+    name: NIST Cyber Security Framework
+    section: Coordination with stakeholders occurs consistent with response plans
+    sectionID: RS.CO-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-4
+    name: NIST Cyber Security Framework
+    section: Coordination with stakeholders occurs consistent with response plans
+    sectionID: RS.CO-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.IM-1
+    name: NIST Cyber Security Framework
+    section: Response plans incorporate lessons learned
+    sectionID: RS.IM-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.IM-1
+    name: NIST Cyber Security Framework
+    section: Response plans incorporate lessons learned
+    sectionID: RS.IM-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.IM-2
+    name: NIST Cyber Security Framework
+    section: Response strategies are updated
+    sectionID: RS.IM-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.IM-2
+    name: NIST Cyber Security Framework
+    section: Response strategies are updated
+    sectionID: RS.IM-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.MI-1
+    name: NIST Cyber Security Framework
+    section: Incidents are contained
+    sectionID: RS.MI-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.MI-2
+    name: NIST Cyber Security Framework
+    section: Incidents are mitigated
+    sectionID: RS.MI-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.RP-1
+    name: NIST Cyber Security Framework
+    section: Response plan is executed during or after an incident
+    sectionID: RS.RP-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.RP-1
+    name: NIST Cyber Security Framework
+    section: Response plan is executed during or after an incident
+    sectionID: RS.RP-1
+    version: 1.1.0
+  ltype: Linked To
+name: Incident response

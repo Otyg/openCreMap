@@ -1,0 +1,51 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P9
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P
+    name: NIST Privacy Framework
+    section: CT.DM-P Data Processing Management
+    sectionID: CT.DM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-2
+    name: NIST 800-53 v5
+    section: CA-2 Control Assessments
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-7
+    name: NIST 800-53 v5
+    section: CA-7 Continuous Monitoring
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-4
+    name: NIST 800-53 v5
+    section: CM-4 Impact Analyses
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-16
+    name: NIST 800-53 v5
+    section: SC-16 Transmission Of Security And Privacy Attributes
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-6
+    name: NIST 800-53 v5
+    section: SI-6 Security And Privacy Function Verification
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-19
+    name: NIST 800-53 v5
+    section: SI-19 De-identification
+  ltype: Related
+name: NIST Privacy Framework
+section: Technical measures implemented to manage data processing are tested and assessed.
+sectionID: CT.DM-P9
+version: 1.0.0

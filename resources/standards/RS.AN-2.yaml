@@ -1,0 +1,33 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN
+    name: NIST Cyber Security Framework
+    section: RS.AN Analysis
+    sectionID: RS.AN
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-2
+    name: NIST 800-53 v5
+    section: CP-2 Contingency Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IR-4
+    name: NIST 800-53 v5
+    section: IR-4 Incident Handling
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-3
+    name: NIST 800-53 v5
+    section: RA-3 Risk Assessment
+  ltype: Related
+name: NIST Cyber Security Framework
+section: The impact of the incident is understood
+sectionID: RS.AN-2
+version: 1.1.0

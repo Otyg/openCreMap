@@ -1,0 +1,45 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-3
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM
+    name: NIST Cyber Security Framework
+    section: ID.AM Asset Management
+    sectionID: ID.AM
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-4
+    name: NIST 800-53 v5
+    section: AC-4 Information Flow Enforcement
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-3
+    name: NIST 800-53 v5
+    section: CA-3 Information Exchange
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-9
+    name: NIST 800-53 v5
+    section: CA-9 Internal System Connections
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PL-8
+    name: NIST 800-53 v5
+    section: PL-8 Security And Privacy Architectures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-17
+    name: NIST 800-53 v5
+    section: SA-17 Developer Security And Privacy Architecture And Design
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Organizational communication and data flows are mapped
+sectionID: ID.AM-3
+version: 1.1.0

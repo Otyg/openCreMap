@@ -1,0 +1,31 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE
+    name: NIST Cyber Security Framework
+    section: DE.AE Anomalies and Events
+    sectionID: DE.AE
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM
+    name: NIST Cyber Security Framework
+    section: DE.CM Security Continuous Monitoring
+    sectionID: DE.CM
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP
+    name: NIST Cyber Security Framework
+    section: DE.DP Detection Processes
+    sectionID: DE.DP
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: DE DETECT
+sectionID: DE
+version: 1.1.0

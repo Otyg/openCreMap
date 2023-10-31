@@ -1,0 +1,42 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID-P
+    name: NIST Privacy Framework
+    section: ID-P IDENTIFY-P
+    sectionID: ID-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P1
+    name: NIST Privacy Framework
+    section: "The organization\u2019s role(s) in the data processing ecosystem are\
+      \ identified and communicated."
+    sectionID: ID.BE-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P2
+    name: NIST Privacy Framework
+    section: Priorities for organizational mission, objectives, and activities are
+      established and communicated.
+    sectionID: ID.BE-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P3
+    name: NIST Privacy Framework
+    section: Systems/products/services that support organizational priorities are
+      identified and key requirements communicated.
+    sectionID: ID.BE-P3
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: ID.BE-P Business Environment
+sectionID: ID.BE-P
+version: 1.0.0

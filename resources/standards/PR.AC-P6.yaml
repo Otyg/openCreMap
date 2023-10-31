@@ -1,0 +1,101 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P
+    name: NIST Privacy Framework
+    section: PR.AC-P Identity Management, Authentication, and Access Control
+    sectionID: PR.AC-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-14
+    name: NIST 800-53 v5
+    section: AC-14 Permitted Actions Without Identification Or Authentication
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-16
+    name: NIST 800-53 v5
+    section: AC-16 Security And Privacy Attributes
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-1
+    name: NIST 800-53 v5
+    section: IA-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-2
+    name: NIST 800-53 v5
+    section: IA-2 Identification And Authentication (organizational Users)
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-3
+    name: NIST 800-53 v5
+    section: IA-3 Device Identification And Authentication
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-4
+    name: NIST 800-53 v5
+    section: IA-4 Identifier Management
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-5
+    name: NIST 800-53 v5
+    section: IA-5 Authenticator Management
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-8
+    name: NIST 800-53 v5
+    section: IA-8 Identification And Authentication (non-organizational Users)
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-9
+    name: NIST 800-53 v5
+    section: IA-9 Service Identification And Authentication
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-10
+    name: NIST 800-53 v5
+    section: IA-10 Adaptive Authentication
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-11
+    name: NIST 800-53 v5
+    section: IA-11 Re-authentication
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-12
+    name: NIST 800-53 v5
+    section: IA-12 Identity Proofing
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PE-2
+    name: NIST 800-53 v5
+    section: PE-2 Physical Access Authorizations
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PS-3
+    name: NIST 800-53 v5
+    section: PS-3 Personnel Screening
+  ltype: Related
+name: NIST Privacy Framework
+section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+  \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+  \ and privacy risks and other organizational risks)."
+sectionID: PR.AC-P6
+version: 1.0.0

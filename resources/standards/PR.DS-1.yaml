@@ -1,0 +1,63 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS
+    name: NIST Cyber Security Framework
+    section: PR.DS Data Security
+    sectionID: PR.DS
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-2
+    name: NIST 800-53 v5
+    section: MP-2 Media Access
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-3
+    name: NIST 800-53 v5
+    section: MP-3 Media Marking
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-4
+    name: NIST 800-53 v5
+    section: MP-4 Media Storage
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-5
+    name: NIST 800-53 v5
+    section: MP-5 Media Transport
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-6
+    name: NIST 800-53 v5
+    section: MP-6 Media Sanitization
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-7
+    name: NIST 800-53 v5
+    section: MP-7 Media Use
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-8
+    name: NIST 800-53 v5
+    section: MP-8 Media Downgrading
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-28
+    name: NIST 800-53 v5
+    section: SC-28 Protection Of Information At Rest
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Data-at-rest is protected
+sectionID: PR.DS-1
+version: 1.1.0

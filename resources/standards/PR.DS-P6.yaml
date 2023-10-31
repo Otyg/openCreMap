@@ -1,0 +1,34 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P6
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P
+    name: NIST Privacy Framework
+    section: PR.DS-P Data Security
+    sectionID: PR.DS-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-16
+    name: NIST 800-53 v5
+    section: SC-16 Transmission Of Security And Privacy Attributes
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-7
+    name: NIST 800-53 v5
+    section: SI-7 Software, Firmware, And Information Integrity
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-10
+    name: NIST 800-53 v5
+    section: SI-10 Information Input Validation
+  ltype: Related
+name: NIST Privacy Framework
+section: Integrity checking mechanisms are used to verify software, firmware, and
+  information integrity.
+sectionID: PR.DS-P6
+version: 1.0.0

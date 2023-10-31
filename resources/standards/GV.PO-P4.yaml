@@ -1,0 +1,34 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P
+    name: NIST Privacy Framework
+    section: GV.PO-P Governance Policies, Processes, and Procedures
+    sectionID: GV.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-18
+    name: NIST 800-53 v5
+    section: PM-18 Privacy Program Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-19
+    name: NIST 800-53 v5
+    section: PM-19 Privacy Program Leadership Role
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-29
+    name: NIST 800-53 v5
+    section: PM-29 Risk Management Program Leadership Roles
+  ltype: Related
+name: NIST Privacy Framework
+section: Privacy roles and responsibilities are coordinated and aligned with third-party
+  stakeholders (e.g., service providers, customers, partners).
+sectionID: GV.PO-P4
+version: 1.0.0

@@ -1,0 +1,727 @@
+doctype: CRE
+id: 613-285
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SA-22
+    name: NIST 800-53 v5
+    section: SA-22 Unsupported System Components
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: "Communicate requirements to all third parties who will provide commercial\
+      \ software components to the organization for reuse by the organization\u2019\
+      s own software. [Formerly PW.3.1]"
+    sectionID: PO.1.3
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SA-4
+    name: NIST 800-53 v5
+    section: SA-4 Acquisition Process
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: "Acquire and maintain well-secured software components (e.g., software\
+      \ libraries, modules, middleware, frameworks) from commercial, open- source,\
+      \ and other third-party developers for use by the organization\u2019s software."
+    sectionID: PW.4.1
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-1
+    name: NIST 800-53 v5
+    section: SR-1 Policy and Procedures
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Outsourced development
+    sectionID: '8.30'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: Verify that acquired commercial, open-source, and all other third-party
+      software components comply with the requirements, as defined by the organization,
+      throughout their life cycles
+    sectionID: PW.4.4
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-10
+    name: NIST 800-53 v5
+    section: SR-10 Inspection of Systems or Components
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-11
+    name: NIST 800-53 v5
+    section: SR-11 Component Authenticity
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-12
+    name: NIST 800-53 v5
+    section: SR-12 Component Disposal
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-2
+    name: NIST 800-53 v5
+    section: SR-2 Supply Chain Risk Management Plan
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-3
+    name: NIST 800-53 v5
+    section: SR-3 Supply Chain Controls and Processes
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Information security in supplier relationships
+    sectionID: '5.19'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-4
+    name: NIST 800-53 v5
+    section: SR-4 Provenance
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-5
+    name: NIST 800-53 v5
+    section: SR-5 Acquisition Strategies, Tools, and Methods
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-6
+    name: NIST 800-53 v5
+    section: SR-6 Supplier Assessments and Reviews
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Addressing information security within supplier agreements
+    sectionID: '5.20'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owaspsamm.org/model/design/security-requirements/stream-b
+    name: SAMM
+    section: Supplier security
+    sectionID: D-SR-B
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-7
+    name: NIST 800-53 v5
+    section: SR-7 Supply Chain Operations Security
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Information security for use of cloud services
+    sectionID: '5.23'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-8
+    name: NIST 800-53 v5
+    section: SR-8 Notification Agreements
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SR-9
+    name: NIST 800-53 v5
+    section: SR-9 Tamper Resistance and Detection
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-30
+    name: NIST 800-53 v5
+    section: PM-30 Supply Chain Risk Management Strategy
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SA-1
+    name: NIST 800-53 v5
+    section: SA-1 Policy and Procedures
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Managing information security in the information and communication technology
+      (ICT) supply chain
+    sectionID: '5.21'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SA-9
+    name: NIST 800-53 v5
+    section: SA-9 External System Services
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Monitoring, review and change management of supplier services
+    sectionID: '5.22'
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 616-305
+    name: Development processes for security
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 307-242
+    name: Security risk assessment
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 424-242
+    name: Decommissioning
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 673-475
+    name: Disallow unsupported/deprecated client-side technologies
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 154-031
+    name: Harden application by excluding unwanted functionality
+    tags:
+    - Configuration
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 462-245
+    name: Remove unnecessary elements from external components (e.g. features, documentation,
+      configuration)
+    tags:
+    - Configuration
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 613-287
+    name: Dependency integrity
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 613-286
+    name: Dependency management
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 307-507
+    name: Allow only trusted sources both build time and runtime; therefore perform
+      integrity checks on all resources and code
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 433-442
+    name: Verification
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P6
+    name: NIST Privacy Framework
+    section: Data provenance and lineage are maintained and can be accessed for review
+      or transmission/disclosure.
+    sectionID: CM.AW-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P5
+    name: NIST Privacy Framework
+    section: Data are destroyed according to policy.
+    sectionID: CT.DM-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P4
+    name: NIST Privacy Framework
+    section: A data life cycle to manage data is aligned and implemented with the
+      system development life cycle to manage systems.
+    sectionID: CT.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-6
+    name: NIST Cyber Security Framework
+    section: External service provider activity is monitored to detect potential cybersecurity
+      events
+    sectionID: DE.CM-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-6
+    name: NIST Cyber Security Framework
+    section: External service provider activity is monitored to detect potential cybersecurity
+      events
+    sectionID: DE.CM-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-2
+    name: NIST Cyber Security Framework
+    section: Detection activities comply with all applicable requirements
+    sectionID: DE.DP-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-2
+    name: NIST Cyber Security Framework
+    section: Detection activities comply with all applicable requirements
+    sectionID: DE.DP-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-2
+    name: NIST Cyber Security Framework
+    section: Detection activities comply with all applicable requirements
+    sectionID: DE.DP-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P4
+    name: NIST Privacy Framework
+    section: Third parties (e.g., service providers, customers, partners) understand
+      their roles and responsibilities.
+    sectionID: GV.AT-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-4
+    name: NIST Cyber Security Framework
+    section: External information systems are catalogued
+    sectionID: ID.AM-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-1
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s role in the supply chain is identified and communicated"
+    sectionID: ID.BE-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-1
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s role in the supply chain is identified and communicated"
+    sectionID: ID.BE-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-4
+    name: NIST Cyber Security Framework
+    section: Dependencies and critical functions for delivery of critical services
+      are established
+    sectionID: ID.BE-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P1
+    name: NIST Privacy Framework
+    section: "The organization\u2019s role(s) in the data processing ecosystem are\
+      \ identified and communicated."
+    sectionID: ID.BE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P1
+    name: NIST Privacy Framework
+    section: "The organization\u2019s role(s) in the data processing ecosystem are\
+      \ identified and communicated."
+    sectionID: ID.BE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+    name: NIST Privacy Framework
+    section: Data processing ecosystem risk management policies, processes, and procedures
+      are identified, established, assessed, managed, and agreed to by organizational
+      stakeholders.
+    sectionID: ID.DE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+    name: NIST Privacy Framework
+    section: Data processing ecosystem risk management policies, processes, and procedures
+      are identified, established, assessed, managed, and agreed to by organizational
+      stakeholders.
+    sectionID: ID.DE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+    name: NIST Privacy Framework
+    section: Data processing ecosystem risk management policies, processes, and procedures
+      are identified, established, assessed, managed, and agreed to by organizational
+      stakeholders.
+    sectionID: ID.DE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+    name: NIST Privacy Framework
+    section: Data processing ecosystem risk management policies, processes, and procedures
+      are identified, established, assessed, managed, and agreed to by organizational
+      stakeholders.
+    sectionID: ID.DE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+    name: NIST Privacy Framework
+    section: Data processing ecosystem risk management policies, processes, and procedures
+      are identified, established, assessed, managed, and agreed to by organizational
+      stakeholders.
+    sectionID: ID.DE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+    name: NIST Privacy Framework
+    section: Data processing ecosystem risk management policies, processes, and procedures
+      are identified, established, assessed, managed, and agreed to by organizational
+      stakeholders.
+    sectionID: ID.DE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+    name: NIST Privacy Framework
+    section: Data processing ecosystem risk management policies, processes, and procedures
+      are identified, established, assessed, managed, and agreed to by organizational
+      stakeholders.
+    sectionID: ID.DE-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P3
+    name: NIST Privacy Framework
+    section: "Contracts with data processing ecosystem parties are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s privacy program."
+    sectionID: ID.DE-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P3
+    name: NIST Privacy Framework
+    section: "Contracts with data processing ecosystem parties are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s privacy program."
+    sectionID: ID.DE-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P3
+    name: NIST Privacy Framework
+    section: "Contracts with data processing ecosystem parties are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s privacy program."
+    sectionID: ID.DE-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P3
+    name: NIST Privacy Framework
+    section: "Contracts with data processing ecosystem parties are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s privacy program."
+    sectionID: ID.DE-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P3
+    name: NIST Privacy Framework
+    section: "Contracts with data processing ecosystem parties are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s privacy program."
+    sectionID: ID.DE-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P3
+    name: NIST Privacy Framework
+    section: "Contracts with data processing ecosystem parties are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s privacy program."
+    sectionID: ID.DE-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P5
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties are routinely assessed using audits,
+      test results, or other forms of evaluations to confirm they are meeting their
+      contractual, interoperability framework, or other obligations.
+    sectionID: ID.DE-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-1
+    name: NIST Cyber Security Framework
+    section: Cyber supply chain risk management processes are identified, established,
+      assessed, managed, and agreed to by organizational stakeholders
+    sectionID: ID.SC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-1
+    name: NIST Cyber Security Framework
+    section: Cyber supply chain risk management processes are identified, established,
+      assessed, managed, and agreed to by organizational stakeholders
+    sectionID: ID.SC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-1
+    name: NIST Cyber Security Framework
+    section: Cyber supply chain risk management processes are identified, established,
+      assessed, managed, and agreed to by organizational stakeholders
+    sectionID: ID.SC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-1
+    name: NIST Cyber Security Framework
+    section: Cyber supply chain risk management processes are identified, established,
+      assessed, managed, and agreed to by organizational stakeholders
+    sectionID: ID.SC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-1
+    name: NIST Cyber Security Framework
+    section: Cyber supply chain risk management processes are identified, established,
+      assessed, managed, and agreed to by organizational stakeholders
+    sectionID: ID.SC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-1
+    name: NIST Cyber Security Framework
+    section: Cyber supply chain risk management processes are identified, established,
+      assessed, managed, and agreed to by organizational stakeholders
+    sectionID: ID.SC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-2
+    name: NIST Cyber Security Framework
+    section: Suppliers and third party partners of information systems, components,
+      and services are identified, prioritized, and assessed using a cyber supply
+      chain risk assessment process
+    sectionID: ID.SC-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-2
+    name: NIST Cyber Security Framework
+    section: Suppliers and third party partners of information systems, components,
+      and services are identified, prioritized, and assessed using a cyber supply
+      chain risk assessment process
+    sectionID: ID.SC-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-2
+    name: NIST Cyber Security Framework
+    section: Suppliers and third party partners of information systems, components,
+      and services are identified, prioritized, and assessed using a cyber supply
+      chain risk assessment process
+    sectionID: ID.SC-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-2
+    name: NIST Cyber Security Framework
+    section: Suppliers and third party partners of information systems, components,
+      and services are identified, prioritized, and assessed using a cyber supply
+      chain risk assessment process
+    sectionID: ID.SC-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-3
+    name: NIST Cyber Security Framework
+    section: "Contracts with suppliers and third-party partners are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s cybersecurity program and Cyber Supply Chain Risk Management Plan."
+    sectionID: ID.SC-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-3
+    name: NIST Cyber Security Framework
+    section: "Contracts with suppliers and third-party partners are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s cybersecurity program and Cyber Supply Chain Risk Management Plan."
+    sectionID: ID.SC-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-3
+    name: NIST Cyber Security Framework
+    section: "Contracts with suppliers and third-party partners are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s cybersecurity program and Cyber Supply Chain Risk Management Plan."
+    sectionID: ID.SC-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-3
+    name: NIST Cyber Security Framework
+    section: "Contracts with suppliers and third-party partners are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s cybersecurity program and Cyber Supply Chain Risk Management Plan."
+    sectionID: ID.SC-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-3
+    name: NIST Cyber Security Framework
+    section: "Contracts with suppliers and third-party partners are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s cybersecurity program and Cyber Supply Chain Risk Management Plan."
+    sectionID: ID.SC-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-4
+    name: NIST Cyber Security Framework
+    section: Suppliers and third-party partners are routinely assessed using audits,
+      test results, or other forms of evaluations to confirm they are meeting their
+      contractual obligations.
+    sectionID: ID.SC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-3
+    name: NIST Cyber Security Framework
+    section: Third-party stakeholders (e.g., suppliers, customers, partners) understand
+      their roles and responsibilities
+    sectionID: PR.AT-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-2
+    name: NIST Cyber Security Framework
+    section: A System Development Life Cycle to manage systems is implemented
+    sectionID: PR.IP-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-6
+    name: NIST Cyber Security Framework
+    section: Data is destroyed according to policy
+    sectionID: PR.IP-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-5
+    name: NIST Cyber Security Framework
+    section: Processes are established to receive, analyze and respond to vulnerabilities
+      disclosed to the organization from internal and external sources (e.g. internal
+      testing, security bulletins, or security researchers)
+    sectionID: RS.AN-5
+    version: 1.1.0
+  ltype: Linked To
+name: Supply chain management

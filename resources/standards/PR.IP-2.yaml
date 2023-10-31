@@ -1,0 +1,45 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP
+    name: NIST Cyber Security Framework
+    section: PR.IP Information Protection Processes and Procedures
+    sectionID: PR.IP
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-3
+    name: NIST 800-53 v5
+    section: SA-3 System Development Life Cycle
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-4
+    name: NIST 800-53 v5
+    section: SA-4 Acquisition Process
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-8
+    name: NIST 800-53 v5
+    section: SA-8 Security And Privacy Engineering Principles
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-10
+    name: NIST 800-53 v5
+    section: SA-10 Developer Configuration Management
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-11
+    name: NIST 800-53 v5
+    section: SA-11 Developer Testing And Evaluation
+  ltype: Related
+name: NIST Cyber Security Framework
+section: A System Development Life Cycle to manage systems is implemented
+sectionID: PR.IP-2
+version: 1.1.0

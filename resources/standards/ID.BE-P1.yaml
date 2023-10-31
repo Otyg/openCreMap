@@ -1,0 +1,28 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P
+    name: NIST Privacy Framework
+    section: ID.BE-P Business Environment
+    sectionID: ID.BE-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SR-1
+    name: NIST 800-53 v5
+    section: SR-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SR-3
+    name: NIST 800-53 v5
+    section: SR-3 Supply Chain Controls And Processes
+  ltype: Related
+name: NIST Privacy Framework
+section: "The organization\u2019s role(s) in the data processing ecosystem are identified\
+  \ and communicated."
+sectionID: ID.BE-P1
+version: 1.0.0

@@ -1,0 +1,55 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM
+    name: NIST Cyber Security Framework
+    section: ID.AM Asset Management
+    sectionID: ID.AM
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE
+    name: NIST Cyber Security Framework
+    section: ID.BE Business Environment
+    sectionID: ID.BE
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV
+    name: NIST Cyber Security Framework
+    section: ID.GV Governance
+    sectionID: ID.GV
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA
+    name: NIST Cyber Security Framework
+    section: ID.RA Risk Assessment
+    sectionID: ID.RA
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RM
+    name: NIST Cyber Security Framework
+    section: ID.RM Risk Management Strategy
+    sectionID: ID.RM
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC
+    name: NIST Cyber Security Framework
+    section: ID.SC Supply Chain Risk Management
+    sectionID: ID.SC
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: ID IDENTIFY
+sectionID: ID
+version: 1.1.0

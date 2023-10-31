@@ -1,0 +1,58 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P
+    name: NIST Privacy Framework
+    section: CT.DP-P Disassociated Processing
+    sectionID: CT.DP-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-23
+    name: NIST 800-53 v5
+    section: AC-23 Data Mining Protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AU-16
+    name: NIST 800-53 v5
+    section: AU-16 Cross-organizational Audit Logging
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-8
+    name: NIST 800-53 v5
+    section: IA-8 Identification And Authentication (non-organizational Users)
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PL-8
+    name: NIST 800-53 v5
+    section: PL-8 Security And Privacy Architectures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-7
+    name: NIST 800-53 v5
+    section: PM-7 Enterprise Architecture
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-8
+    name: NIST 800-53 v5
+    section: SA-8 Security And Privacy Engineering Principles
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-17
+    name: NIST 800-53 v5
+    section: SA-17 Developer Security And Privacy Architecture And Design
+  ltype: Related
+name: NIST Privacy Framework
+section: Data are processed to limit observability and linkability (e.g., data actions
+  take place on local devices, privacy-preserving cryptography).
+sectionID: CT.DP-P1
+version: 1.0.0

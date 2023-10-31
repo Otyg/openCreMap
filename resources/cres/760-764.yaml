@@ -1,0 +1,197 @@
+doctype: CRE
+id: 760-764
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://owasp.org/Top10/A03_2021-Injection/
+    name: OWASP Top 10 2021
+    section: Injection
+    sectionID: A03
+  ltype: Linked To
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Christmas%20Special
+    name: OWASP Juice Shop
+    section: Christmas Special
+    sectionID: christmasSpecialChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Database%20Schema
+    name: OWASP Juice Shop
+    section: Database Schema
+    sectionID: dbSchemaChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Ephemeral%20Accountant
+    name: OWASP Juice Shop
+    section: Ephemeral Accountant
+    sectionID: ephemeralAccountantChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Login%20Admin
+    name: OWASP Juice Shop
+    section: Login Admin
+    sectionID: loginAdminChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Login%20Bender
+    name: OWASP Juice Shop
+    section: Login Bender
+    sectionID: loginBenderChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Login%20Jim
+    name: OWASP Juice Shop
+    section: Login Jim
+    sectionID: loginJimChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=NoSQL%20DoS
+    name: OWASP Juice Shop
+    section: NoSQL DoS
+    sectionID: noSqlCommandChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=NoSQL%20Exfiltration
+    name: OWASP Juice Shop
+    section: NoSQL Exfiltration
+    sectionID: noSqlOrdersChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=NoSQL%20Manipulation
+    name: OWASP Juice Shop
+    section: NoSQL Manipulation
+    sectionID: noSqlReviewsChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=SSTi
+    name: OWASP Juice Shop
+    section: SSTi
+    sectionID: sstiChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=User%20Credentials
+    name: OWASP Juice Shop
+    section: User Credentials
+    sectionID: unionSqlInjectionChallenge
+    tags:
+    - Injection
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 546-564
+    name: Cross-cutting concerns
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 760-765
+    name: XSS protection
+    tags:
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 384-344
+    name: Store and serve user-uploaded files such that they cannot execute/damage
+      server or client
+    tags:
+    - XSS protection
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 010-308
+    name: Input validation
+    tags:
+    - XSS protection
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 866-553
+    name: Memory, String, and Unmanaged Code
+    tags:
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 161-451
+    name: Output encoding and injection prevention
+    tags:
+    - XSS protection
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 764-765
+    name: Sanitization and sandboxing
+    tags:
+    - XSS protection
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 541-441
+    name: Validate HTTP request headers
+    tags:
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 764-507
+    name: Restrict XML parsing (against XXE)
+    tags:
+    - Configuration
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 048-612
+    name: Encode user input before logging
+    tags:
+    - Injection protection
+  ltype: Related
+name: Injection protection
+tags:
+- XSS protection

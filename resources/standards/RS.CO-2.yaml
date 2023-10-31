@@ -1,0 +1,33 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO
+    name: NIST Cyber Security Framework
+    section: RS.CO Communications
+    sectionID: RS.CO
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AU-6
+    name: NIST 800-53 v5
+    section: AU-6 Audit Record Review, Analysis, And Reporting
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IR-6
+    name: NIST 800-53 v5
+    section: IR-6 Incident Reporting
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IR-8
+    name: NIST 800-53 v5
+    section: IR-8 Incident Response Plan
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Incidents are reported consistent with established criteria
+sectionID: RS.CO-2
+version: 1.1.0

@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P3
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.BE-P
+    name: NIST Privacy Framework
+    section: ID.BE-P Business Environment
+    sectionID: ID.BE-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-9
+    name: NIST 800-53 v5
+    section: RA-9 Criticality Analysis
+  ltype: Related
+name: NIST Privacy Framework
+section: Systems/products/services that support organizational priorities are identified
+  and key requirements communicated.
+sectionID: ID.BE-P3
+version: 1.0.0

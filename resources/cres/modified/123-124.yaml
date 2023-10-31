@@ -1,0 +1,79 @@
+doctype: CRE
+id: 123-124
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-6
+    name: NIST 800-53 v5
+    section: AC-6 LEAST PRIVILEGE
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 724-770
+    name: Technical application access control
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 540-566
+    name: Let application request minimal permissions
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 817-808
+    name: Deny new users by default
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 368-633
+    name: Enforce least privilege
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 152-725
+    name: Limit access to admin/management functionality
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 524-603
+    name: Limit modification of access controls to specifically authorized actors/users
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 330-281
+    name: Use least privilege OS accounts for system (components)
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-4
+    name: NIST Cyber Security Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties
+    sectionID: PR.AC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P4
+    name: NIST Privacy Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties.
+    sectionID: PR.AC-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-5
+    name: NIST Cyber Security Framework
+    section: Protections against data leaks are implemented
+    sectionID: PR.DS-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P5
+    name: NIST Privacy Framework
+    section: Protections against data leaks are implemented.
+    sectionID: PR.DS-P5
+    version: 1.0.0
+  ltype: Linked To
+name: Minimize permissions

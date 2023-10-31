@@ -1,0 +1,39 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-3
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS
+    name: NIST Cyber Security Framework
+    section: PR.DS Data Security
+    sectionID: PR.DS
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-8
+    name: NIST 800-53 v5
+    section: CM-8 System Component Inventory
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-6
+    name: NIST 800-53 v5
+    section: MP-6 Media Sanitization
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PE-16
+    name: NIST 800-53 v5
+    section: PE-16 Delivery And Removal
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PE-20
+    name: NIST 800-53 v5
+    section: PE-20 Asset Monitoring And Tracking
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Assets are formally managed throughout removal, transfers, and disposition
+sectionID: PR.DS-3
+version: 1.1.0

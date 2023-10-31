@@ -1,0 +1,16 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P
+    name: NIST Privacy Framework
+    section: GV.PO-P Governance Policies, Processes, and Procedures
+    sectionID: GV.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+name: NIST Privacy Framework
+section: Legal, regulatory, and contractual requirements regarding privacy are understood
+  and managed.
+sectionID: GV.PO-P5
+version: 1.0.0

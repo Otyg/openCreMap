@@ -1,0 +1,82 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR-P
+    name: NIST Privacy Framework
+    section: PR-P PROTECT-P
+    sectionID: PR-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P1
+    name: NIST Privacy Framework
+    section: Data-at-rest are protected.
+    sectionID: PR.DS-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P2
+    name: NIST Privacy Framework
+    section: Data-in-transit are protected.
+    sectionID: PR.DS-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P3
+    name: NIST Privacy Framework
+    section: Systems/products/services and associated data are formally managed throughout
+      removal, transfers, and disposition.
+    sectionID: PR.DS-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P4
+    name: NIST Privacy Framework
+    section: Adequate capacity to ensure availability is maintained.
+    sectionID: PR.DS-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P5
+    name: NIST Privacy Framework
+    section: Protections against data leaks are implemented.
+    sectionID: PR.DS-P5
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P6
+    name: NIST Privacy Framework
+    section: Integrity checking mechanisms are used to verify software, firmware,
+      and information integrity.
+    sectionID: PR.DS-P6
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P7
+    name: NIST Privacy Framework
+    section: The development and testing environment(s) are separate from the production
+      environment.
+    sectionID: PR.DS-P7
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P8
+    name: NIST Privacy Framework
+    section: Integrity checking mechanisms are used to verify hardware integrity.
+    sectionID: PR.DS-P8
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: PR.DS-P Data Security
+sectionID: PR.DS-P
+version: 1.0.0

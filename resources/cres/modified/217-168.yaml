@@ -1,0 +1,98 @@
+doctype: CRE
+id: 217-168
+links:
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Audit & Assurance
+    sectionID: A&A
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Protection of information systems during audit testing
+    sectionID: '8.34'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AU-13
+    name: NIST 800-53 v5
+    section: AU-13 Monitoring for Information Disclosure
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AU-14
+    name: NIST 800-53 v5
+    section: AU-14 Session Audit
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 464-513
+    name: Assurance processes
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 510-324
+    name: Compliance
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P8
+    name: NIST Privacy Framework
+    section: Audit/log records are determined, documented, implemented, and reviewed
+      in accordance with policy and incorporating the principle of data minimization.
+    sectionID: CT.DM-P8
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P8
+    name: NIST Privacy Framework
+    section: Audit/log records are determined, documented, implemented, and reviewed
+      in accordance with policy and incorporating the principle of data minimization.
+    sectionID: CT.DM-P8
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-3
+    name: NIST Cyber Security Framework
+    section: Personnel activity is monitored to detect potential cybersecurity events
+    sectionID: DE.CM-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-5
+    name: NIST Cyber Security Framework
+    section: Protections against data leaks are implemented
+    sectionID: PR.DS-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P5
+    name: NIST Privacy Framework
+    section: Protections against data leaks are implemented.
+    sectionID: PR.DS-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-1
+    name: NIST Cyber Security Framework
+    section: Audit/log records are determined, documented, implemented, and reviewed
+      in accordance with policy
+    sectionID: PR.PT-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-1
+    name: NIST Cyber Security Framework
+    section: Audit/log records are determined, documented, implemented, and reviewed
+      in accordance with policy
+    sectionID: PR.PT-1
+    version: 1.1.0
+  ltype: Linked To
+name: Audit & accountability

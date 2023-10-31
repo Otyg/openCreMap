@@ -1,0 +1,35 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P8
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P
+    name: NIST Privacy Framework
+    section: CM.AW-P Data Processing Awareness
+    sectionID: CM.AW-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IR-7
+    name: NIST 800-53 v5
+    section: IR-7 Incident Response Assistance
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-4
+    name: NIST 800-53 v5
+    section: PT-4 Consent
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-18
+    name: NIST 800-53 v5
+    section: SI-18 Personally Identifiable Information Quality Operations
+  ltype: Related
+name: NIST Privacy Framework
+section: Individuals are provided with mitigation mechanisms (e.g., credit monitoring,
+  consent withdrawal, data alteration or deletion) to address impacts of problematic
+  data actions.
+sectionID: CM.AW-P8
+version: 1.0.0

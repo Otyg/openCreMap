@@ -1,0 +1,70 @@
+doctype: CRE
+id: 888-770
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=RA-10
+    name: NIST 800-53 v5
+    section: RA-10 Threat Hunting
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Threat intelligence
+    sectionID: '5.7'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-16
+    name: NIST 800-53 v5
+    section: PM-16 Threat Awareness Program
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 307-242
+    name: Security risk assessment
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-2
+    name: NIST Cyber Security Framework
+    section: Cyber threat intelligence is received from information sharing forums
+      and sources
+    sectionID: ID.RA-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-2
+    name: NIST Cyber Security Framework
+    section: Cyber threat intelligence is received from information sharing forums
+      and sources
+    sectionID: ID.RA-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-3
+    name: NIST Cyber Security Framework
+    section: Threats, both internal and external, are identified and documented
+    sectionID: ID.RA-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-3
+    name: NIST Cyber Security Framework
+    section: Threats, both internal and external, are identified and documented
+    sectionID: ID.RA-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-5
+    name: NIST Cyber Security Framework
+    section: Threats, vulnerabilities, likelihoods, and impacts are used to determine
+      risk
+    sectionID: ID.RA-5
+    version: 1.1.0
+  ltype: Linked To
+name: Threat intelligence - stay up to date with new threats and consider them

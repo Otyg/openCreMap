@@ -1,0 +1,27 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P
+    name: NIST Privacy Framework
+    section: CT.DP-P Disassociated Processing
+    sectionID: CT.DP-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-16
+    name: NIST 800-53 v5
+    section: AC-16 Security And Privacy Attributes
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-8
+    name: NIST 800-53 v5
+    section: SA-8 Security And Privacy Engineering Principles
+  ltype: Related
+name: NIST Privacy Framework
+section: Attribute references are substituted for attribute values.
+sectionID: CT.DP-P5
+version: 1.0.0

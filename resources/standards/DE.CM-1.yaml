@@ -1,0 +1,51 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM
+    name: NIST Cyber Security Framework
+    section: DE.CM Security Continuous Monitoring
+    sectionID: DE.CM
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AU-12
+    name: NIST 800-53 v5
+    section: AU-12 Audit Record Generation
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-7
+    name: NIST 800-53 v5
+    section: CA-7 Continuous Monitoring
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-3
+    name: NIST 800-53 v5
+    section: CM-3 Configuration Change Control
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-5
+    name: NIST 800-53 v5
+    section: SC-5 Denial-of-service Protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-7
+    name: NIST 800-53 v5
+    section: SC-7 Boundary Protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-4
+    name: NIST 800-53 v5
+    section: SI-4 System Monitoring
+  ltype: Related
+name: NIST Cyber Security Framework
+section: The network is monitored to detect potential cybersecurity events
+sectionID: DE.CM-1
+version: 1.1.0

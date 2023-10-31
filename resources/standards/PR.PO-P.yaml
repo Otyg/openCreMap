@@ -1,0 +1,92 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR-P
+    name: NIST Privacy Framework
+    section: PR-P PROTECT-P
+    sectionID: PR-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P1
+    name: NIST Privacy Framework
+    section: A baseline configuration of information technology is created and maintained
+      incorporating security principles (e.g., concept of least functionality).
+    sectionID: PR.PO-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P2
+    name: NIST Privacy Framework
+    section: Configuration change control processes are established and in place.
+    sectionID: PR.PO-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P3
+    name: NIST Privacy Framework
+    section: Backups of information are conducted, maintained, and tested.
+    sectionID: PR.PO-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P4
+    name: NIST Privacy Framework
+    section: Policy and regulations regarding the physical operating environment for
+      organizational assets are met.
+    sectionID: PR.PO-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P5
+    name: NIST Privacy Framework
+    section: Protection processes are improved.
+    sectionID: PR.PO-P5
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P6
+    name: NIST Privacy Framework
+    section: Effectiveness of protection technologies is shared.
+    sectionID: PR.PO-P6
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P7
+    name: NIST Privacy Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are established, in place, and
+      managed.
+    sectionID: PR.PO-P7
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P8
+    name: NIST Privacy Framework
+    section: Response and recovery plans are tested.
+    sectionID: PR.PO-P8
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P9
+    name: NIST Privacy Framework
+    section: Privacy procedures are included in human resources practices (e.g., deprovisioning,
+      personnel screening).
+    sectionID: PR.PO-P9
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: PR.PO-P Data Protection Policies, Processes, and Procedures
+sectionID: PR.PO-P
+version: 1.0.0

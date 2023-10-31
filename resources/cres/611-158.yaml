@@ -1,0 +1,50 @@
+doctype: CRE
+id: 611-158
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x18-V10-Malicious.md
+    name: ASVS
+    section: Verify that a code analysis tool is in use that can detect potentially
+      malicious code, such as time functions, unsafe file operations and network connections.
+    sectionID: V10.1.1
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://cwe.mitre.org/data/definitions/749.html
+    name: CWE
+    section: ''
+    sectionID: '749'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html
+    name: OWASP Cheat Sheets
+    section: Third Party Javascript Management Cheat Sheet
+  ltype: Linked To
+- document:
+    description: See the references for security advice on the use of these functions.
+    doctype: Tool
+    hyperlink: https://github.com/zaproxy/zap-extensions/blob/main/addOns/pscanrulesBeta/src/main/java/org/zaproxy/zap/extension/pscanrulesBeta/JsFunctionScanRule.java
+    name: ZAP Rule
+    section: Dangerous JS Functions
+    sectionID: '10110'
+    tags:
+    - Passive
+    - '10110'
+    tooltype: Offensive
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/500.html
+    name: CAPEC
+    section: WebView Injection
+    sectionID: '500'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 832-555
+    name: Automated static security analysis of code and configuration
+  ltype: Is Part Of
+name: Use static analysis tooling to detect potentially malicious actions

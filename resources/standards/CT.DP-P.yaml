@@ -1,0 +1,60 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT-P
+    name: NIST Privacy Framework
+    section: CT-P CONTROL-P
+    sectionID: CT-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P1
+    name: NIST Privacy Framework
+    section: Data are processed to limit observability and linkability (e.g., data
+      actions take place on local devices, privacy-preserving cryptography).
+    sectionID: CT.DP-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P2
+    name: NIST Privacy Framework
+    section: Data are processed to limit the identification of individuals (e.g.,
+      de-identification privacy techniques, tokenization).
+    sectionID: CT.DP-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P3
+    name: NIST Privacy Framework
+    section: "Data are processed to limit the formulation of inferences about individuals\u2019\
+      \ behavior or activities (e.g., data processing is decentralized, distributed\
+      \ architectures)."
+    sectionID: CT.DP-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P4
+    name: NIST Privacy Framework
+    section: System or device configurations permit selective collection or disclosure
+      of data elements.
+    sectionID: CT.DP-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P5
+    name: NIST Privacy Framework
+    section: Attribute references are substituted for attribute values.
+    sectionID: CT.DP-P5
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: CT.DP-P Disassociated Processing
+sectionID: CT.DP-P
+version: 1.0.0

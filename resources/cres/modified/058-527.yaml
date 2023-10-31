@@ -1,0 +1,76 @@
+doctype: CRE
+id: 058-527
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SC-20
+    name: NIST 800-53 v5
+    section: SC-20 Secure Name/address Resolution Service (authoritative Source)
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SC-21
+    name: NIST 800-53 v5
+    section: SC-21 Secure Name/address Resolution Service (recursive or Caching Resolver)
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 546-564
+    name: Cross-cutting concerns
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 336-512
+    name: Ensure integrity of DNS entries and domains
+    tags:
+    - Secure name/address resolution service
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-5
+    name: NIST Cyber Security Framework
+    section: Network integrity is protected (e.g., network segregation, network segmentation)
+    sectionID: PR.AC-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P5
+    name: NIST Privacy Framework
+    section: Network integrity is protected (e.g., network segregation, network segmentation).
+    sectionID: PR.AC-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-4
+    name: NIST Cyber Security Framework
+    section: Communications and control networks are protected
+    sectionID: PR.PT-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-4
+    name: NIST Cyber Security Framework
+    section: Communications and control networks are protected
+    sectionID: PR.PT-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P3
+    name: NIST Privacy Framework
+    section: Communications and control networks are protected.
+    sectionID: PR.PT-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P3
+    name: NIST Privacy Framework
+    section: Communications and control networks are protected.
+    sectionID: PR.PT-P3
+    version: 1.0.0
+  ltype: Linked To
+name: Secure name/address resolution service

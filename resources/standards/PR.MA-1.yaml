@@ -1,0 +1,46 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA
+    name: NIST Cyber Security Framework
+    section: PR.MA Maintenance
+    sectionID: PR.MA
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MA-1
+    name: NIST 800-53 v5
+    section: MA-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MA-2
+    name: NIST 800-53 v5
+    section: MA-2 Controlled Maintenance
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MA-3
+    name: NIST 800-53 v5
+    section: MA-3 Maintenance Tools
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MA-5
+    name: NIST 800-53 v5
+    section: MA-5 Maintenance Personnel
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MA-6
+    name: NIST 800-53 v5
+    section: MA-6 Timely Maintenance
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Maintenance and repair of organizational assets are performed and logged,
+  with approved and controlled tools
+sectionID: PR.MA-1
+version: 1.1.0

@@ -1,0 +1,63 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID
+    name: NIST Cyber Security Framework
+    section: ID IDENTIFY
+    sectionID: ID
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-1
+    name: NIST Cyber Security Framework
+    section: Cyber supply chain risk management processes are identified, established,
+      assessed, managed, and agreed to by organizational stakeholders
+    sectionID: ID.SC-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-2
+    name: NIST Cyber Security Framework
+    section: Suppliers and third party partners of information systems, components,
+      and services are identified, prioritized, and assessed using a cyber supply
+      chain risk assessment process
+    sectionID: ID.SC-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-3
+    name: NIST Cyber Security Framework
+    section: "Contracts with suppliers and third-party partners are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s cybersecurity program and Cyber Supply Chain Risk Management Plan."
+    sectionID: ID.SC-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-4
+    name: NIST Cyber Security Framework
+    section: Suppliers and third-party partners are routinely assessed using audits,
+      test results, or other forms of evaluations to confirm they are meeting their
+      contractual obligations.
+    sectionID: ID.SC-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-5
+    name: NIST Cyber Security Framework
+    section: Response and recovery planning and testing are conducted with suppliers
+      and third-party providers
+    sectionID: ID.SC-5
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: ID.SC Supply Chain Risk Management
+sectionID: ID.SC
+version: 1.1.0

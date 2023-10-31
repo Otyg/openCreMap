@@ -1,0 +1,95 @@
+doctype: CRE
+id: 470-731
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-11
+    name: NIST 800-53 v5
+    section: AC-11 DEVICE LOCK
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-12
+    name: NIST 800-53 v5
+    section: AC-12 SESSION TERMINATION
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SC-10
+    name: NIST 800-53 v5
+    section: SC-10 NETWORK DISCONNECT
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 177-260
+    name: Session management
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 673-736
+    name: Enable option to log out from all active session
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 065-782
+    name: Ensure session timeout (soft/hard)
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 238-346
+    name: Terminate all sessions when password is changed
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 457-165
+    name: Terminate session after logout
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-5
+    name: NIST Cyber Security Framework
+    section: Network integrity is protected (e.g., network segregation, network segmentation)
+    sectionID: PR.AC-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P5
+    name: NIST Privacy Framework
+    section: Network integrity is protected (e.g., network segregation, network segmentation).
+    sectionID: PR.AC-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-4
+    name: NIST Cyber Security Framework
+    section: Communications and control networks are protected
+    sectionID: PR.PT-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-4
+    name: NIST Cyber Security Framework
+    section: Communications and control networks are protected
+    sectionID: PR.PT-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P3
+    name: NIST Privacy Framework
+    section: Communications and control networks are protected.
+    sectionID: PR.PT-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P3
+    name: NIST Privacy Framework
+    section: Communications and control networks are protected.
+    sectionID: PR.PT-P3
+    version: 1.0.0
+  ltype: Linked To
+name: Minimize session life

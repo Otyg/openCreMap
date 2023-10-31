@@ -1,0 +1,116 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR
+    name: NIST Cyber Security Framework
+    section: PR PROTECT
+    sectionID: PR
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-1
+    name: NIST Cyber Security Framework
+    section: A baseline configuration of information technology/industrial control
+      systems is created and maintained incorporating security principles (e.g. concept
+      of least functionality)
+    sectionID: PR.IP-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-2
+    name: NIST Cyber Security Framework
+    section: A System Development Life Cycle to manage systems is implemented
+    sectionID: PR.IP-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-3
+    name: NIST Cyber Security Framework
+    section: Configuration change control processes are in place
+    sectionID: PR.IP-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-4
+    name: NIST Cyber Security Framework
+    section: Backups of information are conducted, maintained, and tested
+    sectionID: PR.IP-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-5
+    name: NIST Cyber Security Framework
+    section: Policy and regulations regarding the physical operating environment for
+      organizational assets are met
+    sectionID: PR.IP-5
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-6
+    name: NIST Cyber Security Framework
+    section: Data is destroyed according to policy
+    sectionID: PR.IP-6
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-7
+    name: NIST Cyber Security Framework
+    section: Protection processes are improved
+    sectionID: PR.IP-7
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-8
+    name: NIST Cyber Security Framework
+    section: Effectiveness of protection technologies is shared
+    sectionID: PR.IP-8
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-9
+    name: NIST Cyber Security Framework
+    section: Response plans (Incident Response and Business Continuity) and recovery
+      plans (Incident Recovery and Disaster Recovery) are in place and managed
+    sectionID: PR.IP-9
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-10
+    name: NIST Cyber Security Framework
+    section: Response and recovery plans are tested
+    sectionID: PR.IP-10
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-11
+    name: NIST Cyber Security Framework
+    section: Cybersecurity is included in human resources practices (e.g., deprovisioning,
+      personnel screening)
+    sectionID: PR.IP-11
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-12
+    name: NIST Cyber Security Framework
+    section: A vulnerability management plan is developed and implemented
+    sectionID: PR.IP-12
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: PR.IP Information Protection Processes and Procedures
+sectionID: PR.IP
+version: 1.1.0

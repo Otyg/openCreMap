@@ -1,0 +1,53 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT-P
+    name: NIST Privacy Framework
+    section: CT-P CONTROL-P
+    sectionID: CT-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P1
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for authorizing data processing (e.g.,
+      organizational decisions, individual consent), revoking authorizations, and
+      maintaining authorizations are established and in place.
+    sectionID: CT.PO-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P2
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for enabling data review, transfer,
+      sharing or disclosure, alteration, and deletion are established and in place
+      (e.g., to maintain data quality, manage data retention).
+    sectionID: CT.PO-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P3
+    name: NIST Privacy Framework
+    section: "Policies, processes, and procedures for enabling individuals\u2019 data\
+      \ processing preferences and requests are established and in place."
+    sectionID: CT.PO-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P4
+    name: NIST Privacy Framework
+    section: A data life cycle to manage data is aligned and implemented with the
+      system development life cycle to manage systems.
+    sectionID: CT.PO-P4
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: CT.PO-P Data Processing Policies, Processes, and Procedures
+sectionID: CT.PO-P
+version: 1.0.0

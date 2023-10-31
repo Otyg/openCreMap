@@ -1,0 +1,41 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P
+    name: NIST Privacy Framework
+    section: CT.PO-P Data Processing Policies, Processes, and Procedures
+    sectionID: CT.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-1
+    name: NIST 800-53 v5
+    section: PT-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-2
+    name: NIST 800-53 v5
+    section: PT-2 Authority To Process Personally Identifiable Information
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-3
+    name: NIST 800-53 v5
+    section: PT-3 Personally Identifiable Information Processing Purposes
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-4
+    name: NIST 800-53 v5
+    section: PT-4 Consent
+  ltype: Related
+name: NIST Privacy Framework
+section: Policies, processes, and procedures for authorizing data processing (e.g.,
+  organizational decisions, individual consent), revoking authorizations, and maintaining
+  authorizations are established and in place.
+sectionID: CT.PO-P1
+version: 1.0.0

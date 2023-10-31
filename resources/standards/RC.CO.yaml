@@ -1,0 +1,40 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.CO
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC
+    name: NIST Cyber Security Framework
+    section: RC RECOVER
+    sectionID: RC
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.CO-1
+    name: NIST Cyber Security Framework
+    section: Public relations are managed
+    sectionID: RC.CO-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.CO-2
+    name: NIST Cyber Security Framework
+    section: Reputation is repaired after an incident
+    sectionID: RC.CO-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RC.CO-3
+    name: NIST Cyber Security Framework
+    section: Recovery activities are communicated to internal and external stakeholders
+      as well as executive and management teams
+    sectionID: RC.CO-3
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: RC.CO Communications
+sectionID: RC.CO
+version: 1.1.0

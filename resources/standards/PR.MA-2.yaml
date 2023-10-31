@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA
+    name: NIST Cyber Security Framework
+    section: PR.MA Maintenance
+    sectionID: PR.MA
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MA-4
+    name: NIST 800-53 v5
+    section: MA-4 Nonlocal Maintenance
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Remote maintenance of organizational assets is approved, logged, and performed
+  in a manner that prevents unauthorized access
+sectionID: PR.MA-2
+version: 1.1.0

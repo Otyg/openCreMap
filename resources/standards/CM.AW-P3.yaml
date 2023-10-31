@@ -1,0 +1,39 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P3
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P
+    name: NIST Privacy Framework
+    section: CM.AW-P Data Processing Awareness
+    sectionID: CM.AW-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PL-8
+    name: NIST 800-53 v5
+    section: PL-8 Security And Privacy Architectures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-5
+    name: NIST 800-53 v5
+    section: PT-5 Privacy Notice
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-17
+    name: NIST 800-53 v5
+    section: SA-17 Developer Security And Privacy Architecture And Design
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-42
+    name: NIST 800-53 v5
+    section: SC-42 Sensor Capability And Data
+  ltype: Related
+name: NIST Privacy Framework
+section: System/product/service design enables data processing visibility.
+sectionID: CM.AW-P3
+version: 1.0.0

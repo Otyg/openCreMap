@@ -1,0 +1,46 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM
+    name: NIST Cyber Security Framework
+    section: ID.AM Asset Management
+    sectionID: ID.AM
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-2
+    name: NIST 800-53 v5
+    section: CP-2 Contingency Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-2
+    name: NIST 800-53 v5
+    section: RA-2 Security Categorization
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-9
+    name: NIST 800-53 v5
+    section: RA-9 Criticality Analysis
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-20
+    name: NIST 800-53 v5
+    section: SA-20 Customized Development Of Critical Components
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-6
+    name: NIST 800-53 v5
+    section: SC-6 Resource Availability
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Resources (e.g., hardware, devices, data, time, personnel, and software)
+  are prioritized based on their classification, criticality, and business value
+sectionID: ID.AM-5
+version: 1.1.0

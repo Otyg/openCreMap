@@ -1,0 +1,45 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC
+    name: NIST Cyber Security Framework
+    section: PR.AC Identity Management, Authentication and Access Control
+    sectionID: PR.AC
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-4
+    name: NIST 800-53 v5
+    section: AC-4 Information Flow Enforcement
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-10
+    name: NIST 800-53 v5
+    section: AC-10 Concurrent Session Control
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-7
+    name: NIST 800-53 v5
+    section: SC-7 Boundary Protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-10
+    name: NIST 800-53 v5
+    section: SC-10 Network Disconnect
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-20
+    name: NIST 800-53 v5
+    section: SC-20 Secure Name/address Resolution Service (authoritative Source)
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Network integrity is protected (e.g., network segregation, network segmentation)
+sectionID: PR.AC-5
+version: 1.1.0

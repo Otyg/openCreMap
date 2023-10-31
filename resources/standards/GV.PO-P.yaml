@@ -1,0 +1,70 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV-P
+    name: NIST Privacy Framework
+    section: GV-P GOVERN-P
+    sectionID: GV-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P1
+    name: NIST Privacy Framework
+    section: "Organizational privacy values and policies (e.g., conditions on data\
+      \ processing such as data uses or retention periods, individuals\u2019 prerogatives\
+      \ with respect to data processing) are established and communicated."
+    sectionID: GV.PO-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P2
+    name: NIST Privacy Framework
+    section: Processes to instill organizational privacy values within system/product/service
+      development and operations are established and in place.
+    sectionID: GV.PO-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P3
+    name: NIST Privacy Framework
+    section: Roles and responsibilities for the workforce are established with respect
+      to privacy.
+    sectionID: GV.PO-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P4
+    name: NIST Privacy Framework
+    section: Privacy roles and responsibilities are coordinated and aligned with third-party
+      stakeholders (e.g., service providers, customers, partners).
+    sectionID: GV.PO-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P5
+    name: NIST Privacy Framework
+    section: Legal, regulatory, and contractual requirements regarding privacy are
+      understood and managed.
+    sectionID: GV.PO-P5
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: GV.PO-P Governance Policies, Processes, and Procedures
+sectionID: GV.PO-P
+version: 1.0.0

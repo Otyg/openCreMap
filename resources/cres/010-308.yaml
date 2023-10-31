@@ -1,0 +1,180 @@
+doctype: CRE
+id: 010-308
+links:
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Admin%20Registration
+    name: OWASP Juice Shop
+    section: Admin Registration
+    sectionID: registerAdminChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Empty%20User%20Registration
+    name: OWASP Juice Shop
+    section: Empty User Registration
+    sectionID: emptyUserRegistration
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Expired%20Coupon
+    name: OWASP Juice Shop
+    section: Expired Coupon
+    sectionID: manipulateClockChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Payback%20Time
+    name: OWASP Juice Shop
+    section: Payback Time
+    sectionID: negativeOrderChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Repetitive%20Registration
+    name: OWASP Juice Shop
+    section: Repetitive Registration
+    sectionID: passwordRepeatChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Upload%20Size
+    name: OWASP Juice Shop
+    section: Upload Size
+    sectionID: uploadSizeChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Upload%20Type
+    name: OWASP Juice Shop
+    section: Upload Type
+    sectionID: uploadTypeChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Zero%20Stars
+    name: OWASP Juice Shop
+    section: Zero Stars
+    sectionID: zeroStarsChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Missing%20Encoding
+    name: OWASP Juice Shop
+    section: Missing Encoding
+    sectionID: missingEncodingChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Deluxe%20Fraud
+    name: OWASP Juice Shop
+    section: Deluxe Fraud
+    sectionID: freeDeluxeChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Poison%20Null%20Byte
+    name: OWASP Juice Shop
+    section: Poison Null Byte
+    sectionID: nullByteChallenge
+    tags:
+    - Improper Input Validation
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 503-455
+    name: Input and output protection
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 760-765
+    name: XSS protection
+    tags:
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 760-764
+    name: Injection protection
+    tags:
+    - XSS protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 848-711
+    name: Enforce input validation on a trusted service layer
+    tags:
+    - Architecture
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 653-242
+    name: Enforce schema on type/contents of structured data
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 176-154
+    name: Monitor expectation of usage intensity (e.g. number of requests)
+    tags:
+    - Denial Of Service protection
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 042-550
+    name: Protect against mass parameter assignment attack
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 743-237
+    name: Validatie/enforce HTTP inputs (against HTTP parameter pollution attacks)
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 031-447
+    name: Whitelist all external (HTTP) input
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 232-217
+    name: Whitelist redirected/forwarded URLs
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 146-706
+    name: Enforce JSON schema before processing
+  ltype: Contains
+name: Input validation
+tags:
+- XSS protection
+- Injection protection

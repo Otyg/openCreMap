@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P
+    name: NIST Privacy Framework
+    section: CM.PO-P Communication Policies, Processes, and Procedures
+    sectionID: CM.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PT-1
+    name: NIST 800-53 v5
+    section: PT-1 Policy And Procedures
+  ltype: Related
+name: NIST Privacy Framework
+section: Roles and responsibilities (e.g., public relations) for communicating data
+  processing purposes, practices, and associated privacy risks are established.
+sectionID: CM.PO-P2
+version: 1.0.0

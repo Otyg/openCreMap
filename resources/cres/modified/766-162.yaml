@@ -1,0 +1,87 @@
+doctype: CRE
+id: 766-162
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-7
+    name: NIST 800-53 v5
+    section: PM-7 Enterprise Architecture
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Governance, Risk and Compliance
+    sectionID: GRC
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 567-755
+    name: Governance processes for security
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 287-823
+    name: Asset management
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 240-464
+    name: Contingency planning
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 847-247
+    name: Interoperability and portability policy and procedures
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 135-200
+    name: Review of security policies
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 004-517
+    name: Security requirements
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 307-242
+    name: Security risk assessment
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P1
+    name: NIST Privacy Framework
+    section: Data are processed to limit observability and linkability (e.g., data
+      actions take place on local devices, privacy-preserving cryptography).
+    sectionID: CT.DP-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P3
+    name: NIST Privacy Framework
+    section: "Data are processed to limit the formulation of inferences about individuals\u2019\
+      \ behavior or activities (e.g., data processing is decentralized, distributed\
+      \ architectures)."
+    sectionID: CT.DP-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-4
+    name: NIST Cyber Security Framework
+    section: Governance and risk management processes address cybersecurity risks
+    sectionID: ID.GV-4
+    version: 1.1.0
+  ltype: Linked To
+name: Security Analysis and documentation

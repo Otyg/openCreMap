@@ -1,0 +1,64 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID-P
+    name: NIST Privacy Framework
+    section: ID-P IDENTIFY-P
+    sectionID: ID-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+    name: NIST Privacy Framework
+    section: Data processing ecosystem risk management policies, processes, and procedures
+      are identified, established, assessed, managed, and agreed to by organizational
+      stakeholders.
+    sectionID: ID.DE-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P3
+    name: NIST Privacy Framework
+    section: "Contracts with data processing ecosystem parties are used to implement\
+      \ appropriate measures designed to meet the objectives of an organization\u2019\
+      s privacy program."
+    sectionID: ID.DE-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P4
+    name: NIST Privacy Framework
+    section: Interoperability frameworks or similar multi-party approaches are used
+      to manage data processing ecosystem privacy risks.
+    sectionID: ID.DE-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P5
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties are routinely assessed using audits,
+      test results, or other forms of evaluations to confirm they are meeting their
+      contractual, interoperability framework, or other obligations.
+    sectionID: ID.DE-P5
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: ID.DE-P Data Processing Ecosystem Risk Management
+sectionID: ID.DE-P
+version: 1.0.0

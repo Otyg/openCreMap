@@ -1,0 +1,60 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID
+    name: NIST Cyber Security Framework
+    section: ID IDENTIFY
+    sectionID: ID
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-1
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s role in the supply chain is identified and communicated"
+    sectionID: ID.BE-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-2
+    name: NIST Cyber Security Framework
+    section: "The organization\u2019s place in critical infrastructure and its industry\
+      \ sector is identified and communicated"
+    sectionID: ID.BE-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-3
+    name: NIST Cyber Security Framework
+    section: Priorities for organizational mission, objectives, and activities are
+      established and communicated
+    sectionID: ID.BE-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-4
+    name: NIST Cyber Security Framework
+    section: Dependencies and critical functions for delivery of critical services
+      are established
+    sectionID: ID.BE-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-5
+    name: NIST Cyber Security Framework
+    section: Resilience requirements to support delivery of critical services are
+      established for all operating states (e.g. under duress/attack, during recovery,
+      normal operations)
+    sectionID: ID.BE-5
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: ID.BE Business Environment
+sectionID: ID.BE
+version: 1.1.0

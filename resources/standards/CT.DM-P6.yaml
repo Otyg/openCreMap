@@ -1,0 +1,27 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P6
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P
+    name: NIST Privacy Framework
+    section: CT.DM-P Data Processing Management
+    sectionID: CT.DM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-10
+    name: NIST 800-53 v5
+    section: SI-10 Information Input Validation
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AU-12
+    name: NIST 800-53 v5
+    section: AU-12 Audit Record Generation
+  ltype: Related
+name: NIST Privacy Framework
+section: Data are transmitted using standardized formats.
+sectionID: CT.DM-P6
+version: 1.0.0

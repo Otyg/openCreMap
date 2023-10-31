@@ -1,0 +1,87 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID-P
+    name: NIST Privacy Framework
+    section: ID-P IDENTIFY-P
+    sectionID: ID-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P1
+    name: NIST Privacy Framework
+    section: Systems/products/services that process data are inventoried.
+    sectionID: ID.IM-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P2
+    name: NIST Privacy Framework
+    section: Owners or operators (e.g., the organization or third parties such as
+      service providers, partners, customers, and developers) and their roles with
+      respect to the systems/products/services and components (e.g., internal or external)
+      that process data are inventoried.
+    sectionID: ID.IM-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P3
+    name: NIST Privacy Framework
+    section: Categories of individuals (e.g., customers, employees or prospective
+      employees, consumers) whose data are being processed are inventoried.
+    sectionID: ID.IM-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P4
+    name: NIST Privacy Framework
+    section: Data actions of the systems/products/services are inventoried.
+    sectionID: ID.IM-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P5
+    name: NIST Privacy Framework
+    section: The purposes for the data actions are inventoried.
+    sectionID: ID.IM-P5
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P6
+    name: NIST Privacy Framework
+    section: Data elements within the data actions are inventoried.
+    sectionID: ID.IM-P6
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P7
+    name: NIST Privacy Framework
+    section: The data processing environment is identified (e.g., geographic location,
+      internal, cloud, third parties).
+    sectionID: ID.IM-P7
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P8
+    name: NIST Privacy Framework
+    section: Data processing is mapped, illustrating the data actions and associated
+      data elements for systems/products/services, including components; roles of
+      the component owners/operators; and interactions of individuals or third parties
+      with the systems/products/services.
+    sectionID: ID.IM-P8
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: ID.IM-P Inventory and Mapping
+sectionID: ID.IM-P
+version: 1.0.0

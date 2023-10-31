@@ -1,0 +1,52 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA
+    name: NIST Cyber Security Framework
+    section: ID.RA Risk Assessment
+    sectionID: ID.RA
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-2
+    name: NIST 800-53 v5
+    section: CA-2 Control Assessments
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-7
+    name: NIST 800-53 v5
+    section: CA-7 Continuous Monitoring
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-16
+    name: NIST 800-53 v5
+    section: PM-16 Threat Awareness Program
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-28
+    name: NIST 800-53 v5
+    section: PM-28 Risk Framing
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-2
+    name: NIST 800-53 v5
+    section: RA-2 Security Categorization
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-3
+    name: NIST 800-53 v5
+    section: RA-3 Risk Assessment
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Threats, vulnerabilities, likelihoods, and impacts are used to determine
+  risk
+sectionID: ID.RA-5
+version: 1.1.0

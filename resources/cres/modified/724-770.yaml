@@ -1,0 +1,355 @@
+doctype: CRE
+id: 724-770
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-14
+    name: NIST 800-53 v5
+    section: AC-14 PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-16
+    name: NIST 800-53 v5
+    section: AC-16 Security and Privacy Attributes
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-2
+    name: NIST 800-53 v5
+    section: AC-2 ACCOUNT MANAGEMENT
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-24
+    name: NIST 800-53 v5
+    section: AC-24 Access Control Decisions
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-5
+    name: NIST 800-53 v5
+    section: AC-5 SEPARATION OF DUTIES
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SC-2
+    name: NIST 800-53 v5
+    section: SC-2 Separation of System and User Functionality
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+    name: OWASP Top 10 2021
+    section: Broken Access Controls
+    sectionID: A01
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-19
+    name: NIST 800-53 v5
+    section: AC-19 Access Control for Mobile Devices
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-25
+    name: NIST 800-53 v5
+    section: AC-25 Reference Monitor
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 123-124
+    name: Minimize permissions
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 128-128
+    name: Strong authorization checking
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 074-873
+    name: Data classification and handling
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 247-250
+    name: Access control processes
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 132-146
+    name: Apply defense-in-depth techniques/processes for protection, detection, and
+      timely response to network-based attacks.
+    tags:
+    - Denial Of Service protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 273-600
+    name: Segregate components of differing trust levels
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 636-660
+    name: Technical application security controls
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 278-413
+    name: Mutually authenticate application components. Minimize privileges
+    tags:
+    - Architecture
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 538-770
+    name: Data access control
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 586-842
+    name: Secure user management
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 551-400
+    name: Allow user revocation of Oauth tokens
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P6
+    name: NIST Privacy Framework
+    section: Data provenance and lineage are maintained and can be accessed for review
+      or transmission/disclosure.
+    sectionID: CM.AW-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P1
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for review.
+    sectionID: CT.DM-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P2
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for transmission or disclosure.
+    sectionID: CT.DM-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P3
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for alteration.
+    sectionID: CT.DM-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P4
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for deletion.
+    sectionID: CT.DM-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P7
+    name: NIST Privacy Framework
+    section: Mechanisms for transmitting processing permissions and related data values
+      with data elements are established and in place.
+    sectionID: CT.DM-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P3
+    name: NIST Privacy Framework
+    section: "Data are processed to limit the formulation of inferences about individuals\u2019\
+      \ behavior or activities (e.g., data processing is decentralized, distributed\
+      \ architectures)."
+    sectionID: CT.DP-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P5
+    name: NIST Privacy Framework
+    section: Attribute references are substituted for attribute values.
+    sectionID: CT.DP-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-3
+    name: NIST Cyber Security Framework
+    section: Personnel activity is monitored to detect potential cybersecurity events
+    sectionID: DE.CM-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-3
+    name: NIST Cyber Security Framework
+    section: Remote access is managed
+    sectionID: PR.AC-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-4
+    name: NIST Cyber Security Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties
+    sectionID: PR.AC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-4
+    name: NIST Cyber Security Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties
+    sectionID: PR.AC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-4
+    name: NIST Cyber Security Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties
+    sectionID: PR.AC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-4
+    name: NIST Cyber Security Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties
+    sectionID: PR.AC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-4
+    name: NIST Cyber Security Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties
+    sectionID: PR.AC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-6
+    name: NIST Cyber Security Framework
+    section: Identities are proofed and bound to credentials and asserted in interactions
+    sectionID: PR.AC-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-7
+    name: NIST Cyber Security Framework
+    section: "Users, devices, and other assets are authenticated (e.g., single-factor,\
+      \ multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019\
+      \ security and privacy risks and other organizational risks)"
+    sectionID: PR.AC-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P3
+    name: NIST Privacy Framework
+    section: Remote access is managed.
+    sectionID: PR.AC-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P4
+    name: NIST Privacy Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties.
+    sectionID: PR.AC-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P4
+    name: NIST Privacy Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties.
+    sectionID: PR.AC-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P4
+    name: NIST Privacy Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties.
+    sectionID: PR.AC-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P4
+    name: NIST Privacy Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties.
+    sectionID: PR.AC-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P4
+    name: NIST Privacy Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties.
+    sectionID: PR.AC-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-5
+    name: NIST Cyber Security Framework
+    section: Protections against data leaks are implemented
+    sectionID: PR.DS-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P5
+    name: NIST Privacy Framework
+    section: Protections against data leaks are implemented.
+    sectionID: PR.DS-P5
+    version: 1.0.0
+  ltype: Linked To
+name: Technical application access control

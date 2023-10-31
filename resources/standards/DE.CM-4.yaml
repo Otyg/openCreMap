@@ -1,0 +1,39 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM
+    name: NIST Cyber Security Framework
+    section: DE.CM Security Continuous Monitoring
+    sectionID: DE.CM
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-44
+    name: NIST 800-53 v5
+    section: SC-44 Detonation Chambers
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-3
+    name: NIST 800-53 v5
+    section: SI-3 Malicious Code Protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-4
+    name: NIST 800-53 v5
+    section: SI-4 System Monitoring
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-8
+    name: NIST 800-53 v5
+    section: SI-8 Spam Protection
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Malicious code is detected
+sectionID: DE.CM-4
+version: 1.1.0

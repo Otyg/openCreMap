@@ -1,0 +1,27 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P
+    name: NIST Privacy Framework
+    section: GV.AT-P Awareness and Training
+    sectionID: GV.AT-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AT-3
+    name: NIST 800-53 v5
+    section: AT-3 Role-based Training
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-13
+    name: NIST 800-53 v5
+    section: PM-13 Security And Privacy Workforce
+  ltype: Related
+name: NIST Privacy Framework
+section: Senior executives understand their roles and responsibilities.
+sectionID: GV.AT-P2
+version: 1.0.0

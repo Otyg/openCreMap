@@ -1,0 +1,47 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P
+    name: NIST Privacy Framework
+    section: PR.PO-P Data Protection Policies, Processes, and Procedures
+    sectionID: PR.PO-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P
+    name: NIST Privacy Framework
+    section: PR.AC-P Identity Management, Authentication, and Access Control
+    sectionID: PR.AC-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.DS-P
+    name: NIST Privacy Framework
+    section: PR.DS-P Data Security
+    sectionID: PR.DS-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P
+    name: NIST Privacy Framework
+    section: PR.MA-P Maintenance
+    sectionID: PR.MA-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P
+    name: NIST Privacy Framework
+    section: PR.PT-P Protective Technology
+    sectionID: PR.PT-P
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: PR-P PROTECT-P
+sectionID: PR-P
+version: 1.0.0

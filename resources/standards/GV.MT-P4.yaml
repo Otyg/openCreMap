@@ -1,0 +1,34 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P
+    name: NIST Privacy Framework
+    section: GV.MT-P Monitoring and Review
+    sectionID: GV.MT-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-5
+    name: NIST 800-53 v5
+    section: CA-5 Plan Of Action And Milestones
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-4
+    name: NIST 800-53 v5
+    section: PM-4 Plan Of Action And Milestones Process
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-27
+    name: NIST 800-53 v5
+    section: PM-27 Privacy Reporting
+  ltype: Related
+name: NIST Privacy Framework
+section: Policies, processes, and procedures for communicating progress on managing
+  privacy risks are established and in place.
+sectionID: GV.MT-P4
+version: 1.0.0

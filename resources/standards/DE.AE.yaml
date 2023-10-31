@@ -1,0 +1,56 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE
+    name: NIST Cyber Security Framework
+    section: DE DETECT
+    sectionID: DE
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-1
+    name: NIST Cyber Security Framework
+    section: A baseline of network operations and expected data flows for users and
+      systems is established and managed
+    sectionID: DE.AE-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-2
+    name: NIST Cyber Security Framework
+    section: Detected events are analyzed to understand attack targets and methods
+    sectionID: DE.AE-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-3
+    name: NIST Cyber Security Framework
+    section: Event data are collected and correlated from multiple sources and sensors
+    sectionID: DE.AE-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-4
+    name: NIST Cyber Security Framework
+    section: Impact of events is determined
+    sectionID: DE.AE-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.AE-5
+    name: NIST Cyber Security Framework
+    section: Incident alert thresholds are established
+    sectionID: DE.AE-5
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: DE.AE Anomalies and Events
+sectionID: DE.AE
+version: 1.1.0

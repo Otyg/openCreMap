@@ -1,0 +1,175 @@
+doctype: CRE
+id: 760-765
+links:
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=API-only%20XSS
+    name: OWASP Juice Shop
+    section: API-only XSS
+    sectionID: restfulXssChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=CSP%20Bypass
+    name: OWASP Juice Shop
+    section: CSP Bypass
+    sectionID: usernameXssChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Client-side%20XSS%20Protection
+    name: OWASP Juice Shop
+    section: Client-side XSS Protection
+    sectionID: persistedXssUserChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=DOM%20XSS
+    name: OWASP Juice Shop
+    section: DOM XSS
+    sectionID: localXssChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=HTTP-Header%20XSS
+    name: OWASP Juice Shop
+    section: HTTP-Header XSS
+    sectionID: httpHeaderXssChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Reflected%20XSS
+    name: OWASP Juice Shop
+    section: Reflected XSS
+    sectionID: reflectedXssChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Server-side%20XSS%20Protection
+    name: OWASP Juice Shop
+    section: Server-side XSS Protection
+    sectionID: persistedXssFeedbackChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Video%20XSS
+    name: OWASP Juice Shop
+    section: Video XSS
+    sectionID: videoXssChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=XXE%20Data%20Access
+    name: OWASP Juice Shop
+    section: XXE Data Access
+    sectionID: xxeFileDisclosureChallenge
+    tags:
+    - XXE
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=XXE%20DoS
+    name: OWASP Juice Shop
+    section: XXE DoS
+    sectionID: xxeDosChallenge
+    tags:
+    - XXE
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Bonus%20Payload
+    name: OWASP Juice Shop
+    section: Bonus Payload
+    sectionID: xssBonusChallenge
+    tags:
+    - XSS
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 546-564
+    name: Cross-cutting concerns
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 760-764
+    name: Injection protection
+    tags:
+    - XSS protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 257-668
+    name: Configure CSP configuration properly
+    tags:
+    - XSS protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 384-344
+    name: Store and serve user-uploaded files such that they cannot execute/damage
+      server or client
+    tags:
+    - XSS protection
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 010-308
+    name: Input validation
+    tags:
+    - XSS protection
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 161-451
+    name: Output encoding and injection prevention
+    tags:
+    - XSS protection
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 764-765
+    name: Sanitization and sandboxing
+    tags:
+    - XSS protection
+    - Injection protection
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 804-220
+    name: Set httponly attribute for cookie-based session tokens
+    tags:
+    - XSS protection
+  ltype: Related
+name: XSS protection
+tags:
+- Injection protection

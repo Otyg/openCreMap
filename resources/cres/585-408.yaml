@@ -1,0 +1,76 @@
+doctype: CRE
+id: 585-408
+links:
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Forged%20Coupon
+    name: OWASP Juice Shop
+    section: Forged Coupon
+    sectionID: forgedCouponChallenge
+    tags:
+    - Cryptographic Issues
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Imaginary%20Challenge
+    name: OWASP Juice Shop
+    section: Imaginary Challenge
+    sectionID: continueCodeChallenge
+    tags:
+    - Cryptographic Issues
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Nested%20Easter%20Egg
+    name: OWASP Juice Shop
+    section: Nested Easter Egg
+    sectionID: easterEggLevelTwoChallenge
+    tags:
+    - Cryptographic Issues
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Premium%20Paywall
+    name: OWASP Juice Shop
+    section: Premium Paywall
+    sectionID: premiumPaywallChallenge
+    tags:
+    - Cryptographic Issues
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Weird%20Crypto
+    name: OWASP Juice Shop
+    section: Weird Crypto
+    sectionID: weirdCryptoChallenge
+    tags:
+    - Cryptographic Issues
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 270-568
+    name: Authentication mechanism
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 170-772
+    name: Cryptography
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 287-251
+    name: Use a unique challenge nonce of sufficient size
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 002-801
+    name: Use approved cryptographic algorithms for generation, seeding and verification
+  ltype: Contains
+name: Challenge nonce cryptography
+tags:
+- Cryptography

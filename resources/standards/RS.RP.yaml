@@ -1,0 +1,23 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.RP
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS
+    name: NIST Cyber Security Framework
+    section: RS RESPOND
+    sectionID: RS
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.RP-1
+    name: NIST Cyber Security Framework
+    section: Response plan is executed during or after an incident
+    sectionID: RS.RP-1
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: RS.RP Response Planning
+sectionID: RS.RP
+version: 1.1.0

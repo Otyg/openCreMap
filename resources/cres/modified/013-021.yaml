@@ -1,0 +1,179 @@
+doctype: CRE
+id: 013-021
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-13
+    name: NIST 800-53 v5
+    section: PM-13 Security and Privacy Workforce
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Information security roles and responsibilities
+    sectionID: '5.2'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: Create new roles and alter responsibilities for existing roles as needed
+      to encompass all parts of the SDLC. Periodically review and maintain the defined
+      roles and responsibilities, updating them as needed.
+    sectionID: PO.2.1
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-2
+    name: NIST 800-53 v5
+    section: PM-2 Information Security Program Leadership Role
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-29
+    name: NIST 800-53 v5
+    section: PM-29 Risk Management Program Leadership Roles
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 427-113
+    name: Security governance regarding people
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 247-250
+    name: Access control processes
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 118-775
+    name: Manage an internal secure software development community
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P1
+    name: NIST Privacy Framework
+    section: The workforce is informed and trained on its roles and responsibilities.
+    sectionID: GV.AT-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P2
+    name: NIST Privacy Framework
+    section: Senior executives understand their roles and responsibilities.
+    sectionID: GV.AT-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P3
+    name: NIST Privacy Framework
+    section: Privacy personnel understand their roles and responsibilities.
+    sectionID: GV.AT-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P3
+    name: NIST Privacy Framework
+    section: Roles and responsibilities for the workforce are established with respect
+      to privacy.
+    sectionID: GV.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P3
+    name: NIST Privacy Framework
+    section: Roles and responsibilities for the workforce are established with respect
+      to privacy.
+    sectionID: GV.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P3
+    name: NIST Privacy Framework
+    section: Roles and responsibilities for the workforce are established with respect
+      to privacy.
+    sectionID: GV.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P4
+    name: NIST Privacy Framework
+    section: Privacy roles and responsibilities are coordinated and aligned with third-party
+      stakeholders (e.g., service providers, customers, partners).
+    sectionID: GV.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-6
+    name: NIST Cyber Security Framework
+    section: Cybersecurity roles and responsibilities for the entire workforce and
+      third-party stakeholders (e.g., suppliers, customers, partners) are established
+    sectionID: ID.AM-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-6
+    name: NIST Cyber Security Framework
+    section: Cybersecurity roles and responsibilities for the entire workforce and
+      third-party stakeholders (e.g., suppliers, customers, partners) are established
+    sectionID: ID.AM-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-2
+    name: NIST Cyber Security Framework
+    section: Cybersecurity roles and responsibilities are coordinated and aligned
+      with internal roles and external partners
+    sectionID: ID.GV-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-2
+    name: NIST Cyber Security Framework
+    section: Cybersecurity roles and responsibilities are coordinated and aligned
+      with internal roles and external partners
+    sectionID: ID.GV-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-1
+    name: NIST Cyber Security Framework
+    section: All users are informed and trained
+    sectionID: PR.AT-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-2
+    name: NIST Cyber Security Framework
+    section: Privileged users understand their roles and responsibilities
+    sectionID: PR.AT-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-4
+    name: NIST Cyber Security Framework
+    section: Senior executives understand their roles and responsibilities
+    sectionID: PR.AT-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-5
+    name: NIST Cyber Security Framework
+    section: Physical and cybersecurity personnel understand their roles and responsibilities
+    sectionID: PR.AT-5
+    version: 1.1.0
+  ltype: Linked To
+name: Roles and responsibilities

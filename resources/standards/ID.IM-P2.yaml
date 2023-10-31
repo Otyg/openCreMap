@@ -1,0 +1,30 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P
+    name: NIST Privacy Framework
+    section: ID.IM-P Inventory and Mapping
+    sectionID: ID.IM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-8
+    name: NIST 800-53 v5
+    section: CM-8 System Component Inventory
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-13
+    name: NIST 800-53 v5
+    section: CM-13 Data Action Mapping
+  ltype: Related
+name: NIST Privacy Framework
+section: Owners or operators (e.g., the organization or third parties such as service
+  providers, partners, customers, and developers) and their roles with respect to
+  the systems/products/services and components (e.g., internal or external) that process
+  data are inventoried.
+sectionID: ID.IM-P2
+version: 1.0.0

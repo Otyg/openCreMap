@@ -1,0 +1,90 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM-P
+    name: NIST Privacy Framework
+    section: CM-P COMMUNICATE-P
+    sectionID: CM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P1
+    name: NIST Privacy Framework
+    section: "Mechanisms (e.g., notices, internal or public reports) for communicating\
+      \ data processing purposes, practices, associated privacy risks, and options\
+      \ for enabling individuals\u2019 data processing preferences and requests are\
+      \ established and in place."
+    sectionID: CM.AW-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P2
+    name: NIST Privacy Framework
+    section: Mechanisms for obtaining feedback from individuals (e.g., surveys or
+      focus groups) about data processing and associated privacy risks are established
+      and in place.
+    sectionID: CM.AW-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P3
+    name: NIST Privacy Framework
+    section: System/product/service design enables data processing visibility.
+    sectionID: CM.AW-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P4
+    name: NIST Privacy Framework
+    section: Records of data disclosures and sharing are maintained and can be accessed
+      for review or transmission/disclosure.
+    sectionID: CM.AW-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P5
+    name: NIST Privacy Framework
+    section: Data corrections or deletions can be communicated to individuals or organizations
+      (e.g., data sources) in the data processing ecosystem.
+    sectionID: CM.AW-P5
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P6
+    name: NIST Privacy Framework
+    section: Data provenance and lineage are maintained and can be accessed for review
+      or transmission/disclosure.
+    sectionID: CM.AW-P6
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P7
+    name: NIST Privacy Framework
+    section: Impacted individuals and organizations are notified about a privacy breach
+      or event.
+    sectionID: CM.AW-P7
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P8
+    name: NIST Privacy Framework
+    section: Individuals are provided with mitigation mechanisms (e.g., credit monitoring,
+      consent withdrawal, data alteration or deletion) to address impacts of problematic
+      data actions.
+    sectionID: CM.AW-P8
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: CM.AW-P Data Processing Awareness
+sectionID: CM.AW-P
+version: 1.0.0

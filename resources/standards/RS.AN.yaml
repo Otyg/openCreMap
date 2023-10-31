@@ -1,0 +1,57 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS
+    name: NIST Cyber Security Framework
+    section: RS RESPOND
+    sectionID: RS
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-1
+    name: NIST Cyber Security Framework
+    section: Notifications from detection systems are investigated
+    sectionID: RS.AN-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-2
+    name: NIST Cyber Security Framework
+    section: The impact of the incident is understood
+    sectionID: RS.AN-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-3
+    name: NIST Cyber Security Framework
+    section: Forensics are performed
+    sectionID: RS.AN-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-4
+    name: NIST Cyber Security Framework
+    section: Incidents are categorized consistent with response plans
+    sectionID: RS.AN-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.AN-5
+    name: NIST Cyber Security Framework
+    section: Processes are established to receive, analyze and respond to vulnerabilities
+      disclosed to the organization from internal and external sources (e.g. internal
+      testing, security bulletins, or security researchers)
+    sectionID: RS.AN-5
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: RS.AN Analysis
+sectionID: RS.AN
+version: 1.1.0

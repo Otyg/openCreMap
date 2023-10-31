@@ -1,0 +1,482 @@
+doctype: CRE
+id: 633-428
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-7
+    name: NIST 800-53 v5
+    section: AC-7 UNSUCCESSFUL LOGON ATTEMPTS
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-8
+    name: NIST 800-53 v5
+    section: AC-8 SYSTEM USE NOTIFICATION
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-9
+    name: NIST 800-53 v5
+    section: AC-9 PREVIOUS LOGON NOTIFICATION
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-1
+    name: NIST 800-53 v5
+    section: IA-1 Policy and Procedures
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-10
+    name: NIST 800-53 v5
+    section: IA-10 Adaptive Authentication
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-12
+    name: NIST 800-53 v5
+    section: IA-12 Identity Proofing
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-2
+    name: NIST 800-53 v5
+    section: IA-2 Identification and Authentication (organizational Users)
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-3
+    name: NIST 800-53 v5
+    section: IA-3 Device Identification and Authentication
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-4
+    name: NIST 800-53 v5
+    section: IA-4 Identifier Management
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-5
+    name: NIST 800-53 v5
+    section: IA-5 AUTHENTICATOR MANAGEMENT
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Authentication information
+    sectionID: '5.17'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-8
+    name: NIST 800-53 v5
+    section: IA-8 Identification and Authentication (non-organizational Users)
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Secure authentication
+    sectionID: '8.5'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/
+    name: OWASP Top 10 2021
+    section: Identification and Authentication Failures
+    sectionID: A07
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 223-780
+    name: Secret storage
+    tags:
+    - Cryptography
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 636-660
+    name: Technical application security controls
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 270-568
+    name: Authentication mechanism
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 455-885
+    name: Credentials directives
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P1
+    name: NIST Privacy Framework
+    section: "Mechanisms (e.g., notices, internal or public reports) for communicating\
+      \ data processing purposes, practices, associated privacy risks, and options\
+      \ for enabling individuals\u2019 data processing preferences and requests are\
+      \ established and in place."
+    sectionID: CM.AW-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P1
+    name: NIST Privacy Framework
+    section: Data are processed to limit observability and linkability (e.g., data
+      actions take place on local devices, privacy-preserving cryptography).
+    sectionID: CT.DP-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P2
+    name: NIST Privacy Framework
+    section: Data are processed to limit the identification of individuals (e.g.,
+      de-identification privacy techniques, tokenization).
+    sectionID: CT.DP-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P3
+    name: NIST Privacy Framework
+    section: "Data are processed to limit the formulation of inferences about individuals\u2019\
+      \ behavior or activities (e.g., data processing is decentralized, distributed\
+      \ architectures)."
+    sectionID: CT.DP-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-6
+    name: NIST Cyber Security Framework
+    section: Identities are proofed and bound to credentials and asserted in interactions
+    sectionID: PR.AC-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-6
+    name: NIST Cyber Security Framework
+    section: Identities are proofed and bound to credentials and asserted in interactions
+    sectionID: PR.AC-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-6
+    name: NIST Cyber Security Framework
+    section: Identities are proofed and bound to credentials and asserted in interactions
+    sectionID: PR.AC-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-6
+    name: NIST Cyber Security Framework
+    section: Identities are proofed and bound to credentials and asserted in interactions
+    sectionID: PR.AC-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-6
+    name: NIST Cyber Security Framework
+    section: Identities are proofed and bound to credentials and asserted in interactions
+    sectionID: PR.AC-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-6
+    name: NIST Cyber Security Framework
+    section: Identities are proofed and bound to credentials and asserted in interactions
+    sectionID: PR.AC-6
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-7
+    name: NIST Cyber Security Framework
+    section: "Users, devices, and other assets are authenticated (e.g., single-factor,\
+      \ multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019\
+      \ security and privacy risks and other organizational risks)"
+    sectionID: PR.AC-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-7
+    name: NIST Cyber Security Framework
+    section: "Users, devices, and other assets are authenticated (e.g., single-factor,\
+      \ multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019\
+      \ security and privacy risks and other organizational risks)"
+    sectionID: PR.AC-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-7
+    name: NIST Cyber Security Framework
+    section: "Users, devices, and other assets are authenticated (e.g., single-factor,\
+      \ multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019\
+      \ security and privacy risks and other organizational risks)"
+    sectionID: PR.AC-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-7
+    name: NIST Cyber Security Framework
+    section: "Users, devices, and other assets are authenticated (e.g., single-factor,\
+      \ multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019\
+      \ security and privacy risks and other organizational risks)"
+    sectionID: PR.AC-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-7
+    name: NIST Cyber Security Framework
+    section: "Users, devices, and other assets are authenticated (e.g., single-factor,\
+      \ multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019\
+      \ security and privacy risks and other organizational risks)"
+    sectionID: PR.AC-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-7
+    name: NIST Cyber Security Framework
+    section: "Users, devices, and other assets are authenticated (e.g., single-factor,\
+      \ multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019\
+      \ security and privacy risks and other organizational risks)"
+    sectionID: PR.AC-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+name: Authentication

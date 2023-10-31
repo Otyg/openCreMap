@@ -1,0 +1,15 @@
+doctype: CRE
+id: 570-487
+links:
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: Determine whether executable code testing
+    sectionID: PW.8.1
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 207-435
+    name: Dynamic security testing
+  ltype: Is Part Of
+name: Manual penetration testing

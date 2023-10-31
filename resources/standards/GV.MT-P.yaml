@@ -1,0 +1,83 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV-P
+    name: NIST Privacy Framework
+    section: GV-P GOVERN-P
+    sectionID: GV-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P1
+    name: NIST Privacy Framework
+    section: "Privacy risk is re-evaluated on an ongoing basis and as key factors,\
+      \ including the organization\u2019s business environment (e.g., introduction\
+      \ of new technologies), governance (e.g., legal obligations, risk tolerance),\
+      \ data processing, and systems/products/services change."
+    sectionID: GV.MT-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P2
+    name: NIST Privacy Framework
+    section: Privacy values, policies, and training are reviewed and any updates are
+      communicated.
+    sectionID: GV.MT-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P3
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for assessing compliance with legal
+      requirements and privacy policies are established and in place.
+    sectionID: GV.MT-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P4
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for communicating progress on managing
+      privacy risks are established and in place.
+    sectionID: GV.MT-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P5
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures are established and in place to receive,
+      analyze, and respond to problematic data actions disclosed to the organization
+      from internal and external sources (e.g., internal discovery, privacy researchers,
+      professional events).
+    sectionID: GV.MT-P5
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P6
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures incorporate lessons learned from
+      problematic data actions.
+    sectionID: GV.MT-P6
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P7
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for receiving, tracking, and responding
+      to complaints, concerns, and questions from individuals about organizational
+      privacy practices are established and in place.
+    sectionID: GV.MT-P7
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: GV.MT-P Monitoring and Review
+sectionID: GV.MT-P
+version: 1.0.0

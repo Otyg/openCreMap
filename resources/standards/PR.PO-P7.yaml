@@ -1,0 +1,64 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P7
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P
+    name: NIST Privacy Framework
+    section: PR.PO-P Data Protection Policies, Processes, and Procedures
+    sectionID: PR.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-1
+    name: NIST 800-53 v5
+    section: CP-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-2
+    name: NIST 800-53 v5
+    section: CP-2 Contingency Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-7
+    name: NIST 800-53 v5
+    section: CP-7 Alternate Processing Site
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-10
+    name: NIST 800-53 v5
+    section: CP-10 System Recovery And Reconstitution
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IR-1
+    name: NIST 800-53 v5
+    section: IR-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IR-7
+    name: NIST 800-53 v5
+    section: IR-7 Incident Response Assistance
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IR-8
+    name: NIST 800-53 v5
+    section: IR-8 Incident Response Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IR-9
+    name: NIST 800-53 v5
+    section: IR-9 Information Spillage Response
+  ltype: Related
+name: NIST Privacy Framework
+section: Response plans (Incident Response and Business Continuity) and recovery plans
+  (Incident Recovery and Disaster Recovery) are established, in place, and managed.
+sectionID: PR.PO-P7
+version: 1.0.0

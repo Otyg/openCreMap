@@ -1,0 +1,65 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P
+    name: NIST Privacy Framework
+    section: CT.PO-P Data Processing Policies, Processes, and Procedures
+    sectionID: CT.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-1
+    name: NIST 800-53 v5
+    section: AC-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-3
+    name: NIST 800-53 v5
+    section: AC-3 Access Enforcement
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-9
+    name: NIST 800-53 v5
+    section: CM-9 Configuration Management Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-6
+    name: NIST 800-53 v5
+    section: MP-6 Media Sanitization
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-22
+    name: NIST 800-53 v5
+    section: PM-22 Personally Identifiable Information Quality Management
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-23
+    name: NIST 800-53 v5
+    section: PM-23 Data Governance Body
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-12
+    name: NIST 800-53 v5
+    section: SI-12 Information Management And Retention
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-18
+    name: NIST 800-53 v5
+    section: SI-18 Personally Identifiable Information Quality Operations
+  ltype: Related
+name: NIST Privacy Framework
+section: Policies, processes, and procedures for enabling data review, transfer, sharing
+  or disclosure, alteration, and deletion are established and in place (e.g., to maintain
+  data quality, manage data retention).
+sectionID: CT.PO-P2
+version: 1.0.0

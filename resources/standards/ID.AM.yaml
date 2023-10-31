@@ -1,0 +1,65 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID
+    name: NIST Cyber Security Framework
+    section: ID IDENTIFY
+    sectionID: ID
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-1
+    name: NIST Cyber Security Framework
+    section: Physical devices and systems within the organization are inventoried
+    sectionID: ID.AM-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-2
+    name: NIST Cyber Security Framework
+    section: Software platforms and applications within the organization are inventoried
+    sectionID: ID.AM-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-3
+    name: NIST Cyber Security Framework
+    section: Organizational communication and data flows are mapped
+    sectionID: ID.AM-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-4
+    name: NIST Cyber Security Framework
+    section: External information systems are catalogued
+    sectionID: ID.AM-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-5
+    name: NIST Cyber Security Framework
+    section: Resources (e.g., hardware, devices, data, time, personnel, and software)
+      are prioritized based on their classification, criticality, and business value
+    sectionID: ID.AM-5
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-6
+    name: NIST Cyber Security Framework
+    section: Cybersecurity roles and responsibilities for the entire workforce and
+      third-party stakeholders (e.g., suppliers, customers, partners) are established
+    sectionID: ID.AM-6
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: ID.AM Asset Management
+sectionID: ID.AM
+version: 1.1.0

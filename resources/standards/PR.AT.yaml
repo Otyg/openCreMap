@@ -1,0 +1,56 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR
+    name: NIST Cyber Security Framework
+    section: PR PROTECT
+    sectionID: PR
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-1
+    name: NIST Cyber Security Framework
+    section: All users are informed and trained
+    sectionID: PR.AT-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-2
+    name: NIST Cyber Security Framework
+    section: Privileged users understand their roles and responsibilities
+    sectionID: PR.AT-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-3
+    name: NIST Cyber Security Framework
+    section: Third-party stakeholders (e.g., suppliers, customers, partners) understand
+      their roles and responsibilities
+    sectionID: PR.AT-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-4
+    name: NIST Cyber Security Framework
+    section: Senior executives understand their roles and responsibilities
+    sectionID: PR.AT-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AT-5
+    name: NIST Cyber Security Framework
+    section: Physical and cybersecurity personnel understand their roles and responsibilities
+    sectionID: PR.AT-5
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: PR.AT Awareness and Training
+sectionID: PR.AT
+version: 1.1.0

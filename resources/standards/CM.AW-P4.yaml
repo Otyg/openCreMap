@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P
+    name: NIST Privacy Framework
+    section: CM.AW-P Data Processing Awareness
+    sectionID: CM.AW-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-21
+    name: NIST 800-53 v5
+    section: PM-21 Accounting Of Disclosures
+  ltype: Related
+name: NIST Privacy Framework
+section: Records of data disclosures and sharing are maintained and can be accessed
+  for review or transmission/disclosure.
+sectionID: CM.AW-P4
+version: 1.0.0

@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P
+    name: NIST Privacy Framework
+    section: PR.PO-P Data Protection Policies, Processes, and Procedures
+    sectionID: PR.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PE-1
+    name: NIST 800-53 v5
+    section: PE-1 Policy And Procedures
+  ltype: Related
+name: NIST Privacy Framework
+section: Policy and regulations regarding the physical operating environment for organizational
+  assets are met.
+sectionID: PR.PO-P4
+version: 1.0.0

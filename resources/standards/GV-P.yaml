@@ -1,0 +1,39 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P
+    name: NIST Privacy Framework
+    section: GV.PO-P Governance Policies, Processes, and Procedures
+    sectionID: GV.PO-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P
+    name: NIST Privacy Framework
+    section: GV.RM-P Risk Management Strategy
+    sectionID: GV.RM-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P
+    name: NIST Privacy Framework
+    section: GV.AT-P Awareness and Training
+    sectionID: GV.AT-P
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P
+    name: NIST Privacy Framework
+    section: GV.MT-P Monitoring and Review
+    sectionID: GV.MT-P
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: GV-P GOVERN-P
+sectionID: GV-P
+version: 1.0.0

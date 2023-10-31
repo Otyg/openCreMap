@@ -1,0 +1,46 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE
+    name: NIST Cyber Security Framework
+    section: ID.BE Business Environment
+    sectionID: ID.BE
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-2
+    name: NIST 800-53 v5
+    section: CP-2 Contingency Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-11
+    name: NIST 800-53 v5
+    section: CP-11 Alternate Communications Protocols
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-9
+    name: NIST 800-53 v5
+    section: RA-9 Criticality Analysis
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-8
+    name: NIST 800-53 v5
+    section: SA-8 Security And Privacy Engineering Principles
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-20
+    name: NIST 800-53 v5
+    section: SA-20 Customized Development Of Critical Components
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Resilience requirements to support delivery of critical services are established
+  for all operating states (e.g. under duress/attack, during recovery, normal operations)
+sectionID: ID.BE-5
+version: 1.1.0

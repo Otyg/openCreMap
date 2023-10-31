@@ -1,0 +1,57 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS
+    name: NIST Cyber Security Framework
+    section: RS RESPOND
+    sectionID: RS
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-1
+    name: NIST Cyber Security Framework
+    section: Personnel know their roles and order of operations when a response is
+      needed
+    sectionID: RS.CO-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-2
+    name: NIST Cyber Security Framework
+    section: Incidents are reported consistent with established criteria
+    sectionID: RS.CO-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-3
+    name: NIST Cyber Security Framework
+    section: Information is shared consistent with response plans
+    sectionID: RS.CO-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-4
+    name: NIST Cyber Security Framework
+    section: Coordination with stakeholders occurs consistent with response plans
+    sectionID: RS.CO-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=RS.CO-5
+    name: NIST Cyber Security Framework
+    section: Voluntary information sharing occurs with external stakeholders to achieve
+      broader cybersecurity situational awareness
+    sectionID: RS.CO-5
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: RS.CO Communications
+sectionID: RS.CO
+version: 1.1.0

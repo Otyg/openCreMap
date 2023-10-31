@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-7
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS
+    name: NIST Cyber Security Framework
+    section: PR.DS Data Security
+    sectionID: PR.DS
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-2
+    name: NIST 800-53 v5
+    section: CM-2 Baseline Configuration
+  ltype: Related
+name: NIST Cyber Security Framework
+section: The development and testing environment(s) are separate from the production
+  environment
+sectionID: PR.DS-7
+version: 1.1.0

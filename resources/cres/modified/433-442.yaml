@@ -1,0 +1,173 @@
+doctype: CRE
+id: 433-442
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SA-11
+    name: NIST 800-53 v5
+    section: SA-11 Developer Testing and Evaluation
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Supply Chain Management, Transparency, and Accountability
+    sectionID: STA
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Security testing in development and acceptance
+    sectionID: '8.29'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owaspsamm.org/model/verification/security-testing/stream-a
+    name: SAMM
+    section: Scalable Baseline
+    sectionID: V-ST-A
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: Define criteria for software security checks and track throughout the
+      SDLC.
+    sectionID: PO.4.1
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Automated Application Security Testing
+    sectionID: AIS-05
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Test information
+    sectionID: '8.33'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owaspsamm.org/model/verification/security-testing/stream-b
+    name: SAMM
+    section: Deep understanding
+    sectionID: V-ST-B
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: Implement processes, mechanisms, etc. to gather and safeguard the necessary
+      information in support of the criteria.
+    sectionID: PO.4.2
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: NIST SSDF
+    section: "Review, analyze, and/or test the software\u2019s code to identify or\
+      \ confirm the presence of previously undetected vulnerabilities."
+    sectionID: RV.1.2
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owaspsamm.org/model/verification/requirements-driven-testing/stream-a
+    name: SAMM
+    section: Control verification
+    sectionID: V-RT-A
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owaspsamm.org/model/verification/requirements-driven-testing/stream-b
+    name: SAMM
+    section: Misuse/Abuse Testing
+    sectionID: V-RT-B
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 616-305
+    name: Development processes for security
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 004-517
+    name: Security requirements
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 464-513
+    name: Assurance processes
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 732-148
+    name: Vulnerability management
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 613-285
+    name: Supply chain management
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 832-555
+    name: Automated static security analysis of code and configuration
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 626-250
+    name: Design review
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 207-435
+    name: Dynamic security testing
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 411-684
+    name: Manual code review
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P4
+    name: NIST Privacy Framework
+    section: A data life cycle to manage data is aligned and implemented with the
+      system development life cycle to manage systems.
+    sectionID: CT.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P5
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties are routinely assessed using audits,
+      test results, or other forms of evaluations to confirm they are meeting their
+      contractual, interoperability framework, or other obligations.
+    sectionID: ID.DE-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-1
+    name: NIST Cyber Security Framework
+    section: Asset vulnerabilities are identified and documented
+    sectionID: ID.RA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-4
+    name: NIST Cyber Security Framework
+    section: Suppliers and third-party partners are routinely assessed using audits,
+      test results, or other forms of evaluations to confirm they are meeting their
+      contractual obligations.
+    sectionID: ID.SC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-2
+    name: NIST Cyber Security Framework
+    section: A System Development Life Cycle to manage systems is implemented
+    sectionID: PR.IP-2
+    version: 1.1.0
+  ltype: Linked To
+name: Verification

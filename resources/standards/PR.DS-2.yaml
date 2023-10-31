@@ -1,0 +1,27 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS
+    name: NIST Cyber Security Framework
+    section: PR.DS Data Security
+    sectionID: PR.DS
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-8
+    name: NIST 800-53 v5
+    section: SC-8 Transmission Confidentiality And Integrity
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-11
+    name: NIST 800-53 v5
+    section: SC-11 Trusted Path
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Data-in-transit is protected
+sectionID: PR.DS-2
+version: 1.1.0

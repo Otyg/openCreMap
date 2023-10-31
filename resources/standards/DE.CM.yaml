@@ -1,0 +1,82 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE
+    name: NIST Cyber Security Framework
+    section: DE DETECT
+    sectionID: DE
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-1
+    name: NIST Cyber Security Framework
+    section: The network is monitored to detect potential cybersecurity events
+    sectionID: DE.CM-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-2
+    name: NIST Cyber Security Framework
+    section: The physical environment is monitored to detect potential cybersecurity
+      events
+    sectionID: DE.CM-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-3
+    name: NIST Cyber Security Framework
+    section: Personnel activity is monitored to detect potential cybersecurity events
+    sectionID: DE.CM-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-4
+    name: NIST Cyber Security Framework
+    section: Malicious code is detected
+    sectionID: DE.CM-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-5
+    name: NIST Cyber Security Framework
+    section: Unauthorized mobile code is detected
+    sectionID: DE.CM-5
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-6
+    name: NIST Cyber Security Framework
+    section: External service provider activity is monitored to detect potential cybersecurity
+      events
+    sectionID: DE.CM-6
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-7
+    name: NIST Cyber Security Framework
+    section: Monitoring for unauthorized personnel, connections, devices, and software
+      is performed
+    sectionID: DE.CM-7
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-8
+    name: NIST Cyber Security Framework
+    section: Vulnerability scans are performed
+    sectionID: DE.CM-8
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: DE.CM Security Continuous Monitoring
+sectionID: DE.CM
+version: 1.1.0

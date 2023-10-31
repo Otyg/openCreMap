@@ -1,80 +1,95 @@
 import json
+import os
 
 import requests
+import yaml
+
+IGNORED_STANDARDS = ['Cloud Controls Matrix',
+                     'OWASP Web Security Testing Guide (WSTG)', 'OWASP Proactive Controls', 'OWASP Cheat Sheets',
+                     'CAPEC', 'CWE', 'OWASP Secure Headers Project']
 
 root_cres = json.loads(requests.get('https://www.opencre.org/rest/v1/root_cres').text)['data']
 
 ltype = {
-    'Contains': "Rel_Specialization(from, to)\n",
+    'Contains': "Rel_Specialization(to, from)\n",
     'Related': "Rel_Association(from, to)\n",
-    'Linked To': "Rel_Realization(from, to)\n",
+    'Linked To': "Rel_Realization(to, from)\n",
     'SAME': "Rel_Access_rw(from, to)\n"
 }
 
 
 def parse_child_cre(parent, child):
+    child_document_name_ = child['document']['name']
     if 'id' not in child['document']:
-        child['document']['id'] = str(hash(child['document']['name'] + child['document']['section']))
-    if child['document']['id'] not in nodes and child['document']['id'] not in std_nodes:
-        if child['document']['doctype'] == 'Standard' and child['document']['name'] not in [
-            'OWASP Web Security Testing Guide (WSTG)', 'OWASP Proactive Controls', 'OWASP Cheat Sheets', 'CAPEC',
-            'CWE']:
-            nodes[child['document']['id']] = {'id': '', 'node': '', 'children': set(), 'parents': set()}
-            heading = child['document']['name']
-            if 'sectionID' in child['document']:
+        child_document_id_ = str(hash(child_document_name_ + child['document']['section']))
+    else:
+        child_document_id_ = child['document']['id']
+    if child_document_id_ not in nodes and child_document_id_ not in std_nodes:
+        child_document_doctype_ = child['document']['doctype']
+        if child_document_doctype_ == 'Standard' and child_document_name_ not in IGNORED_STANDARDS:
+            nodes[child_document_id_] = {'id': '', 'node': '', 'children': set(), 'parents': set()}
+            heading = child_document_name_
+            if 'sectionID' in child['document'] and (
+                    'section' in child['document'] and child['document']['sectionID'] not in child['document'][
+                'section']):
                 heading = heading + " " + child['document']['sectionID'].replace('"', "'")
-            std_id = "STD" + ''.join(filter(str.isalnum, child['document']['id']))
-            nodes[child['document']['id']]['id'] = std_id
+            std_id = "STD" + ''.join(filter(str.isalnum, child_document_id_))
+            nodes[child_document_id_]['id'] = std_id
             node_type = 'Motivation_Principle'
-            if child['document']['name'] in ['SAMM', 'OWASP Web Security Testing Guide (WSTG)']:
+            if child_document_name_ in ['SAMM', 'OWASP Web Security Testing Guide (WSTG)']:
                 node_type = 'Motivation_Assessment'
-            elif child['document']['name'] in ['ASVS', 'NIST SSDF']:
+            elif child_document_name_ in ['ASVS', 'NIST SSDF']:
                 node_type = 'Motivation_Requirement'
-            elif child['document']['name'] in ['OWASP Top 10 2021', 'CWE', 'CAPEC']:
+            elif child_document_name_ in ['OWASP Top 10 2021', 'CWE', 'CAPEC']:
                 node_type = 'Motivation_Constraint'
-            nodes[child['document']['id']]['node'] = node_type + "(" + std_id + ", \"=" + heading + "\\n" + \
-                                                     child['document']['section'].replace('"', "'") + "\")\n"
-            nodes[child['document']['id']]['parents'].add(
+            elif child_document_name_ in ['NIST Privacy Framework', 'NIST Cyber Security Framework']:
+                node_type = 'Motivation_Outcome'
+            nodes[child_document_id_]['node'] = node_type + "(" + std_id + ", \"=" + heading + "\\n" + \
+                                                child['document']['section'].replace('"', "'") + "\")\n"
+            nodes[child_document_id_]['parents'].add(
                 (ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", std_id), parent))
-            std_nodes.add(child['document']['id'])
+            std_nodes.add(child_document_id_)
             nodes[parent]['children'].add(
                 ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", std_id))
             print("Standard " + heading + " added")
-        if child['document']['doctype'] == 'CRE':
-            cre = json.loads(requests.get('https://www.opencre.org/rest/v1/id/' + child['document']['id']).text)['data']
+        if child_document_doctype_ == 'CRE':
+            if os.path.exists('resources/cres/modified/' + child_document_id_ + '.yaml'):
+                path = 'resources/cres/modified/' + child_document_id_ + '.yaml'
+                with open(path, 'r', encoding='utf-8') as local_cre_file:
+                    cre = yaml.full_load(local_cre_file.read())
+            else:
+                cre = json.loads(requests.get('https://www.opencre.org/rest/v1/id/' + child_document_id_).text)[
+                    'data']
+                with open('resources/cres/' + cre['id'] + '.yaml', 'w', encoding='utf-8') as fetched_cre:
+                    yaml.dump(cre, fetched_cre)
             cre_id = "CRE" + ''.join(filter(str.isalnum, cre['id']))
             nodes[parent]['children'].add(
                 ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", cre_id))
             me = {'id': cre_id,
-                  'node': "Motivation_Goal(" + cre_id + ", \"=CRE" + cre['id'] + "\\n" + cre['name'].replace('"',
-                                                                                                             "'") + "\")\n",
+                  'node': "Motivation_Goal(" + cre_id + ", \"=CRE" + cre['id'] + "\\n" + cre['name'].replace('"', "'")
+                          + "\")\n",
                   'children': set(),
                   'parents': set()}
             me['parents'].add(
                 (ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", cre_id), parent))
-            nodes[child['document']['id']] = me
+            nodes[child_document_id_] = me
             print("CRE " + cre['id'] + " added")
             for link in cre['links']:
                 if link['ltype'] != "Is Part Of" and link['ltype'] != "Related" and link['document']['doctype'] in [
-                    'Standard', 'CRE']:
+                        'Standard', 'CRE']:
+                    # if link['ltype'] != "Is Part Of" and link['document']['doctype'] in ['Standard', 'CRE']:
                     parse_child_cre(parent=cre['id'], child=link)
                 elif nodes['root'] == '546-564' and link['document']['doctype'] in ['Standard', 'CRE'] and link[
                     'ltype'] == "Related" and cre['id'] in ["155-155", "486-813", "170-772", "028-727", "623-550",
                                                             "760-764", "362-550", "058-527", "028-727", "760-765"]:
                     parse_child_cre(parent=cre['id'], child=link)
     else:
-        if 'parents' not in nodes[child['document']['id']]:
-            nodes[child['document']['id']]['parents'] = set()
-        nodes[child['document']['id']]['parents'].add((ltype[child['ltype']].replace("from",
-                                                                                     nodes[parent]['id']).replace("to",
-                                                                                                                  nodes[
-                                                                                                                      child[
-                                                                                                                          'document'][
-                                                                                                                          'id']][
-                                                                                                                      'id']),
-                                                       parent))
-        nodes[parent]['children'].add(ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", nodes[
-            child['document']['id']]['id']))
+        if 'parents' not in nodes[child_document_id_]:
+            nodes[child_document_id_]['parents'] = set()
+        nodes[child_document_id_]['parents'].add((ltype[child['ltype']].replace("from", nodes[parent]['id']).replace(
+            "to", nodes[child_document_id_]['id']), parent))
+        nodes[parent]['children'].add(
+            ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", nodes[child_document_id_]['id']))
 
 
 def build_parent_tree(parents, child):
@@ -103,6 +118,8 @@ for cre in root_cres:
     nodes['root'] = cre['id']
     cre_alphanumeric = "CRE" + ''.join(filter(str.isalnum, cre['id']))
     print("Parsing root CRE" + cre['id'] + " " + cre['name'])
+    with open('resources/cres/' + cre['id'] + '.yaml', 'w', encoding='utf-8') as fetched_cre:
+        yaml.dump(cre, fetched_cre)
     cre_file = open(cre_alphanumeric + ".puml", "w", encoding='utf-8')
     cre_file.write(
         "@startuml CRE" + cre['id'] + " " + cre['name'] + "\n!include <archimate/Archimate>\nleft to right direction\n")

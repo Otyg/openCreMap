@@ -1,0 +1,261 @@
+doctype: CRE
+id: 616-305
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SA-15
+    name: NIST 800-53 v5
+    section: SA-15 Development Process, Standards, and Tools
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Secure development life cycle
+    sectionID: '8.25'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SA-3
+    name: NIST 800-53 v5
+    section: SA-3 System Development Life Cycle
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Secure Application Design and Development
+    sectionID: AIS-04
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SA-8
+    name: NIST 800-53 v5
+    section: SA-8 Security and Privacy Engineering Principles
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SI-3
+    name: NIST 800-53 v5
+    section: SI-3 Malicious Code Protection
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x10-V1-Architecture.md
+    name: ASVS
+    section: Verify the use of a secure software development lifecycle that addresses
+      security in all stages of development.
+    sectionID: V1.1.1
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owasp-top-10-proactive-controls-2018.readthedocs.io/en/latest/c1-security-requirements.html
+    name: OWASP Proactive Controls
+    section: C1
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 326-704
+    name: Architecture/design processes
+    tags:
+    - Architecture
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 124-564
+    name: Configuration Management
+    tags:
+    - Configuration
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 424-242
+    name: Decommissioning
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 473-177
+    name: Deploy/build
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 745-356
+    name: Development process audit trail
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 613-285
+    name: Supply chain management
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 244-750
+    name: Technical application security training
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 787-638
+    name: Technical instructions
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 820-877
+    name: Technical system documentation
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 433-442
+    name: Verification
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 261-010
+    name: Program management for secure software development
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 148-853
+    name: Setup and maintain a secure software development process
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P1
+    name: NIST Privacy Framework
+    section: Data are processed to limit observability and linkability (e.g., data
+      actions take place on local devices, privacy-preserving cryptography).
+    sectionID: CT.DP-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P2
+    name: NIST Privacy Framework
+    section: Data are processed to limit the identification of individuals (e.g.,
+      de-identification privacy techniques, tokenization).
+    sectionID: CT.DP-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P3
+    name: NIST Privacy Framework
+    section: "Data are processed to limit the formulation of inferences about individuals\u2019\
+      \ behavior or activities (e.g., data processing is decentralized, distributed\
+      \ architectures)."
+    sectionID: CT.DP-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P4
+    name: NIST Privacy Framework
+    section: System or device configurations permit selective collection or disclosure
+      of data elements.
+    sectionID: CT.DP-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P5
+    name: NIST Privacy Framework
+    section: Attribute references are substituted for attribute values.
+    sectionID: CT.DP-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P4
+    name: NIST Privacy Framework
+    section: A data life cycle to manage data is aligned and implemented with the
+      system development life cycle to manage systems.
+    sectionID: CT.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P4
+    name: NIST Privacy Framework
+    section: A data life cycle to manage data is aligned and implemented with the
+      system development life cycle to manage systems.
+    sectionID: CT.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P4
+    name: NIST Privacy Framework
+    section: A data life cycle to manage data is aligned and implemented with the
+      system development life cycle to manage systems.
+    sectionID: CT.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-4
+    name: NIST Cyber Security Framework
+    section: Malicious code is detected
+    sectionID: DE.CM-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.DP-3
+    name: NIST Cyber Security Framework
+    section: Detection processes are tested
+    sectionID: DE.DP-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P2
+    name: NIST Privacy Framework
+    section: Processes to instill organizational privacy values within system/product/service
+      development and operations are established and in place.
+    sectionID: GV.PO-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-5
+    name: NIST Cyber Security Framework
+    section: Resilience requirements to support delivery of critical services are
+      established for all operating states (e.g. under duress/attack, during recovery,
+      normal operations)
+    sectionID: ID.BE-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P2
+    name: NIST Privacy Framework
+    section: Data processing ecosystem parties (e.g., service providers, customers,
+      partners, product manufacturers, application developers) are identified, prioritized,
+      and assessed using a privacy risk assessment process.
+    sectionID: ID.DE-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.SC-2
+    name: NIST Cyber Security Framework
+    section: Suppliers and third party partners of information systems, components,
+      and services are identified, prioritized, and assessed using a cyber supply
+      chain risk assessment process
+    sectionID: ID.SC-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-2
+    name: NIST Cyber Security Framework
+    section: A System Development Life Cycle to manage systems is implemented
+    sectionID: PR.IP-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-2
+    name: NIST Cyber Security Framework
+    section: A System Development Life Cycle to manage systems is implemented
+    sectionID: PR.IP-2
+    version: 1.1.0
+  ltype: Linked To
+name: Development processes for security

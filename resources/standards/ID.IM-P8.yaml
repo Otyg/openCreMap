@@ -1,0 +1,23 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P8
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P
+    name: NIST Privacy Framework
+    section: ID.IM-P Inventory and Mapping
+    sectionID: ID.IM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-13
+    name: NIST 800-53 v5
+    section: CM-13 Data Action Mapping
+  ltype: Related
+name: NIST Privacy Framework
+section: Data processing is mapped, illustrating the data actions and associated data
+  elements for systems/products/services, including components; roles of the component
+  owners/operators; and interactions of individuals or third parties with the systems/products/services.
+sectionID: ID.IM-P8
+version: 1.0.0

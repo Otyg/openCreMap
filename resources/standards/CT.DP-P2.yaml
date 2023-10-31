@@ -1,0 +1,64 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P
+    name: NIST Privacy Framework
+    section: CT.DP-P Disassociated Processing
+    sectionID: CT.DP-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-23
+    name: NIST 800-53 v5
+    section: AC-23 Data Mining Protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AU-3
+    name: NIST 800-53 v5
+    section: AU-3 Content Of Audit Records
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=IA-4
+    name: NIST 800-53 v5
+    section: IA-4 Identifier Management
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PE-8
+    name: NIST 800-53 v5
+    section: PE-8 Visitor Access Records
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-8
+    name: NIST 800-53 v5
+    section: SA-8 Security And Privacy Engineering Principles
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-12
+    name: NIST 800-53 v5
+    section: SI-12 Information Management And Retention
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-12
+    name: NIST 800-53 v5
+    section: SI-12 Information Management And Retention
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-19
+    name: NIST 800-53 v5
+    section: SI-19 De-identification
+  ltype: Related
+name: NIST Privacy Framework
+section: Data are processed to limit the identification of individuals (e.g., de-identification
+  privacy techniques, tokenization).
+sectionID: CT.DP-P2
+version: 1.0.0

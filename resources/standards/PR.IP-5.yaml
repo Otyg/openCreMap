@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP-5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.IP
+    name: NIST Cyber Security Framework
+    section: PR.IP Information Protection Processes and Procedures
+    sectionID: PR.IP
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PE-1
+    name: NIST 800-53 v5
+    section: PE-1 Policy And Procedures
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Policy and regulations regarding the physical operating environment for organizational
+  assets are met
+sectionID: PR.IP-5
+version: 1.1.0

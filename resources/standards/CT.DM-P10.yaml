@@ -1,0 +1,16 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P10
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P1
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for review.
+    sectionID: CT.DM-P1
+    version: 1.0.0
+  ltype: Is Part Of
+name: NIST Privacy Framework
+section: Stakeholder privacy preferences are included in algorithmic design objectives
+  and outputs are evaluated against these preferences.
+sectionID: CT.DM-P10
+version: 1.0.0

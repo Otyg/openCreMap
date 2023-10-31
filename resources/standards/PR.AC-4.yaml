@@ -1,0 +1,64 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC
+    name: NIST Cyber Security Framework
+    section: PR.AC Identity Management, Authentication and Access Control
+    sectionID: PR.AC
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-1
+    name: NIST 800-53 v5
+    section: AC-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-2
+    name: NIST 800-53 v5
+    section: AC-2 Account Management
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-3
+    name: NIST 800-53 v5
+    section: AC-3 Access Enforcement
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-5
+    name: NIST 800-53 v5
+    section: AC-5 Separation Of Duties
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-6
+    name: NIST 800-53 v5
+    section: AC-6 Least Privilege
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-14
+    name: NIST 800-53 v5
+    section: AC-14 Permitted Actions Without Identification Or Authentication
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-16
+    name: NIST 800-53 v5
+    section: AC-16 Security And Privacy Attributes
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-24
+    name: NIST 800-53 v5
+    section: AC-24 Access Control Decisions
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Access permissions and authorizations are managed, incorporating the principles
+  of least privilege and separation of duties
+sectionID: PR.AC-4
+version: 1.1.0

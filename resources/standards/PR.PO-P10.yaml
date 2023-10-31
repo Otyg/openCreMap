@@ -1,0 +1,40 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P10
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PO-P1
+    name: NIST Privacy Framework
+    section: A baseline configuration of information technology is created and maintained
+      incorporating security principles (e.g., concept of least functionality).
+    sectionID: PR.PO-P1
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-1
+    name: NIST 800-53 v5
+    section: RA-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-3
+    name: NIST 800-53 v5
+    section: RA-3 Risk Assessment
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-5
+    name: NIST 800-53 v5
+    section: RA-5 Vulnerability Monitoring And Scanning
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-2
+    name: NIST 800-53 v5
+    section: SI-2 Flaw Remediation
+  ltype: Related
+name: NIST Privacy Framework
+section: A vulnerability management plan is developed and implemented.
+sectionID: PR.PO-P10
+version: 1.0.0

@@ -1,0 +1,45 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA-3
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.RA
+    name: NIST Cyber Security Framework
+    section: ID.RA Risk Assessment
+    sectionID: ID.RA
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-12
+    name: NIST 800-53 v5
+    section: PM-12 Insider Threat Program
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-16
+    name: NIST 800-53 v5
+    section: PM-16 Threat Awareness Program
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-3
+    name: NIST 800-53 v5
+    section: RA-3 Risk Assessment
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-10
+    name: NIST 800-53 v5
+    section: RA-10 Threat Hunting
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-5
+    name: NIST 800-53 v5
+    section: SI-5 Security Alerts, Advisories, And Directives
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Threats, both internal and external, are identified and documented
+sectionID: ID.RA-3
+version: 1.1.0

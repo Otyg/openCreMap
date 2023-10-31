@@ -1,0 +1,46 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM-6
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=DE.CM
+    name: NIST Cyber Security Framework
+    section: DE.CM Security Continuous Monitoring
+    sectionID: DE.CM
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CA-7
+    name: NIST 800-53 v5
+    section: CA-7 Continuous Monitoring
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PS-7
+    name: NIST 800-53 v5
+    section: PS-7 External Personnel Security
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-4
+    name: NIST 800-53 v5
+    section: SA-4 Acquisition Process
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-9
+    name: NIST 800-53 v5
+    section: SA-9 External System Services
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-4
+    name: NIST 800-53 v5
+    section: SI-4 System Monitoring
+  ltype: Related
+name: NIST Cyber Security Framework
+section: External service provider activity is monitored to detect potential cybersecurity
+  events
+sectionID: DE.CM-6
+version: 1.1.0

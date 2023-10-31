@@ -1,0 +1,40 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P
+    name: NIST Privacy Framework
+    section: ID.RA-P Risk Assessment
+    sectionID: ID.RA-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-28
+    name: NIST 800-53 v5
+    section: PM-28 Risk Framing
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-2
+    name: NIST 800-53 v5
+    section: RA-2 Security Categorization
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-3
+    name: NIST 800-53 v5
+    section: RA-3 Risk Assessment
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=RA-8
+    name: NIST 800-53 v5
+    section: RA-8 Privacy Impact Assessments
+  ltype: Related
+name: NIST Privacy Framework
+section: Problematic data actions, likelihoods, and impacts are used to determine
+  and prioritize risk.
+sectionID: ID.RA-P4
+version: 1.0.0

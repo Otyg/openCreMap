@@ -1,0 +1,34 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P
+    name: NIST Privacy Framework
+    section: CT.DP-P Disassociated Processing
+    sectionID: CT.DP-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-6
+    name: NIST 800-53 v5
+    section: CM-6 Configuration Settings
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-8
+    name: NIST 800-53 v5
+    section: SA-8 Security And Privacy Engineering Principles
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-42
+    name: NIST 800-53 v5
+    section: SC-42 Sensor Capability And Data
+  ltype: Related
+name: NIST Privacy Framework
+section: System or device configurations permit selective collection or disclosure
+  of data elements.
+sectionID: CT.DP-P4
+version: 1.0.0

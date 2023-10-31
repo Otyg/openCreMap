@@ -1,0 +1,33 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR-P
+    name: NIST Privacy Framework
+    section: PR-P PROTECT-P
+    sectionID: PR-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P1
+    name: NIST Privacy Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools.
+    sectionID: PR.MA-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P2
+    name: NIST Privacy Framework
+    section: Remote maintenance of organizational assets is approved, logged, and
+      performed in a manner that prevents unauthorized access.
+    sectionID: PR.MA-P2
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: PR.MA-P Maintenance
+sectionID: PR.MA-P
+version: 1.0.0

@@ -1,0 +1,21 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-8
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS
+    name: NIST Cyber Security Framework
+    section: PR.DS Data Security
+    sectionID: PR.DS
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-10
+    name: NIST 800-53 v5
+    section: SA-10 Developer Configuration Management
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Integrity checking mechanisms are used to verify hardware integrity
+sectionID: PR.DS-8
+version: 1.1.0

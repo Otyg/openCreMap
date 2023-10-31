@@ -1,0 +1,171 @@
+doctype: CRE
+id: 128-128
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=AC-3
+    name: NIST 800-53 v5
+    section: AC-3 ACCESS ENFORCEMENT
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 724-770
+    name: Technical application access control
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 822-100
+    name: Constrain functional features based on user stories
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 201-246
+    name: Use multifactor authentication on administrative interfaces
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 640-364
+    name: Enforce access control on trusted parts/serverside
+    tags:
+    - Architecture
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 650-560
+    name: Enforce access control on trusted service layer
+    tags:
+    - Architecture
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 284-521
+    name: Enforce additional authorization and segregation of duties
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 664-080
+    name: Enforce model-based authorization both at URI and final resource
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 166-151
+    name: Ensure that secure fail-safe is in place for access control
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 746-705
+    name: Limit/authorize user's access to functionality
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 615-744
+    name: Protect against directory browsing/discovery attacks
+    tags:
+    - Configuration
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 304-667
+    name: Protect API against unauthorized access/modification (IDOR)
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 801-310
+    name: Use ABAC/FBAC on data/feature level, even when using RBAC for permissions
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 060-472
+    name: Use CSRF protection against authenticated functionality, add anti-automation
+      controls for unauthenticated functionality
+    tags:
+    - CSRF protection
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P1
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for review.
+    sectionID: CT.DM-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P2
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for transmission or disclosure.
+    sectionID: CT.DM-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P3
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for alteration.
+    sectionID: CT.DM-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P4
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for deletion.
+    sectionID: CT.DM-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P2
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for enabling data review, transfer,
+      sharing or disclosure, alteration, and deletion are established and in place
+      (e.g., to maintain data quality, manage data retention).
+    sectionID: CT.PO-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P3
+    name: NIST Privacy Framework
+    section: "Policies, processes, and procedures for enabling individuals\u2019 data\
+      \ processing preferences and requests are established and in place."
+    sectionID: CT.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-4
+    name: NIST Cyber Security Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties
+    sectionID: PR.AC-4
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P4
+    name: NIST Privacy Framework
+    section: Access permissions and authorizations are managed, incorporating the
+      principles of least privilege and separation of duties.
+    sectionID: PR.AC-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-3
+    name: NIST Cyber Security Framework
+    section: The principle of least functionality is incorporated by configuring systems
+      to provide only essential capabilities
+    sectionID: PR.PT-3
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P2
+    name: NIST Privacy Framework
+    section: The principle of least functionality is incorporated by configuring systems
+      to provide only essential capabilities.
+    sectionID: PR.PT-P2
+    version: 1.0.0
+  ltype: Linked To
+name: Strong authorization checking

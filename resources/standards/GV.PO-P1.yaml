@@ -1,0 +1,17 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P
+    name: NIST Privacy Framework
+    section: GV.PO-P Governance Policies, Processes, and Procedures
+    sectionID: GV.PO-P
+    version: 1.0.0
+  ltype: Is Part Of
+name: NIST Privacy Framework
+section: "Organizational privacy values and policies (e.g., conditions on data processing\
+  \ such as data uses or retention periods, individuals\u2019 prerogatives with respect\
+  \ to data processing) are established and communicated."
+sectionID: GV.PO-P1
+version: 1.0.0

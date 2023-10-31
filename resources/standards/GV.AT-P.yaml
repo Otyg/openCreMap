@@ -1,0 +1,48 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV-P
+    name: NIST Privacy Framework
+    section: GV-P GOVERN-P
+    sectionID: GV-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P1
+    name: NIST Privacy Framework
+    section: The workforce is informed and trained on its roles and responsibilities.
+    sectionID: GV.AT-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P2
+    name: NIST Privacy Framework
+    section: Senior executives understand their roles and responsibilities.
+    sectionID: GV.AT-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P3
+    name: NIST Privacy Framework
+    section: Privacy personnel understand their roles and responsibilities.
+    sectionID: GV.AT-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.AT-P4
+    name: NIST Privacy Framework
+    section: Third parties (e.g., service providers, customers, partners) understand
+      their roles and responsibilities.
+    sectionID: GV.AT-P4
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: GV.AT-P Awareness and Training
+sectionID: GV.AT-P
+version: 1.0.0

@@ -1,0 +1,33 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P5
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P
+    name: NIST Privacy Framework
+    section: CT.DM-P Data Processing Management
+    sectionID: CT.DM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=MP-6
+    name: NIST 800-53 v5
+    section: MP-6 Media Sanitization
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-12
+    name: NIST 800-53 v5
+    section: SI-12 Information Management And Retention
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SR-12
+    name: NIST 800-53 v5
+    section: SR-12 Component Disposal
+  ltype: Related
+name: NIST Privacy Framework
+section: Data are destroyed according to policy.
+sectionID: CT.DM-P5
+version: 1.0.0

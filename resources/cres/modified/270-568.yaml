@@ -1,0 +1,166 @@
+doctype: CRE
+id: 270-568
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-6
+    name: NIST 800-53 v5
+    section: IA-6 Authentication Feedback
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-7
+    name: NIST 800-53 v5
+    section: IA-7 Cryptographic Module Authentication
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=IA-9
+    name: NIST 800-53 v5
+    section: IA-9 Service Identification and Authentication
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 633-428
+    name: Authentication
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 558-807
+    name: Mutually authenticate application and credential service provider
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 333-858
+    name: Resist stolen credentials
+    tags:
+    - Cryptography
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 802-056
+    name: Restrict excessive authentication
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 113-133
+    name: Use centralized authentication mechanism
+    tags:
+    - Architecture
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 146-556
+    name: Authenticate consistently
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 585-408
+    name: Challenge nonce cryptography
+    tags:
+    - Cryptography
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 520-617
+    name: Credential recovery
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 789-320
+    name: Login functionality
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 062-850
+    name: MFA/OTP
+    tags:
+    - Cryptography
+  ltype: Contains
+- document:
+    doctype: CRE
+    id: 327-505
+    name: Change password with presence of old and new password
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 138-448
+    name: Inform users for authentication renewal
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 808-425
+    name: Notify users about anomalies in their usage patterns
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 751-176
+    name: Offer password changing functionality
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 177-260
+    name: Session management
+  ltype: Related
+- document:
+    doctype: CRE
+    id: 551-054
+    name: Use ephemeral secrets rather than static secrets
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-1
+    name: NIST Cyber Security Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized devices, users and processes
+    sectionID: PR.AC-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.AC-7
+    name: NIST Cyber Security Framework
+    section: "Users, devices, and other assets are authenticated (e.g., single-factor,\
+      \ multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019\
+      \ security and privacy risks and other organizational risks)"
+    sectionID: PR.AC-7
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P1
+    name: NIST Privacy Framework
+    section: Identities and credentials are issued, managed, verified, revoked, and
+      audited for authorized individuals, processes, and devices.
+    sectionID: PR.AC-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.AC-P6
+    name: NIST Privacy Framework
+    section: "Individuals and devices are proofed and bound to credentials, and authenticated\
+      \ commensurate with the risk of the transaction (e.g., individuals\u2019 security\
+      \ and privacy risks and other organizational risks)."
+    sectionID: PR.AC-P6
+    version: 1.0.0
+  ltype: Linked To
+name: Authentication mechanism

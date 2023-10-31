@@ -1,0 +1,40 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-6
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM
+    name: NIST Cyber Security Framework
+    section: ID.AM Asset Management
+    sectionID: ID.AM
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-2
+    name: NIST 800-53 v5
+    section: CP-2 Contingency Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PS-7
+    name: NIST 800-53 v5
+    section: PS-7 External Personnel Security
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-2
+    name: NIST 800-53 v5
+    section: PM-2 Information Security Program Leadership Role
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-29
+    name: NIST 800-53 v5
+    section: PM-29 Risk Management Program Leadership Roles
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Cybersecurity roles and responsibilities for the entire workforce and third-party
+  stakeholders (e.g., suppliers, customers, partners) are established
+sectionID: ID.AM-6
+version: 1.1.0

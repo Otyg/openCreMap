@@ -1,0 +1,111 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT
+    name: NIST Cyber Security Framework
+    section: PR.PT Protective Technology
+    sectionID: PR.PT
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-12
+    name: NIST 800-53 v5
+    section: AC-12 Session Termination
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-17
+    name: NIST 800-53 v5
+    section: AC-17 Remote Access
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-18
+    name: NIST 800-53 v5
+    section: AC-18 Wireless Access
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CP-8
+    name: NIST 800-53 v5
+    section: CP-8 Telecommunications Services
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-5
+    name: NIST 800-53 v5
+    section: SC-5 Denial-of-service Protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-7
+    name: NIST 800-53 v5
+    section: SC-7 Boundary Protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-10
+    name: NIST 800-53 v5
+    section: SC-10 Network Disconnect
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-11
+    name: NIST 800-53 v5
+    section: SC-11 Trusted Path
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-20
+    name: NIST 800-53 v5
+    section: SC-20 Secure Name/address Resolution Service (authoritative Source)
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-21
+    name: NIST 800-53 v5
+    section: SC-21 Secure Name/address Resolution Service (recursive Or Caching Resolver)
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-22
+    name: NIST 800-53 v5
+    section: SC-22 Architecture And Provisioning For Name/address Resolution Service
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-23
+    name: NIST 800-53 v5
+    section: SC-23 Session Authenticity
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-31
+    name: NIST 800-53 v5
+    section: SC-31 Covert Channel Analysis
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-37
+    name: NIST 800-53 v5
+    section: SC-37 Out-of-band Channels
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-38
+    name: NIST 800-53 v5
+    section: SC-38 Operations Security
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SC-47
+    name: NIST 800-53 v5
+    section: SC-47 Alternate Communications Paths
+  ltype: Related
+name: NIST Cyber Security Framework
+section: Communications and control networks are protected
+sectionID: PR.PT-4
+version: 1.1.0

@@ -1,0 +1,15 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV-1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.GV
+    name: NIST Cyber Security Framework
+    section: ID.GV Governance
+    sectionID: ID.GV
+    version: 1.1.0
+  ltype: Is Part Of
+name: NIST Cyber Security Framework
+section: Organizational cybersecurity policy is established and communicated
+sectionID: ID.GV-1
+version: 1.1.0

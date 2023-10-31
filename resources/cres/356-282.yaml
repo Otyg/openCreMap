@@ -1,0 +1,177 @@
+doctype: CRE
+id: 356-282
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SI-21
+    name: NIST 800-53 v5
+    section: SI-21 Information Refresh
+  ltype: Linked To
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Access%20Log
+    name: OWASP Juice Shop
+    section: Access Log
+    sectionID: accessLogDisclosureChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Confidential%20Document
+    name: OWASP Juice Shop
+    section: Confidential Document
+    sectionID: directoryListingChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Email%20Leak
+    name: OWASP Juice Shop
+    section: Email Leak
+    sectionID: emailLeakChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Forgotten%20Developer%20Backup
+    name: OWASP Juice Shop
+    section: Forgotten Developer Backup
+    sectionID: forgottenDevBackupChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Forgotten%20Sales%20Backup
+    name: OWASP Juice Shop
+    section: Forgotten Sales Backup
+    sectionID: forgottenBackupChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=GDPR%20Data%20Theft
+    name: OWASP Juice Shop
+    section: GDPR Data Theft
+    sectionID: dataExportChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Leaked%20Access%20Logs
+    name: OWASP Juice Shop
+    section: Leaked Access Logs
+    sectionID: dlpPasswordSprayingChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Leaked%20Unsafe%20Product
+    name: OWASP Juice Shop
+    section: Leaked Unsafe Product
+    sectionID: dlpPastebinDataLeakChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Login%20Amy
+    name: OWASP Juice Shop
+    section: Login Amy
+    sectionID: loginAmyChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Login%20MC%20SafeSearch
+    name: OWASP Juice Shop
+    section: Login MC SafeSearch
+    sectionID: loginRapperChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Misplaced%20Signature%20File
+    name: OWASP Juice Shop
+    section: Misplaced Signature File
+    sectionID: misplacedSignatureFileChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Retrieve%20Blueprint
+    name: OWASP Juice Shop
+    section: Retrieve Blueprint
+    sectionID: retrieveBlueprintChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Exposed%20Metrics
+    name: OWASP Juice Shop
+    section: Exposed Metrics
+    sectionID: exposedMetricsChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Reset%20Uvogin%27s%20Password
+    name: OWASP Juice Shop
+    section: Reset Uvogin's Password
+    sectionID: resetPasswordUvoginChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Meta%20Geo%20Stalking
+    name: OWASP Juice Shop
+    section: Meta Geo Stalking
+    sectionID: geoStalkingMetaChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Visual%20Geo%20Stalking
+    name: OWASP Juice Shop
+    section: Visual Geo Stalking
+    sectionID: geoStalkingVisualChallenge
+    tags:
+    - Sensitive Data Exposure
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 854-643
+    name: Robust business logic
+    tags:
+    - Denial Of Service protection
+  ltype: Is Part Of
+name: Minimize sensitive data scattering and retention

@@ -1,0 +1,41 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV-P
+    name: NIST Privacy Framework
+    section: GV-P GOVERN-P
+    sectionID: GV-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P1
+    name: NIST Privacy Framework
+    section: Risk management processes are established, managed, and agreed to by
+      organizational stakeholders.
+    sectionID: GV.RM-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P2
+    name: NIST Privacy Framework
+    section: Organizational risk tolerance is determined and clearly expressed.
+    sectionID: GV.RM-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.RM-P3
+    name: NIST Privacy Framework
+    section: "The organization\u2019s determination of risk tolerance is informed\
+      \ by its role(s) in the data processing ecosystem."
+    sectionID: GV.RM-P3
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: GV.RM-P Risk Management Strategy
+sectionID: GV.RM-P
+version: 1.0.0

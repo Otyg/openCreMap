@@ -1,0 +1,158 @@
+doctype: CRE
+id: 273-600
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x10-V1-Architecture.md
+    name: ASVS
+    section: Verify the segregation of components of differing trust levels through
+      well-defined security controls, firewall rules, API gateways, reverse proxies,
+      cloud-based security groups, or similar mechanisms.
+    sectionID: V1.14.1
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://cwe.mitre.org/data/definitions/923.html
+    name: CWE
+    section: ''
+    sectionID: '923'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Network Architecture Documentation
+    sectionID: IVS-08
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/161.html
+    name: CAPEC
+    section: Infrastructure Manipulation
+    sectionID: '161'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/481.html
+    name: CAPEC
+    section: Contradictory Destinations in Traffic Routing Schemes
+    sectionID: '481'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/501.html
+    name: CAPEC
+    section: Android Activity Hijack
+    sectionID: '501'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/697.html
+    name: CAPEC
+    section: DHCP Spoofing
+    sectionID: '697'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Arbitrary%20File%20Write
+    name: OWASP Juice Shop
+    section: Arbitrary File Write
+    sectionID: fileWriteChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Forged%20Signed%20JWT
+    name: OWASP Juice Shop
+    section: Forged Signed JWT
+    sectionID: jwtForgedChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Frontend%20Typosquatting
+    name: OWASP Juice Shop
+    section: Frontend Typosquatting
+    sectionID: typosquattingAngularChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Legacy%20Typosquatting
+    name: OWASP Juice Shop
+    section: Legacy Typosquatting
+    sectionID: typosquattingNpmChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Supply%20Chain%20Attack
+    name: OWASP Juice Shop
+    section: Supply Chain Attack
+    sectionID: supplyChainAttackChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Unsigned%20JWT
+    name: OWASP Juice Shop
+    section: Unsigned JWT
+    sectionID: jwtUnsignedChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Vulnerable%20Library
+    name: OWASP Juice Shop
+    section: Vulnerable Library
+    sectionID: knownVulnerableComponentChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Kill%20Chatbot
+    name: OWASP Juice Shop
+    section: Kill Chatbot
+    sectionID: killChatbotChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: Tool
+    hyperlink: https://demo.owasp-juice.shop//#/score-board?challenge=Local%20File%20Read
+    name: OWASP Juice Shop
+    section: Local File Read
+    sectionID: lfrChallenge
+    tags:
+    - Vulnerable Components
+    tooltype: Training
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 467-784
+    name: Network security
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 724-770
+    name: Technical application access control
+  ltype: Related
+name: Segregate components of differing trust levels

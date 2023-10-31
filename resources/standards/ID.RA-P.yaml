@@ -1,0 +1,59 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID-P
+    name: NIST Privacy Framework
+    section: ID-P IDENTIFY-P
+    sectionID: ID-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P1
+    name: NIST Privacy Framework
+    section: "Contextual factors related to the systems/products/services and the\
+      \ data actions are identified (e.g., individuals\u2019 demographics and privacy\
+      \ interests or perceptions, data sensitivity and/or types, visibility of data\
+      \ processing to individuals and third parties)."
+    sectionID: ID.RA-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P2
+    name: NIST Privacy Framework
+    section: Data analytic inputs and outputs are identified and evaluated for bias.
+    sectionID: ID.RA-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P3
+    name: NIST Privacy Framework
+    section: Potential problematic data actions and associated problems are identified.
+    sectionID: ID.RA-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P4
+    name: NIST Privacy Framework
+    section: Problematic data actions, likelihoods, and impacts are used to determine
+      and prioritize risk.
+    sectionID: ID.RA-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P5
+    name: NIST Privacy Framework
+    section: Risk responses are identified, prioritized, and implemented.
+    sectionID: ID.RA-P5
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: ID.RA-P Risk Assessment
+sectionID: ID.RA-P
+version: 1.0.0

@@ -1,0 +1,90 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT-P
+    name: NIST Privacy Framework
+    section: CT-P CONTROL-P
+    sectionID: CT-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P1
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for review.
+    sectionID: CT.DM-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P2
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for transmission or disclosure.
+    sectionID: CT.DM-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P3
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for alteration.
+    sectionID: CT.DM-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P4
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for deletion.
+    sectionID: CT.DM-P4
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P5
+    name: NIST Privacy Framework
+    section: Data are destroyed according to policy.
+    sectionID: CT.DM-P5
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P6
+    name: NIST Privacy Framework
+    section: Data are transmitted using standardized formats.
+    sectionID: CT.DM-P6
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P7
+    name: NIST Privacy Framework
+    section: Mechanisms for transmitting processing permissions and related data values
+      with data elements are established and in place.
+    sectionID: CT.DM-P7
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P8
+    name: NIST Privacy Framework
+    section: Audit/log records are determined, documented, implemented, and reviewed
+      in accordance with policy and incorporating the principle of data minimization.
+    sectionID: CT.DM-P8
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P9
+    name: NIST Privacy Framework
+    section: Technical measures implemented to manage data processing are tested and
+      assessed.
+    sectionID: CT.DM-P9
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: CT.DM-P Data Processing Management
+sectionID: CT.DM-P
+version: 1.0.0

@@ -1,0 +1,57 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P4
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P
+    name: NIST Privacy Framework
+    section: CT.DM-P Data Processing Management
+    sectionID: CT.DM-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-2
+    name: NIST 800-53 v5
+    section: AC-2 Account Management
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=AC-3
+    name: NIST 800-53 v5
+    section: AC-3 Access Enforcement
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-2
+    name: NIST 800-53 v5
+    section: CM-2 Baseline Configuration
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-3
+    name: NIST 800-53 v5
+    section: CM-3 Configuration Change Control
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=CM-6
+    name: NIST 800-53 v5
+    section: CM-6 Configuration Settings
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-12
+    name: NIST 800-53 v5
+    section: SI-12 Information Management And Retention
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SI-18
+    name: NIST 800-53 v5
+    section: SI-18 Personally Identifiable Information Quality Operations
+  ltype: Related
+name: NIST Privacy Framework
+section: Data elements can be accessed for deletion.
+sectionID: CT.DM-P4
+version: 1.0.0

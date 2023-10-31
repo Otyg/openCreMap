@@ -1,0 +1,643 @@
+doctype: CRE
+id: 571-640
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-18
+    name: NIST 800-53 v5
+    section: PM-18 Privacy Program Plan
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-19
+    name: NIST 800-53 v5
+    section: PM-19 Privacy Program Leadership Role
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-20
+    name: NIST 800-53 v5
+    section: PM-20 Dissemination of Privacy Program Information
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-22
+    name: NIST 800-53 v5
+    section: PM-22 Personally Identifiable Information Quality Management
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-25
+    name: NIST 800-53 v5
+    section: PM-25 Minimization of Personally Identifiable Information Used in Testing,
+      Training, and Research
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-27
+    name: NIST 800-53 v5
+    section: PM-27 Privacy Reporting
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-24
+    name: NIST 800-53 v5
+    section: PM-24 Data Integrity Board
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PT-1
+    name: NIST 800-53 v5
+    section: PT-1 Policy and Procedures
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PT-2
+    name: NIST 800-53 v5
+    section: PT-2 Authority to Process Personally Identifiable Information
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PT-3
+    name: NIST 800-53 v5
+    section: PT-3 Personally Identifiable Information Processing Purposes
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PT-4
+    name: NIST 800-53 v5
+    section: PT-4 Consent
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PT-5
+    name: NIST 800-53 v5
+    section: PT-5 Privacy Notice
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PT-6
+    name: NIST 800-53 v5
+    section: PT-6 System of Records Notice
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PT-7
+    name: NIST 800-53 v5
+    section: PT-7 Specific Categories of Personally Identifiable Information
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PT-8
+    name: NIST 800-53 v5
+    section: PT-8 Computer Matching Requirements
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=PM-21
+    name: NIST 800-53 v5
+    section: PM-21 Accounting of Disclosures
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: Cloud Controls Matrix
+    section: Data Security and Privacy Lifecycle Management
+    sectionID: DSP
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SI-18
+    name: NIST 800-53 v5
+    section: SI-18 Personally Identifiable Information Quality Operations
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SI-19
+    name: NIST 800-53 v5
+    section: SI-19 De-identification
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 287-823
+    name: Asset management
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 362-550
+    name: Personal data handling
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P1
+    name: NIST Privacy Framework
+    section: "Mechanisms (e.g., notices, internal or public reports) for communicating\
+      \ data processing purposes, practices, associated privacy risks, and options\
+      \ for enabling individuals\u2019 data processing preferences and requests are\
+      \ established and in place."
+    sectionID: CM.AW-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P1
+    name: NIST Privacy Framework
+    section: "Mechanisms (e.g., notices, internal or public reports) for communicating\
+      \ data processing purposes, practices, associated privacy risks, and options\
+      \ for enabling individuals\u2019 data processing preferences and requests are\
+      \ established and in place."
+    sectionID: CM.AW-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P2
+    name: NIST Privacy Framework
+    section: Mechanisms for obtaining feedback from individuals (e.g., surveys or
+      focus groups) about data processing and associated privacy risks are established
+      and in place.
+    sectionID: CM.AW-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P3
+    name: NIST Privacy Framework
+    section: System/product/service design enables data processing visibility.
+    sectionID: CM.AW-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P4
+    name: NIST Privacy Framework
+    section: Records of data disclosures and sharing are maintained and can be accessed
+      for review or transmission/disclosure.
+    sectionID: CM.AW-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P5
+    name: NIST Privacy Framework
+    section: Data corrections or deletions can be communicated to individuals or organizations
+      (e.g., data sources) in the data processing ecosystem.
+    sectionID: CM.AW-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P5
+    name: NIST Privacy Framework
+    section: Data corrections or deletions can be communicated to individuals or organizations
+      (e.g., data sources) in the data processing ecosystem.
+    sectionID: CM.AW-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P6
+    name: NIST Privacy Framework
+    section: Data provenance and lineage are maintained and can be accessed for review
+      or transmission/disclosure.
+    sectionID: CM.AW-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P6
+    name: NIST Privacy Framework
+    section: Data provenance and lineage are maintained and can be accessed for review
+      or transmission/disclosure.
+    sectionID: CM.AW-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P8
+    name: NIST Privacy Framework
+    section: Individuals are provided with mitigation mechanisms (e.g., credit monitoring,
+      consent withdrawal, data alteration or deletion) to address impacts of problematic
+      data actions.
+    sectionID: CM.AW-P8
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.AW-P8
+    name: NIST Privacy Framework
+    section: Individuals are provided with mitigation mechanisms (e.g., credit monitoring,
+      consent withdrawal, data alteration or deletion) to address impacts of problematic
+      data actions.
+    sectionID: CM.AW-P8
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P1
+    name: NIST Privacy Framework
+    section: Transparency policies, processes, and procedures for communicating data
+      processing purposes, practices, and associated privacy risks are established
+      and in place.
+    sectionID: CM.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P1
+    name: NIST Privacy Framework
+    section: Transparency policies, processes, and procedures for communicating data
+      processing purposes, practices, and associated privacy risks are established
+      and in place.
+    sectionID: CM.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P1
+    name: NIST Privacy Framework
+    section: Transparency policies, processes, and procedures for communicating data
+      processing purposes, practices, and associated privacy risks are established
+      and in place.
+    sectionID: CM.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P1
+    name: NIST Privacy Framework
+    section: Transparency policies, processes, and procedures for communicating data
+      processing purposes, practices, and associated privacy risks are established
+      and in place.
+    sectionID: CM.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P1
+    name: NIST Privacy Framework
+    section: Transparency policies, processes, and procedures for communicating data
+      processing purposes, practices, and associated privacy risks are established
+      and in place.
+    sectionID: CM.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P1
+    name: NIST Privacy Framework
+    section: Transparency policies, processes, and procedures for communicating data
+      processing purposes, practices, and associated privacy risks are established
+      and in place.
+    sectionID: CM.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P1
+    name: NIST Privacy Framework
+    section: Transparency policies, processes, and procedures for communicating data
+      processing purposes, practices, and associated privacy risks are established
+      and in place.
+    sectionID: CM.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CM.PO-P2
+    name: NIST Privacy Framework
+    section: Roles and responsibilities (e.g., public relations) for communicating
+      data processing purposes, practices, and associated privacy risks are established.
+    sectionID: CM.PO-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P1
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for review.
+    sectionID: CT.DM-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P2
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for transmission or disclosure.
+    sectionID: CT.DM-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P3
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for alteration.
+    sectionID: CT.DM-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P4
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for deletion.
+    sectionID: CT.DM-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P7
+    name: NIST Privacy Framework
+    section: Mechanisms for transmitting processing permissions and related data values
+      with data elements are established and in place.
+    sectionID: CT.DM-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P7
+    name: NIST Privacy Framework
+    section: Mechanisms for transmitting processing permissions and related data values
+      with data elements are established and in place.
+    sectionID: CT.DM-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P7
+    name: NIST Privacy Framework
+    section: Mechanisms for transmitting processing permissions and related data values
+      with data elements are established and in place.
+    sectionID: CT.DM-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P9
+    name: NIST Privacy Framework
+    section: Technical measures implemented to manage data processing are tested and
+      assessed.
+    sectionID: CT.DM-P9
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P2
+    name: NIST Privacy Framework
+    section: Data are processed to limit the identification of individuals (e.g.,
+      de-identification privacy techniques, tokenization).
+    sectionID: CT.DP-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P3
+    name: NIST Privacy Framework
+    section: "Data are processed to limit the formulation of inferences about individuals\u2019\
+      \ behavior or activities (e.g., data processing is decentralized, distributed\
+      \ architectures)."
+    sectionID: CT.DP-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P1
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for authorizing data processing (e.g.,
+      organizational decisions, individual consent), revoking authorizations, and
+      maintaining authorizations are established and in place.
+    sectionID: CT.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P1
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for authorizing data processing (e.g.,
+      organizational decisions, individual consent), revoking authorizations, and
+      maintaining authorizations are established and in place.
+    sectionID: CT.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P1
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for authorizing data processing (e.g.,
+      organizational decisions, individual consent), revoking authorizations, and
+      maintaining authorizations are established and in place.
+    sectionID: CT.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P1
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for authorizing data processing (e.g.,
+      organizational decisions, individual consent), revoking authorizations, and
+      maintaining authorizations are established and in place.
+    sectionID: CT.PO-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P2
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for enabling data review, transfer,
+      sharing or disclosure, alteration, and deletion are established and in place
+      (e.g., to maintain data quality, manage data retention).
+    sectionID: CT.PO-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P2
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for enabling data review, transfer,
+      sharing or disclosure, alteration, and deletion are established and in place
+      (e.g., to maintain data quality, manage data retention).
+    sectionID: CT.PO-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P3
+    name: NIST Privacy Framework
+    section: "Policies, processes, and procedures for enabling individuals\u2019 data\
+      \ processing preferences and requests are established and in place."
+    sectionID: CT.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P3
+    name: NIST Privacy Framework
+    section: "Policies, processes, and procedures for enabling individuals\u2019 data\
+      \ processing preferences and requests are established and in place."
+    sectionID: CT.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P3
+    name: NIST Privacy Framework
+    section: "Policies, processes, and procedures for enabling individuals\u2019 data\
+      \ processing preferences and requests are established and in place."
+    sectionID: CT.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P3
+    name: NIST Privacy Framework
+    section: "Policies, processes, and procedures for enabling individuals\u2019 data\
+      \ processing preferences and requests are established and in place."
+    sectionID: CT.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P4
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for communicating progress on managing
+      privacy risks are established and in place.
+    sectionID: GV.MT-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P5
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures are established and in place to receive,
+      analyze, and respond to problematic data actions disclosed to the organization
+      from internal and external sources (e.g., internal discovery, privacy researchers,
+      professional events).
+    sectionID: GV.MT-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P7
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for receiving, tracking, and responding
+      to complaints, concerns, and questions from individuals about organizational
+      privacy practices are established and in place.
+    sectionID: GV.MT-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P7
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for receiving, tracking, and responding
+      to complaints, concerns, and questions from individuals about organizational
+      privacy practices are established and in place.
+    sectionID: GV.MT-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.MT-P7
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for receiving, tracking, and responding
+      to complaints, concerns, and questions from individuals about organizational
+      privacy practices are established and in place.
+    sectionID: GV.MT-P7
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P3
+    name: NIST Privacy Framework
+    section: Roles and responsibilities for the workforce are established with respect
+      to privacy.
+    sectionID: GV.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P3
+    name: NIST Privacy Framework
+    section: Roles and responsibilities for the workforce are established with respect
+      to privacy.
+    sectionID: GV.PO-P3
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P4
+    name: NIST Privacy Framework
+    section: Privacy roles and responsibilities are coordinated and aligned with third-party
+      stakeholders (e.g., service providers, customers, partners).
+    sectionID: GV.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P4
+    name: NIST Privacy Framework
+    section: Privacy roles and responsibilities are coordinated and aligned with third-party
+      stakeholders (e.g., service providers, customers, partners).
+    sectionID: GV.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=GV.PO-P6
+    name: NIST Privacy Framework
+    section: Governance and risk management policies, processes, and procedures address
+      privacy risks.
+    sectionID: GV.PO-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P5
+    name: NIST Privacy Framework
+    section: The purposes for the data actions are inventoried.
+    sectionID: ID.IM-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P5
+    name: NIST Privacy Framework
+    section: The purposes for the data actions are inventoried.
+    sectionID: ID.IM-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P5
+    name: NIST Privacy Framework
+    section: The purposes for the data actions are inventoried.
+    sectionID: ID.IM-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.IM-P6
+    name: NIST Privacy Framework
+    section: Data elements within the data actions are inventoried.
+    sectionID: ID.IM-P6
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.RA-P1
+    name: NIST Privacy Framework
+    section: "Contextual factors related to the systems/products/services and the\
+      \ data actions are identified (e.g., individuals\u2019 demographics and privacy\
+      \ interests or perceptions, data sensitivity and/or types, visibility of data\
+      \ processing to individuals and third parties)."
+    sectionID: ID.RA-P1
+    version: 1.0.0
+  ltype: Linked To
+name: Personal data handling management

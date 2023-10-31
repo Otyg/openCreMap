@@ -1,0 +1,22 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE-2
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.BE
+    name: NIST Cyber Security Framework
+    section: ID.BE Business Environment
+    sectionID: ID.BE
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-8
+    name: NIST 800-53 v5
+    section: PM-8 Critical Infrastructure Plan
+  ltype: Related
+name: NIST Cyber Security Framework
+section: "The organization\u2019s place in critical infrastructure and its industry\
+  \ sector is identified and communicated"
+sectionID: ID.BE-2
+version: 1.1.0

@@ -1,0 +1,81 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR
+    name: NIST Cyber Security Framework
+    section: PR PROTECT
+    sectionID: PR
+    version: 1.1.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-1
+    name: NIST Cyber Security Framework
+    section: Data-at-rest is protected
+    sectionID: PR.DS-1
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-2
+    name: NIST Cyber Security Framework
+    section: Data-in-transit is protected
+    sectionID: PR.DS-2
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-3
+    name: NIST Cyber Security Framework
+    section: Assets are formally managed throughout removal, transfers, and disposition
+    sectionID: PR.DS-3
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-4
+    name: NIST Cyber Security Framework
+    section: Adequate capacity to ensure availability is maintained
+    sectionID: PR.DS-4
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-5
+    name: NIST Cyber Security Framework
+    section: Protections against data leaks are implemented
+    sectionID: PR.DS-5
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-6
+    name: NIST Cyber Security Framework
+    section: Integrity checking mechanisms are used to verify software, firmware,
+      and information integrity
+    sectionID: PR.DS-6
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-7
+    name: NIST Cyber Security Framework
+    section: The development and testing environment(s) are separate from the production
+      environment
+    sectionID: PR.DS-7
+    version: 1.1.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.DS-8
+    name: NIST Cyber Security Framework
+    section: Integrity checking mechanisms are used to verify hardware integrity
+    sectionID: PR.DS-8
+    version: 1.1.0
+  ltype: Contains
+name: NIST Cyber Security Framework
+section: PR.DS Data Security
+sectionID: PR.DS
+version: 1.1.0

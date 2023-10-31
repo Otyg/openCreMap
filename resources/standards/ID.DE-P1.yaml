@@ -1,0 +1,59 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P1
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=ID.DE-P
+    name: NIST Privacy Framework
+    section: ID.DE-P Data Processing Ecosystem Risk Management
+    sectionID: ID.DE-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=PM-30
+    name: NIST 800-53 v5
+    section: PM-30 Supply Chain Risk Management Strategy
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SA-9
+    name: NIST 800-53 v5
+    section: SA-9 External System Services
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SR-1
+    name: NIST 800-53 v5
+    section: SR-1 Policy And Procedures
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SR-2
+    name: NIST 800-53 v5
+    section: SR-2 Supply Chain Risk Management Plan
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SR-3
+    name: NIST 800-53 v5
+    section: SR-3 Supply Chain Controls And Processes
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SR-4
+    name: NIST 800-53 v5
+    section: SR-4 Provenance
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/sp_800_53_5_1_0/home?element=SR-5
+    name: NIST 800-53 v5
+    section: SR-5 Acquisition Strategies, Tools, And Methods
+  ltype: Related
+name: NIST Privacy Framework
+section: Data processing ecosystem risk management policies, processes, and procedures
+  are identified, established, assessed, managed, and agreed to by organizational
+  stakeholders.
+sectionID: ID.DE-P1
+version: 1.0.0

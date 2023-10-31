@@ -1,0 +1,49 @@
+doctype: CRE
+id: 267-031
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SC-6
+    name: NIST 800-53 v5
+    section: SC-6 Resource Availability
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 601-182
+    name: Parallel execution robustness
+  ltype: Is Part Of
+- document:
+    doctype: CRE
+    id: 623-550
+    name: Denial Of Service protection
+  ltype: Related
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=ID.AM-5
+    name: NIST Cyber Security Framework
+    section: Resources (e.g., hardware, devices, data, time, personnel, and software)
+      are prioritized based on their classification, criticality, and business value
+    sectionID: ID.AM-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.PT-5
+    name: NIST Cyber Security Framework
+    section: Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented
+      to achieve resilience requirements in normal and adverse situations
+    sectionID: PR.PT-5
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P4
+    name: NIST Privacy Framework
+    section: Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented
+      to achieve resilience requirements in normal and adverse situations.
+    sectionID: PR.PT-P4
+    version: 1.0.0
+  ltype: Linked To
+name: Protect the availability of resources by providing more to higher-priority processes
+tags:
+- Denial Of Service protection

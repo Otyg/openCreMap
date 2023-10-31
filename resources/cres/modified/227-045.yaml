@@ -1,0 +1,565 @@
+doctype: CRE
+id: 227-045
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x16-V8-Data-Protection.md
+    name: ASVS
+    section: Verify that all sensitive data created and processed by the application
+      has been identified, and ensure that a policy is in place on how to deal with
+      sensitive data.
+    sectionID: V8.3.4
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://owasp-top-10-proactive-controls-2018.readthedocs.io/en/latest/c8-protect-data-everywhere.html
+    name: OWASP Proactive Controls
+    section: C8
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://cwe.mitre.org/data/definitions/200.html
+    name: CWE
+    section: ''
+    sectionID: '200'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=SI-12
+    name: NIST 800-53 v5
+    section: SI-12 Information Management and Retention
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Intellectual property rights
+    sectionID: '5.32'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Protection of records
+    sectionID: '5.33'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/116.html
+    name: CAPEC
+    section: Excavation
+    sectionID: '116'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/13.html
+    name: CAPEC
+    section: Subverting Environment Variable Values
+    sectionID: '13'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/169.html
+    name: CAPEC
+    section: Footprinting
+    sectionID: '169'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/22.html
+    name: CAPEC
+    section: Exploiting Trust in Client
+    sectionID: '22'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/224.html
+    name: CAPEC
+    section: Fingerprinting
+    sectionID: '224'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/285.html
+    name: CAPEC
+    section: ICMP Echo Request Ping
+    sectionID: '285'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/287.html
+    name: CAPEC
+    section: TCP SYN Scan
+    sectionID: '287'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/290.html
+    name: CAPEC
+    section: Enumerate Mail Exchange (MX) Records
+    sectionID: '290'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/291.html
+    name: CAPEC
+    section: DNS Zone Transfers
+    sectionID: '291'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/292.html
+    name: CAPEC
+    section: Host Discovery
+    sectionID: '292'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/293.html
+    name: CAPEC
+    section: Traceroute Route Enumeration
+    sectionID: '293'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/294.html
+    name: CAPEC
+    section: ICMP Address Mask Request
+    sectionID: '294'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/295.html
+    name: CAPEC
+    section: Timestamp Request
+    sectionID: '295'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/296.html
+    name: CAPEC
+    section: ICMP Information Request
+    sectionID: '296'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/297.html
+    name: CAPEC
+    section: TCP ACK Ping
+    sectionID: '297'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/298.html
+    name: CAPEC
+    section: UDP Ping
+    sectionID: '298'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/299.html
+    name: CAPEC
+    section: TCP SYN Ping
+    sectionID: '299'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/300.html
+    name: CAPEC
+    section: Port Scanning
+    sectionID: '300'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/301.html
+    name: CAPEC
+    section: TCP Connect Scan
+    sectionID: '301'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/302.html
+    name: CAPEC
+    section: TCP FIN Scan
+    sectionID: '302'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/303.html
+    name: CAPEC
+    section: TCP Xmas Scan
+    sectionID: '303'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/304.html
+    name: CAPEC
+    section: TCP Null Scan
+    sectionID: '304'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/305.html
+    name: CAPEC
+    section: TCP ACK Scan
+    sectionID: '305'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/306.html
+    name: CAPEC
+    section: TCP Window Scan
+    sectionID: '306'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/307.html
+    name: CAPEC
+    section: TCP RPC Scan
+    sectionID: '307'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/308.html
+    name: CAPEC
+    section: UDP Scan
+    sectionID: '308'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/309.html
+    name: CAPEC
+    section: Network Topology Mapping
+    sectionID: '309'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/310.html
+    name: CAPEC
+    section: Scanning for Vulnerable Software
+    sectionID: '310'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/312.html
+    name: CAPEC
+    section: Active OS Fingerprinting
+    sectionID: '312'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/313.html
+    name: CAPEC
+    section: Passive OS Fingerprinting
+    sectionID: '313'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/317.html
+    name: CAPEC
+    section: IP ID Sequencing Probe
+    sectionID: '317'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/318.html
+    name: CAPEC
+    section: IP 'ID' Echoed Byte-Order Probe
+    sectionID: '318'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/319.html
+    name: CAPEC
+    section: IP (DF) 'Don't Fragment Bit' Echoing Probe
+    sectionID: '319'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/320.html
+    name: CAPEC
+    section: TCP Timestamp Probe
+    sectionID: '320'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/321.html
+    name: CAPEC
+    section: TCP Sequence Number Probe
+    sectionID: '321'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/322.html
+    name: CAPEC
+    section: TCP (ISN) Greatest Common Divisor Probe
+    sectionID: '322'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/323.html
+    name: CAPEC
+    section: TCP (ISN) Counter Rate Probe
+    sectionID: '323'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/324.html
+    name: CAPEC
+    section: TCP (ISN) Sequence Predictability Probe
+    sectionID: '324'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/325.html
+    name: CAPEC
+    section: TCP Congestion Control Flag (ECN) Probe
+    sectionID: '325'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/326.html
+    name: CAPEC
+    section: TCP Initial Window Size Probe
+    sectionID: '326'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/327.html
+    name: CAPEC
+    section: TCP Options Probe
+    sectionID: '327'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/328.html
+    name: CAPEC
+    section: TCP 'RST' Flag Checksum Probe
+    sectionID: '328'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/329.html
+    name: CAPEC
+    section: ICMP Error Message Quoting Probe
+    sectionID: '329'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/330.html
+    name: CAPEC
+    section: ICMP Error Message Echoing Integrity Probe
+    sectionID: '330'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/472.html
+    name: CAPEC
+    section: Browser Fingerprinting
+    sectionID: '472'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/497.html
+    name: CAPEC
+    section: File Discovery
+    sectionID: '497'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/508.html
+    name: CAPEC
+    section: Shoulder Surfing
+    sectionID: '508'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/573.html
+    name: CAPEC
+    section: Process Footprinting
+    sectionID: '573'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/574.html
+    name: CAPEC
+    section: Services Footprinting
+    sectionID: '574'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/575.html
+    name: CAPEC
+    section: Account Footprinting
+    sectionID: '575'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/576.html
+    name: CAPEC
+    section: Group Permission Footprinting
+    sectionID: '576'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/577.html
+    name: CAPEC
+    section: Owner Footprinting
+    sectionID: '577'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/59.html
+    name: CAPEC
+    section: Session Credential Falsification through Prediction
+    sectionID: '59'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/60.html
+    name: CAPEC
+    section: Reusing Session IDs (aka Session Replay)
+    sectionID: '60'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/616.html
+    name: CAPEC
+    section: Establish Rogue Location
+    sectionID: '616'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/643.html
+    name: CAPEC
+    section: Identify Shared Files/Directories on System
+    sectionID: '643'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/646.html
+    name: CAPEC
+    section: Peripheral Footprinting
+    sectionID: '646'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/651.html
+    name: CAPEC
+    section: Eavesdropping
+    sectionID: '651'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: Standard
+    hyperlink: https://capec.mitre.org/data/definitions/79.html
+    name: CAPEC
+    section: Using Slashes in Alternate Encoding
+    sectionID: '79'
+    version: '3.9'
+  ltype: SAME
+- document:
+    doctype: CRE
+    id: 074-873
+    name: Data classification and handling
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P4
+    name: NIST Privacy Framework
+    section: Data elements can be accessed for deletion.
+    sectionID: CT.DM-P4
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DM-P5
+    name: NIST Privacy Framework
+    section: Data are destroyed according to policy.
+    sectionID: CT.DM-P5
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.DP-P2
+    name: NIST Privacy Framework
+    section: Data are processed to limit the identification of individuals (e.g.,
+      de-identification privacy techniques, tokenization).
+    sectionID: CT.DP-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P2
+    name: NIST Privacy Framework
+    section: Policies, processes, and procedures for enabling data review, transfer,
+      sharing or disclosure, alteration, and deletion are established and in place
+      (e.g., to maintain data quality, manage data retention).
+    sectionID: CT.PO-P2
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=CT.PO-P4
+    name: NIST Privacy Framework
+    section: A data life cycle to manage data is aligned and implemented with the
+      system development life cycle to manage systems.
+    sectionID: CT.PO-P4
+    version: 1.0.0
+  ltype: Linked To
+name: Identify sensitive data and subject it to a policy

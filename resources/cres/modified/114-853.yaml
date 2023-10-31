@@ -1,0 +1,171 @@
+doctype: CRE
+id: 114-853
+links:
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Equipment maintenance
+    sectionID: '7.13'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=MA-1
+    name: NIST 800-53 v5
+    section: MA-1 Policy and Procedures
+  ltype: Linked To
+- document:
+    doctype: Standard
+    name: ISO 27001
+    section: Secure disposal or re-use of equipment
+    sectionID: '7.14'
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=MA-2
+    name: NIST 800-53 v5
+    section: MA-2 Controlled Maintenance
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=MA-3
+    name: NIST 800-53 v5
+    section: MA-3 Maintenance Tools
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=MA-4
+    name: NIST 800-53 v5
+    section: MA-4 Nonlocal Maintenance
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=MA-5
+    name: NIST 800-53 v5
+    section: MA-5 Maintenance Personnel
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=MA-6
+    name: NIST 800-53 v5
+    section: MA-6 Timely Maintenance
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/Projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home?element=MA-7
+    name: NIST 800-53 v5
+    section: MA-7 Field Maintenance
+  ltype: Linked To
+- document:
+    doctype: CRE
+    id: 157-587
+    name: Equipment management
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-1
+    name: NIST Cyber Security Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools
+    sectionID: PR.MA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-1
+    name: NIST Cyber Security Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools
+    sectionID: PR.MA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-1
+    name: NIST Cyber Security Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools
+    sectionID: PR.MA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-1
+    name: NIST Cyber Security Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools
+    sectionID: PR.MA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-1
+    name: NIST Cyber Security Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools
+    sectionID: PR.MA-1
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/CSF_1_1_0/home?element=PR.MA-2
+    name: NIST Cyber Security Framework
+    section: Remote maintenance of organizational assets is approved, logged, and
+      performed in a manner that prevents unauthorized access
+    sectionID: PR.MA-2
+    version: 1.1.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P1
+    name: NIST Privacy Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools.
+    sectionID: PR.MA-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P1
+    name: NIST Privacy Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools.
+    sectionID: PR.MA-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P1
+    name: NIST Privacy Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools.
+    sectionID: PR.MA-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P1
+    name: NIST Privacy Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools.
+    sectionID: PR.MA-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P1
+    name: NIST Privacy Framework
+    section: Maintenance and repair of organizational assets are performed and logged,
+      with approved and controlled tools.
+    sectionID: PR.MA-P1
+    version: 1.0.0
+  ltype: Linked To
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.MA-P2
+    name: NIST Privacy Framework
+    section: Remote maintenance of organizational assets is approved, logged, and
+      performed in a manner that prevents unauthorized access.
+    sectionID: PR.MA-P2
+    version: 1.0.0
+  ltype: Linked To
+name: Maintenance

@@ -1,0 +1,49 @@
+doctype: Standard
+hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P
+links:
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR-P
+    name: NIST Privacy Framework
+    section: PR-P PROTECT-P
+    sectionID: PR-P
+    version: 1.0.0
+  ltype: Is Part Of
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P1
+    name: NIST Privacy Framework
+    section: Removable media is protected and its use restricted according to policy.
+    sectionID: PR.PT-P1
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P2
+    name: NIST Privacy Framework
+    section: The principle of least functionality is incorporated by configuring systems
+      to provide only essential capabilities.
+    sectionID: PR.PT-P2
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P3
+    name: NIST Privacy Framework
+    section: Communications and control networks are protected.
+    sectionID: PR.PT-P3
+    version: 1.0.0
+  ltype: Contains
+- document:
+    doctype: Standard
+    hyperlink: https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/PF_1_0_0/home?element=PR.PT-P4
+    name: NIST Privacy Framework
+    section: Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented
+      to achieve resilience requirements in normal and adverse situations.
+    sectionID: PR.PT-P4
+    version: 1.0.0
+  ltype: Contains
+name: NIST Privacy Framework
+section: PR.PT-P Protective Technology
+sectionID: PR.PT-P
+version: 1.0.0
