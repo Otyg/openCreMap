@@ -8,10 +8,40 @@ import yaml
 
 from LinkToCre.ModifyCre import modify_local_cres
 
+
+class Link:
+    ltype = {
+        'Contains': "Rel_Specialization(to, from)\n",
+        'Related': "Rel_Association(from, to)\n",
+        'Linked To': "Rel_Realization(to, from)\n",
+        'SAME': "Rel_Influence(from, to)\n",
+        'Is Part Of': "Rel_Specialization(from, to)\n"
+    }
+
+    def __init__(self, source, destination, type):
+        self.source = source
+        self.destination = destination
+        self.type = type
+
+    def __hash__(self):
+        return hash(hash(self.source) + hash(self.destination) + hash(self.type))
+
+    def __eq__(self, other):
+        if (self.type == "Related" and other.type == "Related") or (self.type == 'Is Part Of' or other.type == 'Is Part Of'):
+            return (self.source == other.source and self.destination == other.destination) or \
+                   (self.source == other.destination and self.destination == other.source)
+        else:
+            return (self.source, self.destination, self.type) == (other.source, other.destination, other.type)
+
+    def __str__(self):
+        return self.ltype[self.type].replace('from', self.source).replace('to', self.destination)
+
+
 IGNORED_STANDARDS = ['Cloud Controls Matrix',
                      'OWASP Web Security Testing Guide (WSTG)', 'OWASP Proactive Controls', 'OWASP Cheat Sheets',
                      'CAPEC', 'CWE', 'OWASP Secure Headers Project']
 nodes = {}
+standard_nodes = {}
 visited_nodes = []
 links = set()
 ltype = {
@@ -32,6 +62,9 @@ def parse_child_cre(parent, child, allowed_link_types):
     if child_document_id_ not in nodes:
         child_document_doctype_ = child['document']['doctype']
         if child_document_doctype_ == 'Standard' and child_document_name_ not in IGNORED_STANDARDS:
+            if child_document_name_ not in standard_nodes:
+                standard_nodes[child_document_name_] = set()
+            standard_nodes[child_document_name_].add(child_document_id_)
             nodes[child_document_id_] = {'id': '', 'node': '', 'children': set(), 'parents': set()}
             heading = child_document_name_
             if 'sectionID' in child['document'] and (
@@ -52,9 +85,9 @@ def parse_child_cre(parent, child, allowed_link_types):
             nodes[child_document_id_]['node'] = node_type + "(" + std_id + ", \"=" + heading + "\\n" + \
                                                 child['document']['section'].replace('"', "'") + "\")\n"
             nodes[child_document_id_]['parents'].add(
-                (ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", std_id), parent))
+                (Link(source=nodes[parent]['id'], destination=std_id, type=child['ltype']), parent))
             nodes[parent]['children'].add(
-                (ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", std_id), child_document_id_))
+                (Link(source=nodes[parent]['id'], destination=std_id, type=child['ltype']), child_document_id_))
         if child_document_doctype_ == 'CRE':
             if os.path.exists('resources/cres/modified/' + child_document_id_ + '.yaml'):
                 path = 'resources/cres/modified/' + child_document_id_ + '.yaml'
@@ -64,14 +97,14 @@ def parse_child_cre(parent, child, allowed_link_types):
                 cre = yaml.full_load(local_cre_file.read())
             cre_id = "CRE" + ''.join(filter(str.isalnum, cre['id']))
             nodes[parent]['children'].add(
-                (ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", cre_id), child_document_id_))
-            me = {'id': cre_id,
-                  'node': "Motivation_Goal(" + cre_id + ", \"=CRE" + cre['id'] + "\\n" + cre['name'].replace('"', "'")
+                (Link(source=nodes[parent]['id'], destination=cre_id, type=child['ltype']), child_document_id_))
+            me = {'id': cre_id.replace('-', ''),
+                  'node': "Motivation_Goal(" + cre_id.replace('-', '') + ", \"=CRE" + cre['id'] + "\\n" + cre['name'].replace('"', "'")
                           + "\")\n",
                   'children': set(),
                   'parents': set()}
             me['parents'].add(
-                (ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", cre_id), parent))
+                (Link(source=nodes[parent]['id'], destination=cre_id, type=child['ltype']), parent))
             nodes[child_document_id_] = me
             for link in cre['links']:
                 if link['ltype'] in allowed_link_types and link['document']['doctype'] in ['Standard', 'CRE']:
@@ -79,10 +112,10 @@ def parse_child_cre(parent, child, allowed_link_types):
     else:
         if 'parents' not in nodes[child_document_id_]:
             nodes[child_document_id_]['parents'] = set()
-        nodes[child_document_id_]['parents'].add((ltype[child['ltype']].replace("from", nodes[parent]['id']).replace(
-            "to", nodes[child_document_id_]['id']), parent))
+
+        nodes[child_document_id_]['parents'].add((Link(source=nodes[parent]['id'], destination=nodes[child_document_id_]['id'], type=child['ltype']), parent))
         nodes[parent]['children'].add(
-            (ltype[child['ltype']].replace("from", nodes[parent]['id']).replace("to", nodes[child_document_id_]['id']), child_document_id_))
+            (Link(source=nodes[parent]['id'], destination=nodes[child_document_id_]['id'], type=child['ltype']), child_document_id_))
 
 
 def add_child(child, depth, cre_file):
@@ -108,6 +141,25 @@ def save_children(child):
                 save_children(link)
 
 
+def write_parent_tree(node, depth, uml_file):
+    if depth == 0:
+        return
+    for parent in node['parents']:
+        links.add(parent[0])
+        if parent[1] not in visited_nodes:
+            parent_ = nodes[parent[1]]
+            uml_file.write(parent_['node'])
+            visited_nodes.append(parent[1])
+            write_parent_tree(parent_, depth-1, uml_file)
+    for child in node['children']:
+        links.add(child[0])
+        if child[1] not in visited_nodes:
+            child_ = nodes[child[1]]
+            uml_file.write(child_['node'])
+            visited_nodes.append(child[1])
+            write_parent_tree(child_, depth - 1, uml_file)
+
+
 def main(args):
     global root
     global visited_nodes
@@ -124,9 +176,48 @@ def main(args):
             visited_nodes = []
             links = set()
             root = cre
+            args.cre = root['id']
             build_cre_tree(args)
+    elif args.list_standard:
+        load_local_files(args, nodes)
+        print(standard_nodes.keys())
+    elif args.standard_tree:
+        load_local_files(args, nodes)
+        file_name = args.standard_tree.replace(' ', '_') + '.puml'
+        with open(file_name, 'w', encoding='utf-8') as standard_file:
+            standard_file.write("@startuml " + args.standard_tree + " Connections\n!include <archimate/Archimate>\nleft to right direction\n")
+            for node in standard_nodes[args.standard_tree]:
+                standard_file.write(nodes[node]['node'])
+                visited_nodes.append(node)
+            for node in standard_nodes[args.standard_tree]:
+                root = node
+                write_parent_tree(nodes[node], args.depth+1, standard_file)
+            for link in links:
+                standard_file.write(str(link))
+            standard_file.write('@enduml')
+
     else:
         list_cres()
+
+
+def load_local_files(args, nodes):
+    global root
+    files = Path('resources/cres').glob('*.yaml')
+    print('Loading nodes')
+    for file in files:
+        if os.path.exists('resources/cres/modified/' + os.path.basename(file)):
+            file = 'resources/cres/modified/' + os.path.basename(file)
+        with open(file, 'r', encoding='utf-8') as cre_file:
+            cre = yaml.full_load(cre_file)
+            root = cre['id']
+            if cre['id'] not in nodes:
+                nodes[cre['id']] = {'id': 'CRE' + root.replace('-', ''),
+                                    'node': "Motivation_Goal(CRE" + root.replace('-', '') + ", \"=CRE " + cre['id'] + "\\n" + cre[
+                                        'name'] + "\")\n", 'children': set(), 'parents': set()}
+            for link in cre['links']:
+                if link['document']['doctype'] in ['CRE', 'Standard']:
+                    parse_child_cre(root, link, args.link_types)
+    print('Loaded ' + str(len(nodes)) + ' nodes')
 
 
 def update_local_cres():
@@ -179,11 +270,14 @@ if __name__ == "__main__":
     parser.add_argument('-c', '--cre', metavar='xxx-yyy', type=str, required=False, dest='cre',
                         help='CRE Id to use as root-node')
     parser.add_argument('-r', '--create-root-trees', action='store_true', dest='root_trees', help='Shortcut for creating trees based on the root-cres')
+    parser.add_argument('-s', '--standard', metavar='STANDARD NAME', dest='standard_tree', help='Create tree with standard nodes as root(s)')
+    parser.add_argument('-ls', '--list-standards', action='store_true', dest='list_standard',
+                        help='Create tree with standard nodes as root(s)')
     parser.add_argument('-u', '--update', action='store_true', dest='update', help='Update the local copy of CREs')
     parser.add_argument('-d', '--depth', metavar='N', type=int, default=1, required=False, dest='depth',
                         help='Depth, default 1')
     parser.add_argument('--allowed-link-types', choices=['Contains', 'Part Of', 'Linked To', 'Related', 'SAME'],
-                        default=['Contains', 'Linked To', 'Related'],
+                        default=['Contains', 'Linked To'],
                         required=False, dest='link_types', help='Which type of links to include')
     args = parser.parse_args()
     main(args)

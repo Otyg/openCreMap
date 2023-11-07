@@ -31,8 +31,8 @@ links:
     section: Dangerous JS Functions
     sectionID: '10110'
     tags:
-    - Passive
     - '10110'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

@@ -125,8 +125,8 @@ links:
     section: LDAP Injection
     sectionID: '40015'
     tags:
-    - '40015'
     - Active
+    - '40015'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -142,7 +142,7 @@ links:
     id: 161-451
     name: Output encoding and injection prevention
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Protect against LDAP injection

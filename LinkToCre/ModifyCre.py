@@ -74,14 +74,14 @@ def parse_file(yamldocs: List[Dict[str, Any]]) -> Optional[List[Document]]:
 
 def modify_local_cres():
     global cre
-    files = Path('../resources/cres').glob('*.yaml')
+    files = Path('resources/cres').glob('*.yaml')
     for file in files:
         print(file)
         with open(file, 'r', encoding='utf-8') as cre_file:
             cre = yaml.full_load(cre_file)
             cres.append(cre)
     dump_standard_to_cre_format()
-    files = Path('../resources/standards').glob('*.yaml')
+    files = Path('resources/standards').glob('*.yaml')
     for file in files:
         print(file)
         with open(file, 'r', encoding='utf-8') as cre_file:
@@ -108,7 +108,7 @@ def modify_local_cres():
                             cre_doc = documents[key]
                             cre_doc.add_link(pf_link)
                             documents[key] = cre_doc
-                            with open('../resources/cres/modified/' + cre_doc.id + '.yaml', 'w',
+                            with open('resources/cres/modified/' + cre_doc.id + '.yaml', 'w',
                                       encoding='utf-8') as cre_file:
                                 yaml.dump(cre_doc.todict(), cre_file)
 

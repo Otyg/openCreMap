@@ -49,7 +49,7 @@ links:
     id: 010-308
     name: Input validation
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Validatie/enforce HTTP inputs (against HTTP parameter pollution attacks)

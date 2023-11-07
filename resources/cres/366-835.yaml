@@ -126,8 +126,8 @@ links:
     section: Cross Site Scripting (Persistent) - Prime
     sectionID: '40016'
     tags:
-    - '40016'
     - Active
+    - '40016'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -137,8 +137,8 @@ links:
     section: Cross Site Scripting (DOM Based)
     sectionID: '40026'
     tags:
-    - '40026'
     - Active
+    - '40026'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -160,8 +160,8 @@ links:
     section: Cross Site Scripting (Persistent) - Spider
     sectionID: '40017'
     tags:
-    - '40017'
     - Active
+    - '40017'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -171,8 +171,8 @@ links:
     section: Out of Band XSS
     sectionID: '40031'
     tags:
-    - '40031'
     - Active
+    - '40031'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -182,8 +182,8 @@ links:
     section: Cross Site Scripting (Persistent)
     sectionID: '40014'
     tags:
-    - '40014'
     - Active
+    - '40014'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -239,7 +239,7 @@ links:
     id: 161-451
     name: Output encoding and injection prevention
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Escape output against XSS

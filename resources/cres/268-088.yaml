@@ -183,8 +183,8 @@ links:
     id: 764-765
     name: Sanitization and sandboxing
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 - document:
     doctype: CRE

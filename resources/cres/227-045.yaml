@@ -49,8 +49,8 @@ links:
     section: Information Disclosure - Debug Error Messages via WebSocket
     sectionID: '110003'
     tags:
-    - WebSocket Passive
     - '110003'
+    - WebSocket Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -62,8 +62,8 @@ links:
     section: Session ID in URL Rewrite
     sectionID: 3-1
     tags:
-    - 3-1
     - Passive
+    - 3-1
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -102,8 +102,8 @@ links:
     section: Referer Exposes Session ID
     sectionID: 3-3
     tags:
-    - Passive
     - 3-3
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -180,8 +180,8 @@ links:
     section: Private IP Disclosure
     sectionID: '2'
     tags:
-    - '2'
     - Passive
+    - '2'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -191,8 +191,8 @@ links:
     section: In Page Banner Information Leak
     sectionID: '10009'
     tags:
-    - Passive
     - '10009'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -203,8 +203,8 @@ links:
     section: Information Disclosure - Sensitive Information in HTTP Referrer Header
     sectionID: '10025'
     tags:
-    - Passive
     - '10025'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -216,8 +216,8 @@ links:
     section: X-Debug-Token Information Leak
     sectionID: '10056'
     tags:
-    - Passive
     - '10056'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -296,8 +296,8 @@ links:
     section: Session ID in URL Rewrite
     sectionID: 3-2
     tags:
-    - Passive
     - 3-2
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -308,8 +308,8 @@ links:
     section: Information Disclosure - Sensitive Information in URL
     sectionID: '10024'
     tags:
-    - Passive
     - '10024'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -319,8 +319,8 @@ links:
     section: Cookie Slack Detector
     sectionID: '90027'
     tags:
-    - Active
     - '90027'
+    - Active
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -360,8 +360,8 @@ links:
     section: Information Disclosure - Suspicious Comments
     sectionID: '10027'
     tags:
-    - Passive
     - '10027'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

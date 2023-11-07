@@ -53,8 +53,8 @@ links:
     section: Cookie No HttpOnly Flag
     sectionID: '10010'
     tags:
-    - Passive
     - '10010'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

@@ -44,8 +44,8 @@ links:
     section: Server Side Request Forgery
     sectionID: '40046'
     tags:
-    - '40046'
     - Active
+    - '40046'
     tooltype: Offensive
   ltype: Linked To
 - document:

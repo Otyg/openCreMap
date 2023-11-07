@@ -32,8 +32,8 @@ links:
     section: Re-examine Cache-control Directives
     sectionID: '10015'
     tags:
-    - Passive
     - '10015'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

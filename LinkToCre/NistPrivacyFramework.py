@@ -17,13 +17,13 @@ skipped_mappings = []
 
 def read_mappings():
     global raw_privacy_framework, raw_cybersecurity_framework
-    with open('../resources/NIST-PF-Core.txt', 'r', encoding='utf-8') as pf_file:
+    with open('resources/NIST-PF-Core.txt', 'r', encoding='utf-8') as pf_file:
         raw_privacy_framework = pf_file.readlines()
-    with open('../resources/NIST-CSF-Core.txt', 'r', encoding='utf-8') as csf_file:
+    with open('resources/NIST-CSF-Core.txt', 'r', encoding='utf-8') as csf_file:
         raw_cybersecurity_framework = csf_file.readlines()
-    with open('../resources/NIST-PF-to-800-53.txt', 'r', encoding='utf-8') as mapping_file:
+    with open('resources/NIST-PF-to-800-53.txt', 'r', encoding='utf-8') as mapping_file:
         raw_mappings = mapping_file.readlines()
-    with open('../resources/NIST-CSF-to-800-53.txt', 'r', encoding='utf-8') as mapping_file:
+    with open('resources/NIST-CSF-to-800-53.txt', 'r', encoding='utf-8') as mapping_file:
         for mapping in mapping_file.readlines():
             raw_mappings.append(mapping)
     for mapping in raw_mappings:
@@ -123,5 +123,5 @@ def dump_standard_to_cre_format():
     for line in raw_cybersecurity_framework:
         create_standard(framework='NIST Cyber Security Framework', version='1.1.0', standard_endpoint='CSF_1_1_0')
     for section in privacy_framework:
-        with open('../resources/standards/' + section + '.yaml', 'w', encoding='utf-8') as section_file:
+        with open('resources/standards/' + section + '.yaml', 'w', encoding='utf-8') as section_file:
             yaml.dump(privacy_framework[section].todict(), section_file)

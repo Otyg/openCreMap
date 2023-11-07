@@ -38,8 +38,8 @@ links:
     section: PII Disclosure
     sectionID: '10062'
     tags:
-    - Passive
     - '10062'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

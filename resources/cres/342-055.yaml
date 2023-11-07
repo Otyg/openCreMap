@@ -54,8 +54,8 @@ links:
     section: Cookie without SameSite Attribute
     sectionID: '10054'
     tags:
-    - Passive
     - '10054'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

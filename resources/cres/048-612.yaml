@@ -60,8 +60,8 @@ links:
     section: Text4shell (CVE-2022-42889)
     sectionID: '40047'
     tags:
-    - '40047'
     - Active
+    - '40047'
     tooltype: Offensive
   ltype: Linked To
 - document:

@@ -4,6 +4,8 @@ from dataclasses import field, asdict, dataclass
 from enum import Enum, EnumMeta
 from typing import Optional, List, Dict, Any, Union, Set
 
+from dacite import from_dict, Config
+
 
 class EnumMetaWithContains(EnumMeta):
     def __contains__(cls: Enum, item: Any) -> bool:

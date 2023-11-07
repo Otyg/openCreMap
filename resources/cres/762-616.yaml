@@ -49,8 +49,8 @@ links:
     section: Java Serialization Object
     sectionID: '90002'
     tags:
-    - Passive
     - '90002'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

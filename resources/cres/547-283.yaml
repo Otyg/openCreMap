@@ -120,8 +120,8 @@ links:
     section: Vulnerable JS Library
     sectionID: '10003'
     tags:
-    - Passive
     - '10003'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -246,7 +246,7 @@ links:
     id: 161-451
     name: Output encoding and injection prevention
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Protect against LFI / RFI

@@ -38,8 +38,8 @@ links:
     section: Vulnerable JS Library
     sectionID: '10003'
     tags:
-    - Passive
     - '10003'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

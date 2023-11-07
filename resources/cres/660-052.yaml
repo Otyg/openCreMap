@@ -37,8 +37,8 @@ links:
     section: Apache Range Header DoS (CVE-2011-3192)
     sectionID: '10053'
     tags:
-    - '10053'
     - Active
+    - '10053'
     tooltype: Offensive
   ltype: Linked To
 - document:

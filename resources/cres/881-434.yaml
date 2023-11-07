@@ -59,7 +59,7 @@ links:
     id: 764-765
     name: Sanitization and sandboxing
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Sanitize user input before passing content to mail systems (SMTP/IMAP injection)

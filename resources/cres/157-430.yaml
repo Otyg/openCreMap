@@ -24,8 +24,8 @@ links:
     section: Storable but Non-Cacheable Content
     sectionID: 10049-2
     tags:
-    - Passive
     - 10049-2
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -35,8 +35,8 @@ links:
     section: Storable and Cacheable Content
     sectionID: 10049-3
     tags:
-    - Passive
     - 10049-3
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -46,8 +46,8 @@ links:
     section: Non-Storable Content
     sectionID: 10049-1
     tags:
-    - Passive
     - 10049-1
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

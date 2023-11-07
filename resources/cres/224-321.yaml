@@ -42,8 +42,8 @@ links:
     section: HTTP Only Site
     sectionID: '10106'
     tags:
-    - '10106'
     - Active
+    - '10106'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -53,8 +53,8 @@ links:
     section: Secure Pages Include Mixed Content
     sectionID: '10040'
     tags:
-    - Passive
     - '10040'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -67,8 +67,8 @@ links:
     section: HTTPS Content Available via HTTP
     sectionID: '10047'
     tags:
-    - '10047'
     - Active
+    - '10047'
     tooltype: Offensive
   ltype: Linked To
 - document:

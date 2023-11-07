@@ -41,8 +41,8 @@ links:
     section: Username Hash Found in WebSocket message
     sectionID: '110007'
     tags:
-    - WebSocket Passive
     - '110007'
+    - WebSocket Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

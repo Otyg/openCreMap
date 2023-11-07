@@ -42,8 +42,8 @@ links:
     section: External Redirect
     sectionID: 20019-3
     tags:
-    - 20019-3
     - Active
+    - 20019-3
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -53,8 +53,8 @@ links:
     section: External Redirect
     sectionID: 20019-1
     tags:
-    - 20019-1
     - Active
+    - 20019-1
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -112,7 +112,7 @@ links:
     id: 010-308
     name: Input validation
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Whitelist redirected/forwarded URLs

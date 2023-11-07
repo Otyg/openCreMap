@@ -56,8 +56,8 @@ links:
     section: Server Side Template Injection
     sectionID: '90035'
     tags:
-    - '90035'
     - Active
+    - '90035'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -81,8 +81,8 @@ links:
     section: Server Side Code Injection - ASP Code Injection
     sectionID: 90019-2
     tags:
-    - 90019-2
     - Active
+    - 90019-2
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -92,8 +92,8 @@ links:
     section: Server Side Code Injection - PHP Code Injection
     sectionID: 90019-1
     tags:
-    - 90019-1
     - Active
+    - 90019-1
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -104,8 +104,8 @@ links:
     section: .htaccess Information Leak
     sectionID: '40032'
     tags:
-    - '40032'
     - Active
+    - '40032'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -137,7 +137,7 @@ links:
     id: 764-765
     name: Sanitization and sandboxing
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Sanitize, disable, or sandbox untrusted scriptable or template language content

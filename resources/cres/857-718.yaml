@@ -127,8 +127,8 @@ links:
     section: Remote Code Execution - Shell Shock
     sectionID: '10048'
     tags:
-    - '10048'
     - Active
+    - '10048'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -139,8 +139,8 @@ links:
     section: Spring4Shell
     sectionID: '40045'
     tags:
-    - '40045'
     - Active
+    - '40045'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -150,8 +150,8 @@ links:
     section: Remote OS Command Injection
     sectionID: '90020'
     tags:
-    - '90020'
     - Active
+    - '90020'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -199,7 +199,7 @@ links:
     id: 161-451
     name: Output encoding and injection prevention
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Protect against OS command injection attack

@@ -48,8 +48,8 @@ links:
     section: Absence of Anti-CSRF Tokens
     sectionID: '10202'
     tags:
-    - Passive
     - '10202'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -59,8 +59,8 @@ links:
     section: Anti-CSRF Tokens Check
     sectionID: '20012'
     tags:
-    - '20012'
     - Active
+    - '20012'
     tooltype: Offensive
   ltype: Linked To
 - document:

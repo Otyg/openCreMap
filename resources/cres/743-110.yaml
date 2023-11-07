@@ -36,8 +36,8 @@ links:
     section: Information Disclosure - Debug Error Messages via WebSocket
     sectionID: '110003'
     tags:
-    - WebSocket Passive
     - '110003'
+    - WebSocket Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -62,8 +62,8 @@ links:
     section: Timestamp Disclosure
     sectionID: '10096'
     tags:
-    - Passive
     - '10096'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -75,8 +75,8 @@ links:
     section: ASP.NET ViewState Disclosure
     sectionID: 10094-1
     tags:
-    - Passive
     - 10094-1
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -89,8 +89,8 @@ links:
     section: Referer Exposes Session ID
     sectionID: 3-3
     tags:
-    - Passive
     - 3-3
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -100,8 +100,8 @@ links:
     section: Proxy Disclosure
     sectionID: '40025'
     tags:
-    - '40025'
     - Active
+    - '40025'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -127,8 +127,8 @@ links:
     section: Email address found in WebSocket message
     sectionID: '110004'
     tags:
-    - WebSocket Passive
     - '110004'
+    - WebSocket Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -141,8 +141,8 @@ links:
       Field
     sectionID: 10036-1
     tags:
-    - Passive
     - 10036-1
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -153,8 +153,8 @@ links:
     section: Information Disclosure - Debug Error Messages
     sectionID: '10023'
     tags:
-    - Passive
     - '10023'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -178,8 +178,8 @@ links:
     section: In Page Banner Information Leak
     sectionID: '10009'
     tags:
-    - Passive
     - '10009'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -190,8 +190,8 @@ links:
     section: Information Disclosure - Sensitive Information in HTTP Referrer Header
     sectionID: '10025'
     tags:
-    - Passive
     - '10025'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -203,8 +203,8 @@ links:
     section: X-Debug-Token Information Leak
     sectionID: '10056'
     tags:
-    - Passive
     - '10056'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -216,8 +216,8 @@ links:
     section: X-Backend-Server Header Information Leak
     sectionID: '10039'
     tags:
-    - Passive
     - '10039'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -228,8 +228,8 @@ links:
     section: Insecure HTTP Method
     sectionID: '90028'
     tags:
-    - '90028'
     - Active
+    - '90028'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -257,8 +257,8 @@ links:
     section: X-ChromeLogger-Data (XCOLD) Header Information Leak
     sectionID: '10052'
     tags:
-    - Passive
     - '10052'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -283,8 +283,8 @@ links:
     section: Session ID in URL Rewrite
     sectionID: 3-2
     tags:
-    - Passive
     - 3-2
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -295,8 +295,8 @@ links:
     section: Information Disclosure - Sensitive Information in URL
     sectionID: '10024'
     tags:
-    - Passive
     - '10024'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -319,8 +319,8 @@ links:
     section: Server Leaks Version Information via 'Server' HTTP Response Header Field
     sectionID: 10036-2
     tags:
-    - Passive
     - 10036-2
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -334,8 +334,8 @@ links:
     section: Possible Username Enumeration
     sectionID: '40023'
     tags:
-    - '40023'
     - Active
+    - '40023'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -347,8 +347,8 @@ links:
     section: Information Disclosure - Suspicious Comments
     sectionID: '10027'
     tags:
-    - Passive
     - '10027'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -360,8 +360,8 @@ links:
     section: Base64 Disclosure
     sectionID: 10094-3
     tags:
-    - Passive
     - 10094-3
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -375,8 +375,8 @@ links:
     section: Application Error Disclosure
     sectionID: '90022'
     tags:
-    - Passive
     - '90022'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

@@ -37,8 +37,8 @@ links:
     section: Directory Browsing
     sectionID: '10033'
     tags:
-    - Passive
     - '10033'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -50,8 +50,8 @@ links:
     section: Directory Browsing
     sectionID: '0'
     tags:
-    - '0'
     - Active
+    - '0'
     tooltype: Offensive
   ltype: Linked To
 - document:

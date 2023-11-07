@@ -49,5 +49,5 @@ links:
 name: Store and serve user-uploaded files such that they cannot execute/damage server
   or client
 tags:
-- XSS protection
 - Injection protection
+- XSS protection

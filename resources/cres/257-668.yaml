@@ -40,8 +40,8 @@ links:
     section: X-Frame-Options Defined via META (Non-compliant with Spec)
     sectionID: 10020-3
     tags:
-    - Passive
     - 10020-3
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -56,8 +56,8 @@ links:
     section: X-Frame-Options Setting Malformed
     sectionID: 10020-4
     tags:
-    - Passive
     - 10020-4
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -67,8 +67,8 @@ links:
     section: Missing Anti-clickjacking Header
     sectionID: 10020-1
     tags:
-    - Passive
     - 10020-1
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

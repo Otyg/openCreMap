@@ -41,8 +41,8 @@ links:
     section: Path Traversal
     sectionID: 6-5
     tags:
-    - 6-5
     - Active
+    - 6-5
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -52,8 +52,8 @@ links:
     section: Path Traversal
     sectionID: 6-4
     tags:
-    - 6-4
     - Active
+    - 6-4
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -63,8 +63,8 @@ links:
     section: Path Traversal
     sectionID: 6-1
     tags:
-    - 6-1
     - Active
+    - 6-1
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -74,8 +74,8 @@ links:
     section: Path Traversal
     sectionID: 6-3
     tags:
-    - 6-3
     - Active
+    - 6-3
     tooltype: Offensive
   ltype: Linked To
 - document:

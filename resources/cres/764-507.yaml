@@ -81,5 +81,5 @@ links:
   ltype: Related
 name: Restrict XML parsing (against XXE)
 tags:
-- Configuration
 - Injection protection
+- Configuration

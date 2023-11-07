@@ -43,8 +43,8 @@ links:
     section: Sub Resource Integrity Attribute Missing
     sectionID: '90003'
     tags:
-    - Passive
     - '90003'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -56,8 +56,8 @@ links:
     section: Content-Type Header Missing
     sectionID: '10019'
     tags:
-    - Passive
     - '10019'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

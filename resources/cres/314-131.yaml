@@ -48,8 +48,8 @@ links:
     section: Buffer Overflow
     sectionID: '30001'
     tags:
-    - '30001'
     - Active
+    - '30001'
     tooltype: Offensive
   ltype: Linked To
 - document:

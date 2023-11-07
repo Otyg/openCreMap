@@ -126,8 +126,8 @@ links:
     section: XPath Injection
     sectionID: '90021'
     tags:
-    - '90021'
     - Active
+    - '90021'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -135,7 +135,7 @@ links:
     id: 161-451
     name: Output encoding and injection prevention
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Protect against XML/XPath injection

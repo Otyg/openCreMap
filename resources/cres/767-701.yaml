@@ -49,8 +49,8 @@ links:
     section: Weak Authentication Method
     sectionID: '10105'
     tags:
-    - Passive
     - '10105'
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

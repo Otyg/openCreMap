@@ -60,8 +60,8 @@ links:
     section: Deprecated Feature Policy Header Set
     sectionID: 10063-2
     tags:
-    - Passive
     - 10063-2
+    - Passive
     tooltype: Offensive
   ltype: Linked To
 - document:

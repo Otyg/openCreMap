@@ -120,8 +120,8 @@ links:
     section: SQL Injection - MySQL
     sectionID: '40019'
     tags:
-    - '40019'
     - Active
+    - '40019'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -131,8 +131,8 @@ links:
     section: SQL Injection - Hypersonic SQL
     sectionID: '40020'
     tags:
-    - '40020'
     - Active
+    - '40020'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -153,8 +153,8 @@ links:
     section: SQL Injection - SQLite
     sectionID: '40024'
     tags:
-    - '40024'
     - Active
+    - '40024'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -164,8 +164,8 @@ links:
     section: Advanced SQL Injection
     sectionID: '90018'
     tags:
-    - '90018'
     - Active
+    - '90018'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -175,8 +175,8 @@ links:
     section: SQL Injection - PostgreSQL
     sectionID: '40022'
     tags:
-    - '40022'
     - Active
+    - '40022'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -186,8 +186,8 @@ links:
     section: SQL Injection - Oracle
     sectionID: '40021'
     tags:
-    - '40021'
     - Active
+    - '40021'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -197,8 +197,8 @@ links:
     section: SQL Injection
     sectionID: '40018'
     tags:
-    - '40018'
     - Active
+    - '40018'
     tooltype: Offensive
   ltype: Linked To
 - document:
@@ -254,7 +254,7 @@ links:
     id: 161-451
     name: Output encoding and injection prevention
     tags:
-    - XSS protection
     - Injection protection
+    - XSS protection
   ltype: Is Part Of
 name: Encode output context-specifically

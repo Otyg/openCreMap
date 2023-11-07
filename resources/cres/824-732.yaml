@@ -25,8 +25,8 @@ links:
     section: Format String Error
     sectionID: '30002'
     tags:
-    - '30002'
     - Active
+    - '30002'
     tooltype: Offensive
   ltype: Linked To
 - document:
